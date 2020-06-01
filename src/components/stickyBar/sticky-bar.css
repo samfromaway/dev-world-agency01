@@ -1,0 +1,47 @@
+.sticky-bar {
+  position: sticky;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: 'swiss title button';
+  height: 8vh;
+  min-height: 60px;
+  overflow: hidden;
+  top: 0;
+  z-index: 100;
+  background-color: black;
+  padding: 0 2em;
+}
+
+.swiss-info {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  grid-area: swiss;
+}
+
+.swiss-flag {
+  height: 100%;
+  border-radius: 500px;
+  margin-right: 0.8em;
+}
+
+.swiss-title {
+  color: var(--textbright);
+}
+
+.sticky-bar h3 {
+  grid-area: title;
+}
+
+/* button is styled in button.css */
+
+@media screen and (max-width: 915px) {
+  .sticky-bar {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'swiss  button';
+  }
+  .sticky-bar h3 {
+    display: none;
+  }
+}

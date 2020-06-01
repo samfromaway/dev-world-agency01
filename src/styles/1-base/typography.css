@@ -65,7 +65,7 @@ textarea {
 /*----Title01----*/
 .title01 {
   display: flex;
-  font-size: 1.4rem;
+  font-size: 1rem;
   justify-content: center;
   align-items: center;
   color: var(--textbright);
@@ -74,9 +74,9 @@ textarea {
 
 .title01::before,
 .title01::after {
-  content: "";
-  width: 30px;
-  height: 4px;
+  content: '';
+  width: 20px;
+  height: 3px;
   margin: 0.7rem;
 }
 .title01::before {
@@ -100,7 +100,6 @@ textarea {
 @media screen and (max-width: 768px) {
   .title02 {
     font-size: 2.5rem;
-    margin: 0.5em;
   }
 }
 /*----Title03----*/
@@ -116,7 +115,7 @@ textarea {
 
 .title03::before,
 .title03::after {
-  content: "";
+  content: '';
   background-color: var(--textdark);
   width: 25px;
   height: 3px;
@@ -159,7 +158,7 @@ textarea {
 }
 
 .title05::before {
-  content: "";
+  content: '';
   width: 4px;
   height: 30px;
   margin: 0 0.7rem 0 0;
@@ -180,7 +179,7 @@ textarea {
 
 .title06::before,
 .title06::after {
-  content: "";
+  content: '';
   width: 20px;
   height: 4px;
   margin: 0.7rem;

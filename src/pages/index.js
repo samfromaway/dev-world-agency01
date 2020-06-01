@@ -6,9 +6,9 @@ import Layout from '../components/layout';
 //components
 import SEO from '../components/seo';
 import Hero from '../components/hero01/Hero01';
-import ImgContent01 from '../components/ImgContent01';
+import ImgContent01 from '../components/imgContent01/ImgContent01';
 import Cards02 from '../components/cards02/Cards02';
-import SocialMediaBar from '../components/socialMediaBar/SocialMediaBar';
+import StickyBar from '../components/StickyBar/StickyBar';
 import ContactForm from '../components/contactForm/ContactForm';
 
 //images
@@ -18,7 +18,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
-    <SocialMediaBar />
+    <StickyBar />
     <section>
       <ImgContent01
         title="Your Idea"

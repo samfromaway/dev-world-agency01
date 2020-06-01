@@ -21,7 +21,7 @@
 }
 
 .hero01::after {
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   background-color: black;
@@ -45,16 +45,5 @@
 @media screen and (max-width: 768px) {
   .hero01 {
     height: 78vh;
-  }
-  .hero-illustration-mobile {
-    display: block;
-  }
-
-  .hero-illustration {
-    display: none;
-  }
-
-  .content-section1 {
-    margin-top: auto;
   }
 }

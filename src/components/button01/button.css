@@ -45,20 +45,7 @@
 }
 
 .cta-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  height: 38px;
+  grid-area: button;
+  justify-self: flex-end;
   margin: 0;
-  position: absolute;
-  right: 40px;
-  top: 50%;
-  margin-top: -19px;
-}
-
-@media screen and (max-width: 768px) {
-  .cta-button {
-    display: none;
-  }
 }
