@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 //import Image from "../components/image"
 //components
 import SEO from "../components/seo"
-import Hero from "../components/Hero01"
+import Hero from "../components/hero01/Hero01"
 import ImgContent01 from "../components/ImgContent01"
 import Cards02 from "../components/Cards02"
 import SocialMedia from "../components/SocialMedia"
