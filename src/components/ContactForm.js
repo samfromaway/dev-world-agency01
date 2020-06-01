@@ -2,35 +2,39 @@ import React from "react"
 
 const ContactForm = () => {
   return (
-    <div class="wrap-contact cards-space01">
+    <div className="wrap-contact cards-space01">
       <h2>Contact</h2>
-      <a class="email-link" href="mailto:contact@dev-world.info">
+      <a className="email-link" href="mailto:contact@dev-world.info">
         <p>contact@dev-world.info</p>
       </a>
 
-      <form id="myform" class="contact-form" netlify>
-        <div class="wrap-input">
-          <input class="input" type="text" name="name" required />
-          <label for="name" class="label">
-            <span class="label-input">Name*</span>
+      <form id="myform" className="contact-form" netlify>
+        <div className="wrap-input">
+          <input className="input" type="text" name="name" required />
+          <label htmlFor="name" className="label">
+            <span className="label-input">Name*</span>
           </label>
         </div>
 
-        <div class="wrap-input">
-          <input class="input" type="text" name="email" required />
-          <label for="email" class="label">
-            <span class="label-input">Email*</span>
+        <div className="wrap-input">
+          <input className="input" type="text" name="email" required />
+          <label htmlFor="email" className="label">
+            <span className="label-input">Email*</span>
           </label>
         </div>
 
-        <div class="wrap-input">
-          <textarea class="input-textfield" name="message" required></textarea>
-          <label for="message" class="label-textfield">
-            <span class="label-textfield-input">Message*</span>
+        <div className="wrap-input">
+          <textarea
+            className="input-textfield"
+            name="message"
+            required
+          ></textarea>
+          <label htmlFor="message" className="label-textfield">
+            <span className="label-textfield-input">Message*</span>
           </label>
         </div>
 
-        <button class="button contact-btn">Submit</button>
+        <button className="button contact-btn">Submit</button>
       </form>
     </div>
   )
