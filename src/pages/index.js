@@ -2,20 +2,52 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+//import Image from "../components/image"
+//components
 import SEO from "../components/seo"
+import Hero from "../components/Hero01"
+import ImgContent01 from "../components/ImgContent01"
+import Cards02 from "../components/Cards02"
+import SocialMedia from "../components/SocialMedia"
+import ContactForm from "../components/ContactForm"
+
+//images
+import Bulb from "../images/idea.png"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <Hero /> <SocialMedia />
+    <section>
+      <ImgContent01
+        title="Your Idea"
+        img={Bulb}
+        desc="You are passionate about your new business idea. We support you with communicating your new idea, so your business grows faster."
+        classAdd=""
+        //animation="appearanim01"
+      />
+      <ImgContent01
+        title="Your Idea"
+        img={Bulb}
+        desc="You are passionate about your new business idea. We support you with communicating your new idea, so your business grows faster."
+        classAdd="wrapreverse01"
+        //animation="appearanim01"
+      />
+      <ImgContent01
+        title="Your Idea"
+        img={Bulb}
+        desc="You are passionate about your new business idea. We support you with communicating your new idea, so your business grows faster."
+        classAdd=""
+        //animation="appearanim01 reverse02 "
+      />
+    </section>
+    <Cards02
+      title="hi"
+      img="https://image.cnbcfm.com/api/v1/image/105595209-1543339207911gettyimages-1069148086.jpeg?v=1543339234"
+      subTitle="fffffff"
+      desc="Sam and Tacha are great"
+    />
+    <ContactForm />
   </Layout>
 )
 

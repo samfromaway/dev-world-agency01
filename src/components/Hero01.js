@@ -1,0 +1,16 @@
+import React from "react"
+
+const Hero01 = () => {
+  return (
+    <section className="hero01">
+      <div className="content-section1">
+        <h3 className="title01">DIGITAL AGENCY</h3>
+        <h1 className="title02">A WEB PRESENCE</h1>
+        <h1 className="title02">YOU ARE PROUD OF</h1>
+        <h3 className="title07">Passionate | Efficient | Resourceful</h3>
+      </div>
+    </section>
+  )
+}
+
+export default Hero01
