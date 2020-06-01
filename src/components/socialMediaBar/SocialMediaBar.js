@@ -1,6 +1,8 @@
 import React from "react"
+import Button01 from "../button01/Button01"
+import "./social-media-bar.css"
 
-const SocialMedia = () => {
+const SocialMediaBar = pros => {
   return (
     <section className="social-media">
       <div>
@@ -16,15 +18,17 @@ const SocialMedia = () => {
         <a href="https://www.facebook.com/devworldinfo" target="_blank">
           <i className="fab fa-facebook"></i>
         </a>
-        <a
+        <Button01
           className="button cta-button fadeinanim01 pulse01"
           href="./contact.html"
+          text="CONTACT"
+          path="/contact"
         >
           CONTACT
-        </a>
+        </Button01>
       </div>
     </section>
   )
 }
 
-export default SocialMedia
+export default SocialMediaBar

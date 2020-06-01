@@ -1,6 +1,7 @@
-import React from "react"
+import React from 'react';
+import './contact-form.css';
 
-const ContactForm = () => {
+const ContactForm = props => {
   return (
     <div className="wrap-contact cards-space01">
       <h2>Contact</h2>
@@ -8,7 +9,13 @@ const ContactForm = () => {
         <p>contact@dev-world.info</p>
       </a>
 
-      <form id="myform" className="contact-form" netlify>
+      <form
+        name={props.formName}
+        className="contact-form"
+        method="post"
+        netlify-honeypot="bot-field"
+        data-netlify="true"
+      >
         <div className="wrap-input">
           <input className="input" type="text" name="name" required />
           <label htmlFor="name" className="label">
@@ -34,10 +41,12 @@ const ContactForm = () => {
           </label>
         </div>
 
-        <button className="button contact-btn">Submit</button>
+        <button type="submit" className="button contact-btn">
+          Submit
+        </button>
       </form>
     </div>
-  )
-}
+  );
+};
 
-export default ContactForm
+export default ContactForm;

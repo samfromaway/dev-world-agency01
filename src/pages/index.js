@@ -1,23 +1,24 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import { Link } from 'gatsby';
 
-import Layout from "../components/layout"
+import Layout from '../components/layout';
 //import Image from "../components/image"
 //components
-import SEO from "../components/seo"
-import Hero from "../components/hero01/Hero01"
-import ImgContent01 from "../components/ImgContent01"
-import Cards02 from "../components/Cards02"
-import SocialMedia from "../components/SocialMedia"
-import ContactForm from "../components/ContactForm"
+import SEO from '../components/seo';
+import Hero from '../components/hero01/Hero01';
+import ImgContent01 from '../components/ImgContent01';
+import Cards02 from '../components/cards02/Cards02';
+import SocialMediaBar from '../components/socialMediaBar/SocialMediaBar';
+import ContactForm from '../components/contactForm/ContactForm';
 
 //images
-import Bulb from "../images/idea.png"
+import Bulb from '../images/idea.png';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Hero /> <SocialMedia />
+    <Hero />
+    <SocialMediaBar />
     <section>
       <ImgContent01
         title="Your Idea"
@@ -47,8 +48,8 @@ const IndexPage = () => (
       subTitle="fffffff"
       desc="Sam and Tacha are great"
     />
-    <ContactForm />
+    <ContactForm formName="home_page" />
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

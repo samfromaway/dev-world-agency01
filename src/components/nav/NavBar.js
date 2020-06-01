@@ -1,17 +1,17 @@
-import React from "react"
-import { Link } from "gatsby"
-import MenuBurger from "./MenuBurger"
-import "./nav-bar.css"
-import Logo from "../../images/logo.png"
+import React from 'react';
+import { Link } from 'gatsby';
+import MenuBurger from './MenuBurger';
+import './nav-bar.css';
+import Logo from '../../images/logo.png';
 
 const NavBar = props => {
   const toggleMobileNav = () => {
     if (props.mobileMenuOpen) {
-      return "nav-links nav-active"
+      return 'nav-links nav-active';
     } else {
-      return "nav-links"
+      return 'nav-links';
     }
-  }
+  };
 
   return (
     <nav className="nav">
@@ -37,7 +37,7 @@ const NavBar = props => {
         />
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;

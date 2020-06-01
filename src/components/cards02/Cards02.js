@@ -1,5 +1,7 @@
 import React from "react"
 
+import "./cards02.css"
+
 const Cards02 = props => {
   return (
     <div className="card02 cards-space01">
