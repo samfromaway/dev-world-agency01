@@ -16,6 +16,7 @@ const ContactForm = props => {
         netlify-honeypot="bot-field"
         data-netlify="true"
       >
+        <input type="hidden" name="bot-field" />
         <div className="wrap-input">
           <input className="input" type="text" name="name" required />
           <label htmlFor="name" className="label">

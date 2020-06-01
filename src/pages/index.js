@@ -48,7 +48,7 @@ const IndexPage = () => (
       subTitle="fffffff"
       desc="Sam and Tacha are great"
     />
-    <ContactForm formName="home_page" />
+    <ContactForm formName="home_page1" />
   </Layout>
 );
 
