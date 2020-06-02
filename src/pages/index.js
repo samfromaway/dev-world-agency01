@@ -6,9 +6,9 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Hero from '../components/hero01/Hero01';
 import ImgContent01 from '../components/imgContent01/ImgContent01';
-import Card01 from '../components//card01/Card01';
+import Card01 from '../components/card01/Card01';
 import Card02 from '../components/card02/Card02';
-import StickyBar from '../components/StickyBar/StickyBar';
+import StickyBar from '../components/stickyBar/StickyBar';
 import AboutUsBox from '../components/aboutUsBox/AboutUsBox';
 import ContactForm from '../components/contactForm/ContactForm';
 
@@ -57,7 +57,7 @@ const IndexPage = () => (
           icon={Web}
           title="Web Development"
           listItems={[
-            'Web Design',
+            'Websites',
             'HTML, CSS, JS',
             'Wordpress',
             'Wix(Advanced)',
@@ -74,26 +74,26 @@ const IndexPage = () => (
             'Photo Editing',
             'UI / UX',
             'Logo Design',
-            'Print Design',
-            'Style Guides',
+            'Video Creation',
+            'Brand Strategy',
           ]}
           buttonText="See Projects"
           buttonPath="/about"
-          logos={MarketingLogos}
+          logos={DesignLogos}
         />
         <Card01
           icon={Marketing}
           title="Online Marketing"
           listItems={[
-            'Strategy & Planning',
+            'SEO Strategy',
             'Facebook Ads',
             'Google Ads',
             'Content Writing',
-            'Video Editing',
+            'Marketing Strategy',
           ]}
           buttonText="See Projects"
           buttonPath="/about"
-          logos={DesignLogos}
+          logos={MarketingLogos}
         />
       </div>
     </section>
@@ -106,7 +106,7 @@ const IndexPage = () => (
           title="Jimmy Neutro"
           img="https://image.cnbcfm.com/api/v1/image/105595209-1543339207911gettyimages-1069148086.jpeg?v=1543339234"
           subTitle="United States"
-          desc="Sam and Tacha are great Sam and Tacha are great Sam and Tacha are great Sam and Tacha are great"
+          desc="Sam and Tacha are great Sam anha are great Sam and Tacha are great"
         />
         <Card02
           title="Frank Heinzenmeier"

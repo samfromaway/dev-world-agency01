@@ -1,5 +1,5 @@
 import React from 'react';
-import './imgContent01.css';
+import './img-content01.css';
 
 const ImgContent01 = props => {
   return (

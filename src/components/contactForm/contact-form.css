@@ -28,6 +28,7 @@
 .contact-form {
   background-color: white;
   padding: 0.3em 1.2rem 1.2rem 1.2rem;
+  border-radius: 0 0 var(--main-border-radius) var(--main-border-radius);
 }
 
 /*------------------------------------------------------------------
