@@ -1,23 +1,22 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React, { useState } from "react"
-import NavBar from "./nav/NavBar"
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import React, { useState } from 'react';
+import NavBar from './nav/NavBar';
 
 const Header = ({ siteTitle }) => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const menuItems = [
-    { name: "SERVICES", path: "/services" },
-    { name: "OUR WORK", path: "/our-work" },
-    { name: "ABOUT", path: "/about" },
-    { name: "CONTACT", path: "/contact" },
-  ]
+    { name: 'OUR WORK', path: '/our-work' },
+    { name: 'ABOUT', path: '/about' },
+    { name: 'CONTACT', path: '/contact' },
+  ];
 
   const hamburgerClickHandle = () => {
     setMobileMenuOpen(prevState => {
-      return !prevState
-    })
-  }
+      return !prevState;
+    });
+  };
 
   return (
     <header className="header">
@@ -29,15 +28,15 @@ const Header = ({ siteTitle }) => {
         />
       </section>
     </header>
-  )
-}
+  );
+};
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;

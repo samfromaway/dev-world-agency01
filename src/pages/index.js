@@ -9,10 +9,17 @@ import ImgContent01 from '../components/imgContent01/ImgContent01';
 import Card01 from '../components//card01/Card01';
 import Card02 from '../components/card02/Card02';
 import StickyBar from '../components/StickyBar/StickyBar';
+import AboutUsBox from '../components/aboutUsBox/AboutUsBox';
 import ContactForm from '../components/contactForm/ContactForm';
 
 //images
 import Bulb from '../images/idea.png';
+import Marketing from '../images/bullhorn-solid.svg';
+import Web from '../images/desktop-solid.svg';
+import Design from '../images/feather-alt-solid.svg';
+import WebLogos from '../images/WebLogos.png';
+import MarketingLogos from '../images/MarketingLogos.png';
+import DesignLogos from '../images/DesignLogos.png';
 
 const IndexPage = () => (
   <Layout>
@@ -44,13 +51,11 @@ const IndexPage = () => (
       />
     </section>
     <section className="section section02">
-      <h2 id="title06" className="title03">
-        Services
-      </h2>
+      <h2 className="title03">Services</h2>
       <div className="cards01">
         <Card01
-          icon={'x'}
-          title="Title"
+          icon={Web}
+          title="Web Development"
           listItems={[
             'Web Design',
             'HTML, CSS, JS',
@@ -60,23 +65,11 @@ const IndexPage = () => (
           ]}
           buttonText="See Projects"
           buttonPath="/about"
+          logos={WebLogos}
         />
         <Card01
-          icon={'x'}
-          title="Title"
-          listItems={[
-            'Strategy & Planning',
-            'Facebook Ads',
-            'Google Ads',
-            'Content Writing',
-            'Video Editing',
-          ]}
-          buttonText="See Projects"
-          buttonPath="/about"
-        />
-        <Card01
-          icon={'x'}
-          title="Title"
+          icon={Design}
+          title={'Graphic Design & Branding'}
           listItems={[
             'Photo Editing',
             'UI / UX',
@@ -86,6 +79,21 @@ const IndexPage = () => (
           ]}
           buttonText="See Projects"
           buttonPath="/about"
+          logos={MarketingLogos}
+        />
+        <Card01
+          icon={Marketing}
+          title="Online Marketing"
+          listItems={[
+            'Strategy & Planning',
+            'Facebook Ads',
+            'Google Ads',
+            'Content Writing',
+            'Video Editing',
+          ]}
+          buttonText="See Projects"
+          buttonPath="/about"
+          logos={DesignLogos}
         />
       </div>
     </section>
@@ -114,11 +122,14 @@ const IndexPage = () => (
         />
       </div>
     </section>
-    <section className="section section03">
+    <section className="section section04">
       <h2 id="title06" className="title03">
         Contact Us
       </h2>
-      <ContactForm formName="home_page1" />
+      <div class="contact-section">
+        <AboutUsBox />
+        <ContactForm formName="home_page1" />
+      </div>
     </section>
   </Layout>
 );

@@ -108,7 +108,7 @@ textarea {
   justify-content: center;
   align-items: center;
   height: 100%;
-  color: var(--textdark);
+  color: var(--elegant-blue);
   text-align: center;
   margin: 0.5em;
 }
@@ -118,7 +118,7 @@ textarea {
   content: '';
   background-color: var(--textdark);
   width: 25px;
-  height: 3px;
+  height: 4px;
   margin: 0.7rem;
 }
 

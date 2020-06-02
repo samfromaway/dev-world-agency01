@@ -12,7 +12,7 @@
   background-image: linear-gradient(
     178deg,
     var(--background-color02) 35%,
-    rgb(241, 241, 241) calc(36% + 2px)
+    var(--background-color03) calc(36% + 2px)
   );
 }
 
@@ -23,9 +23,12 @@
 .section03 {
   background-image: linear-gradient(
     178deg,
-    rgb(241, 241, 241) 92%,
+    var(--background-color03) 92%,
     var(--background-color02) calc(93% + 2px)
   );
+}
+.section04 {
+  background-color: var(--background-color03);
 }
 
 .single-page-section {

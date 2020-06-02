@@ -1,0 +1,27 @@
+.about-us-box {
+  margin: 1rem;
+  min-width: 320px;
+  max-width: 400px;
+  flex: 1;
+  background-color: blue;
+}
+
+.about-us-box-img-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 1.5rem;
+}
+
+.about-us-box-img {
+  border-radius: 500px;
+  width: 100px;
+  margin: 1em 1em 0 1em;
+}
+
+.person-box {
+  background-color: red;
+}
+
+@media screen and (max-width: 855px) {
+}

@@ -9,9 +9,9 @@
   border-radius: var(--main-border-radius);
   margin: 0.8rem;
   overflow: hidden;
-  cursor: pointer;
 }
 
+/* Commented out because Card01 is used for icons 
 .card01 img {
   width: 100%;
   height: 250px / 1.8;
@@ -23,9 +23,15 @@
   margin-bottom: 1rem;
 }
 
+
 .card01 img:hover {
   opacity: 0.5;
   transition: opacity 0.2s ease-in-out;
+}*/
+
+.card01-icon {
+  width: 70px;
+  padding: 0.8em 0.5em 0.5em 0.5em;
 }
 
 .card01 h3 {
@@ -35,6 +41,12 @@
 
 .card01 i {
   margin-top: 1rem;
+}
+.card01-logos-wrapper {
+  background-color: var(--elegant-blue);
+}
+.card01-logos {
+  width: 85%;
 }
 
 .card01 p {
