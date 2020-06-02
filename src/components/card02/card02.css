@@ -10,10 +10,11 @@
   color: var(--textdark);
   box-shadow: var(--box-shadow01);
   border-radius: var(--main-border-radius);
-}
-
-.card02-img-wrapper {
-  background-color: var(--elegant-blue);
+  background-image: linear-gradient(
+    178deg,
+    var(--elegant-blue) 39%,
+    var(--background-color03) calc(39% + 2px)
+  );
 }
 
 .card02 img {

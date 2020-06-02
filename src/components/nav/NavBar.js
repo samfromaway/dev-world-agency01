@@ -24,7 +24,11 @@ const NavBar = props => {
       <ul className={toggleMobileNav()}>
         {props.items.map(item => (
           <li key={item.name}>
-            <Link to={item.path} className="nav-link">
+            <Link
+              to={item.path}
+              className="nav-link"
+              activeClassName="nav-active-link"
+            >
               {item.name}
             </Link>
           </li>
