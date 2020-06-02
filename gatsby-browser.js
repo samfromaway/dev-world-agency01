@@ -10,7 +10,10 @@ import './src/styles/1-base/typography.css';
 // 2-Layout
 import './src/styles/2-layout/anchor.css';
 import './src/styles/2-layout/footer.css';
+import './src/styles/2-layout/section01.css';
 import './src/styles/2-layout/section02.css';
+import './src/styles/2-layout/section03.css';
+import './src/styles/2-layout/cards.css';
 // 3-Components
 import './src/styles/3-components/cardsglow01.css';
 import './src/styles/3-components/iconcontent01.css';

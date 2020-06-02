@@ -1,7 +1,7 @@
 .hero01 {
   display: flex;
   width: 100%;
-  height: 82vh;
+  height: 84vh;
   flex-direction: column;
   background: url(../../images/Hero-Img01.jpg);
   background-color: rgb(37, 37, 37);
@@ -44,6 +44,6 @@
 
 @media screen and (max-width: 768px) {
   .hero01 {
-    height: 78vh;
+    height: 80vh;
   }
 }

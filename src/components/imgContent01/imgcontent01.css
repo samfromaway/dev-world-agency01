@@ -1,6 +1,7 @@
 .imgcontentwrapper01 {
   display: flex;
   margin: auto;
+  width: 100%;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap-reverse;

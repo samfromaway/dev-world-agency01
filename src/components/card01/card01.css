@@ -1,29 +1,20 @@
-$card-width: 250px;
-
-.cards01 {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 0.8rem;
-  color: var(--textbright);
-}
-
 .card01 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  width: $card-width;
+  background-color: var(--card-background-color);
+  width: 250px;
   box-shadow: var(--box-shadow01);
   border-radius: var(--main-border-radius);
-  margin: 0.625rem;
+  margin: 0.8rem;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .card01 img {
   width: 100%;
-  height: $card-width / 1.8;
+  height: 250px / 1.8;
   border-radius: var(--main-border-radius) var(--main-border-radius) 0 0;
   object-fit: cover;
   position: relative;
@@ -54,15 +45,15 @@ $card-width: 250px;
 
 .card01 ul {
   margin-top: 0.5em;
-  padding-bottom: 1.5em;
+  padding-bottom: 0.5em;
   margin-bottom: auto;
 }
 .card01 ul li {
-  color: white;
+  color: var(--textdark);
   padding: 0.25em;
   text-align: left;
 }
 
 .card01 .button {
-  margin: 1rem 1rem 1.8rem 1rem;
+  margin: 1rem 1rem 1.3rem 1rem;
 }

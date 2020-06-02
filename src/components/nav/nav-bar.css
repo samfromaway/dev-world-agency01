@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 10vh;
-  /* if min-height changed then also change single-page-section02 class*/
+  min-height: 8vh;
+  /* if min-height changed then also change single-page-section02 class & hero*/
   background-color: black;
   padding: 0 2em;
 }
@@ -15,13 +15,13 @@
 }
 
 header img {
-  padding: 0.4em;
-  width: 60px;
+  width: 40px;
 }
 
-#logo-desc {
+.logo-desc {
   font-weight: 800;
   color: white;
+  padding-left: 0.3em;
 }
 
 .nav-links {
@@ -40,7 +40,7 @@ header img {
   cursor: pointer;
   color: white;
   text-decoration: none;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-weight: 700;
   color: rgb(206, 206, 206);
   position: relative;
@@ -53,7 +53,7 @@ header img {
 /* Link Details*/
 
 .nav-link::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 2px;

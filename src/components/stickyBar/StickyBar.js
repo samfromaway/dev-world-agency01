@@ -11,9 +11,11 @@ const StickyBar = pros => {
         <h5 className="swiss-title">Swiss Quality</h5>
       </div>
       <h3 className="title01">DEV WORLD DIGITAL AGENCY</h3>
-      <Button01 text="CONTACT" path="/contact" addClasses="pulse01 cta-button">
-        CONTACT
-      </Button01>
+      <Button01
+        text="CONTACT"
+        path="/contact"
+        addClasses="pulse01 cta-button"
+      />
     </section>
   );
 };

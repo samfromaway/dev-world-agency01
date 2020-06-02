@@ -1,0 +1,40 @@
+.card02 {
+  display: flex;
+  /*flex-direction & box shadow evtl. delete when carousel*/
+  flex-direction: column;
+  background-color: var(--card-background-color);
+  border-radius: var(--main-border-radius);
+  overflow: hidden;
+  margin: 0.8rem;
+  width: 250px;
+  color: var(--textdark);
+  box-shadow: var(--box-shadow01);
+  border-radius: var(--main-border-radius);
+}
+
+.card02-img-wrapper {
+  background-color: var(--elegant-blue);
+}
+
+.card02 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 500px;
+  object-fit: cover;
+  position: relative;
+  margin: 1em auto;
+  background-color: red;
+}
+
+.card02 h3 {
+  text-align: center;
+}
+
+.card02 p {
+  padding: 1rem;
+  text-align: left;
+}
+
+.card02 .button {
+  align-self: flex-end;
+}

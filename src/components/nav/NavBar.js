@@ -19,7 +19,7 @@ const NavBar = props => {
         <Link to="/">
           <img alt="Logo" src={Logo} />
         </Link>
-        <p id="logo-desc">Dev World</p>
+        <p className="logo-desc">Dev World</p>
       </div>
       <ul className={toggleMobileNav()}>
         {props.items.map(item => (
