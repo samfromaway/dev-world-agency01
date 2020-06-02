@@ -1,15 +1,14 @@
 import React from 'react';
 import './contact-form.css';
-import { Link } from 'gatsby';
 
 const ContactForm = props => {
   return (
     <div className="wrap-contact">
       <div className="contact-form-header">
         <h2>Contact</h2>
-        <Link className="email-link" href="mailto:contact@dev-world.info">
+        <a className="email-link" href="mailto:contact@dev-world.info">
           <p>contact@dev-world.info</p>
-        </Link>
+        </a>
       </div>
       <form
         name={props.formName}

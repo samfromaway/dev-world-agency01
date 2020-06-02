@@ -9,7 +9,7 @@ import ImgContent01 from '../components/imgContent01/ImgContent01';
 import Card01 from '../components/card01/Card01';
 import Card02 from '../components/card02/Card02';
 import StickyBar from '../components/stickyBar/StickyBar';
-import AboutUsBox from '../components/aboutBox/AboutBox';
+import AboutBox from '../components/aboutBox/AboutBox';
 import ContactForm from '../components/contactForm/ContactForm';
 //images
 import Bulb from '../images/idea.png';
@@ -125,8 +125,8 @@ const IndexPage = () => (
       <h2 id="title06" className="title03">
         Contact Us
       </h2>
-      <div class="contact-section">
-        <AboutUsBox />
+      <div className="contact-section">
+        <AboutBox />
         <ContactForm formName="home_page1" />
       </div>
     </section>
