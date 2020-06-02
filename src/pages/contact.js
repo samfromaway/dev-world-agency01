@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import AboutUsBox from '../components/aboutUsBox/AboutUsBox';
+//import AboutUsBox from '../components/aboutUsBox/AboutUsBox';
 import ContactForm from '../components/contactForm/ContactForm';
 
 const Contact = () => (
@@ -12,7 +12,6 @@ const Contact = () => (
         Contact Us
       </h2>
       <div class="contact-section">
-        <AboutUsBox />
         <ContactForm formName="home_page1" />
       </div>
     </section>
