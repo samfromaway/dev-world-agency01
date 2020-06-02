@@ -11,7 +11,6 @@ import Card02 from '../components/card02/Card02';
 import StickyBar from '../components/stickyBar/StickyBar';
 import AboutUsBox from '../components/aboutUsBox/AboutUsBox';
 import ContactForm from '../components/contactForm/ContactForm';
-
 //images
 import Bulb from '../images/idea.png';
 import Marketing from '../images/bullhorn-solid.svg';
