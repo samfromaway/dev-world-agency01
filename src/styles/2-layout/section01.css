@@ -36,18 +36,11 @@
 }
 
 .project-section {
-  display: block;
+  display: none;
 }
 
 .project-section:target {
   display: block;
-}
-
-.sticky-section {
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 50;
 }
 
 @media screen and (max-width: 768px) {
