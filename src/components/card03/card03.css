@@ -1,16 +1,10 @@
-.cards03 {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .card03 {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 250px;
-  margin: 10px;
+  margin: 0.8rem;
   overflow: hidden;
 }
 
@@ -18,6 +12,15 @@
   padding: 0.5rem;
   width: 100%;
   cursor: pointer;
+  filter: var(--drop-shadow01);
+}
+
+.card03-info {
+  background-color: var(--card-background-color);
+  border-radius: var(--main-border-radius);
+  padding: 0.7em;
+  height: 320px;
+  overflow: hidden;
 }
 
 .card03-icons {
@@ -26,7 +29,9 @@
 
 .card03 p {
   text-align: left;
-  margin-bottom: auto;
+}
+
+.card03 .button {
 }
 
 @media screen and (max-width: 500px) {

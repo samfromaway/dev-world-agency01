@@ -46,7 +46,7 @@ header img {
   position: relative;
   overflow: hidden;
   will-change: color;
-  transition: color 0.25s ease-out;
+  transition: color 0.3s ease-in;
   padding-bottom: 4px;
 }
 
@@ -61,7 +61,7 @@ header img {
   left: 0;
   visibility: hidden;
   transform: scaleX(0);
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-out 0s;
 }
 
 .nav-link:focus::before,

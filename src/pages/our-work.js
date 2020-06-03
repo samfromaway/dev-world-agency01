@@ -35,7 +35,7 @@ const OurWork = () => {
           />
           <InfoCard04
             icon={Design}
-            title={'Graphic Design & Branding'}
+            title={'Graphic Design'}
             desc="Photo Editing"
             buttonText="See Projects"
             buttonPath="/our-work/#design"
