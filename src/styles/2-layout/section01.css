@@ -28,7 +28,27 @@
   );
 }
 .section04 {
-  background-color: var(--background-color03);
+  background: url(../../images/Hero-Img01.jpg);
+  background-color: rgb(37, 37, 37);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section04 > * {
+  z-index: 1;
+  position: relative;
+}
+
+.section04::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  z-index: 0;
 }
 
 .single-page-section {

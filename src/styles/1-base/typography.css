@@ -123,6 +123,15 @@ textarea {
   margin: 0.7rem;
 }
 
+.title03-light {
+  color: var(--textbright);
+}
+
+.title03-light::before,
+.title03-light::after {
+  background-color: var(--textbright);
+}
+
 @media screen and (max-width: 768px) {
   .title03 {
     font-size: 1.7rem;
