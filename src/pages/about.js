@@ -1,13 +1,12 @@
 import React from 'react';
 
 import Layout from '../components/layout';
-//import Image from "../components/image"
 import SEO from '../components/seo';
 
-const SecondPage = () => (
+const About = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="About" />
   </Layout>
 );
 
-export default SecondPage;
+export default About;

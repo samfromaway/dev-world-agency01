@@ -35,6 +35,14 @@
   min-height: 92vh;
 }
 
+.project-section {
+  display: none;
+}
+
+.project-section:target {
+  display: block;
+}
+
 @media screen and (max-width: 768px) {
   .section {
     padding: 0.6rem;

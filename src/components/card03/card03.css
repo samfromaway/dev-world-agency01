@@ -20,6 +20,10 @@
   cursor: pointer;
 }
 
+.card03-icons {
+  width: 120px;
+}
+
 .card03 p {
   text-align: left;
   margin-bottom: auto;

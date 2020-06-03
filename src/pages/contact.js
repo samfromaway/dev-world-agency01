@@ -6,7 +6,7 @@ import ContactForm from '../components/contactForm/ContactForm';
 
 const Contact = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Contact" />
     <section className="section section04">
       <h2 id="title06" className="title03">
         Contact Us
