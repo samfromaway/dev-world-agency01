@@ -63,7 +63,7 @@ const IndexPage = () => (
             'React',
           ]}
           buttonText="See Projects"
-          buttonPath="/about"
+          buttonPath="/our-work/#web"
           logos={WebLogos}
         />
         <Card01
@@ -77,7 +77,7 @@ const IndexPage = () => (
             'Brand Strategy',
           ]}
           buttonText="See Projects"
-          buttonPath="/about"
+          buttonPath="/our-work/#design"
           logos={DesignLogos}
         />
         <Card01
@@ -91,7 +91,7 @@ const IndexPage = () => (
             'Marketing Strategy',
           ]}
           buttonText="See Projects"
-          buttonPath="/about"
+          buttonPath="/our-work/#marketing"
           logos={MarketingLogos}
         />
       </div>

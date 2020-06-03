@@ -1,9 +1,9 @@
 import React from 'react';
-import ButtonInt from '../button01/ButtonInt';
+import ButtonExt from '../button01/ButtonExt';
 
 import './card03.css';
 
-const Card02 = props => {
+const Card03 = props => {
   return (
     <div className="card03">
       <div className="card03-img-wrapper hoveranim01p">
@@ -19,10 +19,10 @@ const Card02 = props => {
         <img src={props.icons} alt={props.title} className="card03-icons" />
         <h3>{props.title}</h3>
         <p>{props.desc}</p>
-        <ButtonInt text="More" path={props.link} addClasses={null} />
+        <ButtonExt text="More" path={props.link} addClasses={null} />
       </div>
     </div>
   );
 };
 
-export default Card02;
+export default Card03;

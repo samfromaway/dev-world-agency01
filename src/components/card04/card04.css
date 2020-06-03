@@ -1,3 +1,7 @@
+.card04-wrapper:focus {
+  outline: none;
+}
+
 .card04 {
   display: flex;
   flex-direction: column;
@@ -18,9 +22,14 @@
   transition: transform 0.2s ease;
 }
 
+.card04-active {
+  background-color: rgba(0, 0, 0, 0.15);
+  outline: white solid 4px;
+}
+
 .card04-icon {
-  width: 50px;
-  padding: 0.2em;
+  height: 45px;
+  padding-top: 0.6em;
 }
 
 .card04 h3 {
@@ -32,7 +41,7 @@
 }
 
 .card04 .button {
-  width: 100px;
+  width: 90px;
   margin: 0.2rem 0.2rem 0.8rem 0.2rem;
-  padding: 0.7em;
+  padding: 0.6em;
 }

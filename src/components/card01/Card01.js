@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonInt from '../button01/ButtonInt';
+import { Link } from 'gatsby';
 
 import './card01.css';
 
@@ -13,11 +13,9 @@ const Card01 = props => {
           <li key={item}>{item}</li>
         ))}
       </ul>
-      <ButtonInt
-        text={props.buttonText}
-        path={props.buttonPath}
-        addClasses={null}
-      />
+      <Link to={props.buttonPath} className="button">
+        {props.buttonText}
+      </Link>
       <div className="card01-logos-wrapper">
         <img src={props.logos} alt={props.title} className="card01-logos" />
       </div>

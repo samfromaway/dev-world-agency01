@@ -31,9 +31,6 @@
   text-align: left;
 }
 
-.card03 .button {
-}
-
 @media screen and (max-width: 500px) {
   .card03 {
     width: 80%;

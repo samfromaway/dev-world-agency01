@@ -38,8 +38,7 @@
 .project-section {
   display: none;
 }
-
-.project-section:target {
+.project-section-active {
   display: block;
 }
 

@@ -9,9 +9,7 @@ const ImgContent01 = props => {
         <p>{props.desc}</p>
       </div>
       <div className={`description1-img-wrapper ${props.animation}`}>
-        <a>
-          <img className="description1-img" alt={props.title} src={props.img} />
-        </a>
+        <img className="description1-img" alt={props.title} src={props.img} />
       </div>
     </div>
   );
