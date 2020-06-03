@@ -55,11 +55,27 @@
   min-height: 92vh;
 }
 
+.slim-section {
+  padding: 0.6rem 1.8rem 0.6rem 1.8rem;
+}
+
 .project-section {
   display: none;
 }
 .project-section-active {
   display: block;
+  background-color: var(--background-color02);
+  padding: 0.6rem 1.8rem 0.6rem 1.8rem;
+}
+
+.hide-spacer {
+  display: none;
+}
+
+.show-spacer {
+  display: block;
+  height: 20vh;
+  background-color: var(--background-color02);
 }
 
 @media screen and (max-width: 768px) {

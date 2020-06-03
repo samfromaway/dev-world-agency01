@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Card03 from '../components/card03/Card03';
 import Card04 from '../components/card04/Card04';
+import ImgContent01 from '../components/imgContent01/ImgContent01';
 //data
 import {
   webProjects,
@@ -14,6 +15,7 @@ import {
 import Marketing from '../images/bullhorn-solid.svg';
 import Web from '../images/desktop-solid.svg';
 import Design from '../images/feather-alt-solid.svg';
+import Solution from '../images/bigger-picture.png';
 
 //https://stackoverflow.com/questions/44375093/handling-scroll-animation-in-react
 
@@ -84,9 +86,17 @@ const OurWork = () => {
   return (
     <Layout>
       <SEO title="Our Work" />
-      <section className="section section02">
-        <h2 className="title03">Services</h2>
-        <h4 className="title04 pulse01">Choose A Category</h4>
+      <section className="section slim-section">
+        <h2 className="title03">Our Work</h2>
+        <ImgContent01
+          title="Complete Solution"
+          img={Solution}
+          desc={`We offer a complete solution for your "Web-Endeavours". We support you from building the website to getting happy clients.`}
+          classAdd=""
+        />
+      </section>
+      <section className="section  slim-section ">
+        <h4 className="title04 pulse01">See Our Projects</h4>
         <div className="cards01">
           <div
             role="button"
@@ -137,13 +147,10 @@ const OurWork = () => {
       </section>
       <section
         className={
-          chosenCategory === null
-            ? 'section project-section'
-            : 'section project-section-active'
+          chosenCategory === null ? 'project-section' : 'project-section-active'
         }
       >
-        <h2 className="title03">Top 3 Projects</h2>
-
+        <h2 className="title09">Top 3 Projects</h2>
         <div className="cards01">
           {showCategory(chosenCategory).map(project => (
             <Card03
@@ -157,6 +164,9 @@ const OurWork = () => {
           ))}
         </div>
       </section>
+      <section
+        className={chosenCategory === null ? 'show-spacer' : 'hide-spacer'}
+      ></section>
     </Layout>
   );
 };
