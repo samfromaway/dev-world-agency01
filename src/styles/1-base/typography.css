@@ -241,17 +241,3 @@ textarea {
   color: var(--textdarkt);
   text-align: center;
 }
-
-.title09::before,
-.title09::after {
-  content: '';
-  width: 20px;
-  height: 4px;
-  margin: 0.7rem;
-}
-.title09::before {
-  background-color: rgb(255, 102, 0);
-}
-.title09::after {
-  background-color: rgb(20, 160, 20);
-}

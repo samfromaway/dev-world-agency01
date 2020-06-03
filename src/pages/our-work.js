@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Layout from '../components/layout';
+
 //components
 import SEO from '../components/seo';
 import Card03 from '../components/card03/Card03';
@@ -17,17 +18,26 @@ import Web from '../images/desktop-solid.svg';
 import Design from '../images/feather-alt-solid.svg';
 import Solution from '../images/bigger-picture.png';
 
-//https://stackoverflow.com/questions/44375093/handling-scroll-animation-in-react
-
 const OurWork = () => {
   const [chosenCategory, setchosenCategory] = useState(null);
   const [card41Style, setCard41Style] = useState('');
   const [card42Style, setCard42Style] = useState('');
   const [card43Style, setCard43Style] = useState('');
 
+  const anchorRef = useRef(null);
+
   const handleSmallCardClick = category => {
     setchosenCategory(category);
     activeStyle(category);
+    scrollToAnchor();
+  };
+
+  const scrollToAnchor = () => {
+    anchorRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollToAnchorDelayed = () => {
+    setTimeout(scrollToAnchor, 200);
   };
 
   const setCategoryFromURL = url => {
@@ -41,6 +51,7 @@ const OurWork = () => {
       setchosenCategory('marketing');
       activeStyle('marketing');
     } else return null;
+    scrollToAnchorDelayed();
   };
 
   const activeStyle = category => {
@@ -145,24 +156,24 @@ const OurWork = () => {
           </div>
         </div>
       </section>
+      <h2 ref={anchorRef} className="title09">
+        {chosenCategory === null ? 'Choose A Category' : 'Top 3 Projects'}
+      </h2>
       <section
         className={
           chosenCategory === null ? 'project-section' : 'project-section-active'
         }
       >
-        <h2 className="title09">Top 3 Projects</h2>
-        <div className="cards01">
-          {showCategory(chosenCategory).map(project => (
-            <Card03
-              key={project.id}
-              title={project.title}
-              desc={project.desc}
-              img={project.img}
-              icons={project.icon}
-              link={project.link}
-            />
-          ))}
-        </div>
+        {showCategory(chosenCategory).map(project => (
+          <Card03
+            key={project.id}
+            title={project.title}
+            desc={project.desc}
+            img={project.img}
+            icons={project.icon}
+            link={project.link}
+          />
+        ))}
       </section>
       <section
         className={chosenCategory === null ? 'show-spacer' : 'hide-spacer'}

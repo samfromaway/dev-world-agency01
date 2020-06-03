@@ -24,7 +24,7 @@
 
 .card04-active {
   background-color: rgba(0, 0, 0, 0.15);
-  outline: white solid 4px;
+  outline: var(--elegant-blue) solid 4px;
 }
 
 .card04-icon {
