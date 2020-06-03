@@ -36,7 +36,7 @@
 }
 
 .project-section {
-  display: none;
+  display: block;
 }
 
 .project-section:target {

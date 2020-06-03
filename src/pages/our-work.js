@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 //components
 import SEO from '../components/seo';
 import Card03 from '../components/card03/Card03';
-import InfoCard01 from '../components/card01/InfoCard01';
+import InfoCard04 from '../components/card04/Card04';
 //data
 import {
   webProjects,
@@ -23,27 +23,29 @@ const OurWork = () => {
       <SEO title="Our Work" />
       <section className="section section02">
         <h2 className="title03">Services</h2>
+        <h4 class="title04 pulse01">Choose A Category</h4>
+
         <div className="cards01">
-          <InfoCard01
+          <InfoCard04
             icon={Web}
             title="Web Development"
             desc="We help you create a stunning website that generates leads and helps existing customers navigate your offer."
             buttonText="See Examples"
-            buttonPath="/our-work#web"
+            buttonPath="/our-work/#web"
           />
-          <InfoCard01
+          <InfoCard04
             icon={Design}
             title={'Graphic Design & Branding'}
             desc="Photo Editing"
             buttonText="See Projects"
-            buttonPath="/our-work#design"
+            buttonPath="/our-work/#design"
           />
-          <InfoCard01
+          <InfoCard04
             icon={Marketing}
             title="Online Marketing"
             desc="SEO Strategy"
             buttonText="See Projects"
-            buttonPath="/our-work#marketing"
+            buttonPath="/our-work/#marketing"
           />
         </div>
       </section>

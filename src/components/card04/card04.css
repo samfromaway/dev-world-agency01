@@ -1,0 +1,71 @@
+.card04 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--card-background-color);
+  width: 250px;
+  box-shadow: var(--box-shadow01);
+  border-radius: var(--main-border-radius);
+  margin: 0.8rem;
+  overflow: hidden;
+}
+
+/* Commented out because Card01 is used for icons 
+.card04 img {
+  width: 100%;
+  height: 250px / 1.8;
+  border-radius: var(--main-border-radius) var(--main-border-radius) 0 0;
+  object-fit: cover;
+  position: relative;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+  margin-bottom: 1rem;
+}
+
+
+.card04 img:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}*/
+
+.card04-icon {
+  width: 70px;
+  padding: 0.8em 0.5em 0.5em 0.5em;
+}
+
+.card04 h3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card04 i {
+  margin-top: 1rem;
+}
+.card04-logos-wrapper {
+  background-color: var(--elegant-blue);
+}
+.card04-logos {
+  width: 85%;
+}
+
+.card04 p {
+  margin-bottom: auto;
+  padding: 0.5em 1em 1em 1em;
+  text-align: left;
+}
+
+.card04 ul {
+  margin-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: auto;
+}
+.card04 ul li {
+  color: var(--textdark);
+  padding: 0.25em;
+  text-align: left;
+}
+
+.card04 .button {
+  margin: 1rem 1rem 1.3rem 1rem;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import ButtonInt from '../button01/ButtonInt';
 
-import './card01.css';
+import './card04.css';
 
 const InfoCard01 = props => {
   return (
