@@ -33,6 +33,7 @@ const OurWork = () => {
   const handleSmallCardClick = category => {
     setchosenCategory(category);
     activeStyle(category);
+    categoryTitle(category);
     scrollToAnchor();
   };
 
@@ -79,6 +80,22 @@ const OurWork = () => {
         setCard41Style('card04-active');
         setCard42Style('');
         setCard43Style('');
+    }
+  };
+
+  const categoryTitle = () => {
+    switch (chosenCategory) {
+      case 'web':
+        return 'Web Projects';
+
+      case 'design':
+        return 'Design Projects';
+
+      case 'marketing':
+        return 'Marketing Projects';
+
+      default:
+        return 'Web Prodjects';
     }
   };
 
@@ -161,8 +178,9 @@ const OurWork = () => {
           </div>
         </div>
       </section>
-      <section ref={anchorRef} className="project-section">
-        <h2 className="title10">Top 3 Projects</h2>
+      <section className="project-section">
+        <div ref={anchorRef} className="anchor"></div>
+        <h2 className="title10">{categoryTitle()}</h2>
         <div className="cards01">
           {showCategory(chosenCategory).map(project => (
             <Card03
