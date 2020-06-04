@@ -6,6 +6,10 @@
   color: var(--textbright);
 }
 
+.about-us-box-title {
+  color: var(--textdark);
+}
+
 .about-us-box-img-wrapper {
   display: flex;
   justify-content: center;

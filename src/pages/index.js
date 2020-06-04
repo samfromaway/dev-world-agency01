@@ -106,7 +106,7 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="section section04">
-      <h2 className="title03 title03-light">Contact Us</h2>
+      <h2 className="title03">Contact Us</h2>
       <div className="contact-section">
         <AboutBox />
         <ContactForm formName="home_page1" />
