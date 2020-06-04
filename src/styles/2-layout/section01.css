@@ -75,7 +75,9 @@
 }
 
 .show-spacer {
-  display: block;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   height: 20vh;
   background-color: var(--background-color02);
 }

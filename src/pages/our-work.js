@@ -7,6 +7,7 @@ import Card03 from '../components/card03/Card03';
 import Card04 from '../components/card04/Card04';
 import ImgContent01 from '../components/imgContent01/ImgContent01';
 import SlickCarousel from '../components/slickCarousel/SlickCarousel';
+import ContactUsStrip from '../components/contactUsStrip/ContactUsStrip';
 
 //data
 import testimonials from '../data/testimonials';
@@ -158,7 +159,6 @@ const OurWork = () => {
           </div>
         </div>
       </section>
-
       <section
         className={
           chosenCategory === null ? 'project-section' : 'project-section-active'
@@ -194,6 +194,9 @@ const OurWork = () => {
         <div className="slick-wrapper">
           <SlickCarousel data={testimonials} />
         </div>
+      </section>
+      <section className="contact-us-strip-wrapper">
+        <ContactUsStrip />
       </section>
     </Layout>
   );

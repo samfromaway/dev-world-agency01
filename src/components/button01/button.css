@@ -53,3 +53,8 @@
   justify-self: flex-end;
   margin: 0;
 }
+
+.button-light {
+  background-color: white;
+  color: var(--elegant-blue);
+}

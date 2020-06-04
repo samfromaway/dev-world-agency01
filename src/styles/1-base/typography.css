@@ -234,11 +234,10 @@ textarea {
 
 /*----Title09----*/
 .title09 {
-  max-width: 500px;
+  max-width: 300px;
   font-size: 1.3rem;
   color: var(--textdarkt);
   text-align: center;
-  margin: auto;
 }
 /*----Title10----*/
 .title10 {

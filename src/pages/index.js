@@ -120,3 +120,4 @@ export default IndexPage;
 // hero background color match photo
 // search replace id
 //smoot scroll contact page
+// contact form netlify
