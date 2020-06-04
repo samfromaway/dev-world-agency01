@@ -19,7 +19,7 @@ const AboutUsBox = props => {
           <p className="person-box-position">Co-Founder</p>
         </div>
       </div>
-      <h4>We are looking forward to your message.</h4>
+      <h4>We are looking forward to your message</h4>
       <div className="about-us-box-text">
         <p>
           Send us a message with your project idea. Don't forget to tell us
