@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
-import NavBar from './nav/NavBar';
+import NavBar from '../nav/NavBar';
 
 const Header = ({ siteTitle }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

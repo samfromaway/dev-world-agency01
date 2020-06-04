@@ -121,3 +121,5 @@ export default IndexPage;
 // search replace id
 //smoot scroll contact page
 // contact form netlify
+// find replace dev Wolrd
+// terms and conditions
