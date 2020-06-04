@@ -39,6 +39,7 @@ class SimpleSlider extends React.Component {
             img={element.img}
             subTitle={element.subTitle}
             desc={element.desc}
+            classAdd="card02-slick"
           />
         ))}
       </Slider>

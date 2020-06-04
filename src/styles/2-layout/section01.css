@@ -30,7 +30,7 @@
   background-image: linear-gradient(
     178deg,
     var(--background-color03) 26%,
-    var(--elegant-blue) calc(26% + 2px)
+    var(--elegant-blue-soft-light) calc(26% + 2px)
   );
 }
 
@@ -39,6 +39,14 @@
     178deg,
     var(--elegant-blue) 27%,
     var(--background-color02) calc(27% + 2px)
+  );
+}
+
+.section06 {
+  background-image: linear-gradient(
+    178deg,
+    var(--background-color02) 26%,
+    var(--elegant-blue-soft-light) calc(26% + 2px)
   );
 }
 
