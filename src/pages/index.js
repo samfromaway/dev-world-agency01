@@ -123,3 +123,4 @@ export default IndexPage;
 // contact form netlify
 // find replace dev Wolrd
 // terms and conditions
+// prop types

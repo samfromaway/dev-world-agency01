@@ -1,6 +1,5 @@
 import React from 'react';
 import ButtonInt from '../button01/ButtonInt';
-import SwissFlag from '../../images/Swiss-Flag.svg';
 import './sticky-bar.css';
 
 const StickyBar = pros => {

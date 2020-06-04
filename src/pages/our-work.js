@@ -38,7 +38,9 @@ const OurWork = () => {
   };
 
   const scrollToAnchor = () => {
-    anchorRef.current.scrollIntoView({ behavior: 'smooth' });
+    anchorRef.current.scrollIntoView({
+      behavior: 'smooth',
+    });
   };
 
   const scrollToAnchorDelayed = () => {
@@ -98,7 +100,6 @@ const OurWork = () => {
         return 'Web Prodjects';
     }
   };
-
   useEffect(() => {
     setCategoryFromURL(window.location.href);
   }, []);
