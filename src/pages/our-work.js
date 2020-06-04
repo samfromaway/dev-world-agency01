@@ -160,13 +160,12 @@ const OurWork = () => {
         </div>
       </section>
       <section
+        ref={anchorRef}
         className={
           chosenCategory === null ? 'project-section' : 'project-section-active'
         }
       >
-        <h2 ref={anchorRef} className="title10">
-          Top 3 Projects
-        </h2>
+        <h2 className="title10">Top 3 Projects</h2>
         <div className="cards01">
           {showCategory(chosenCategory).map(project => (
             <Card03
@@ -183,9 +182,7 @@ const OurWork = () => {
       <section
         className={chosenCategory === null ? 'show-spacer' : 'hide-spacer'}
       >
-        <h2 ref={anchorRef} className="title09 pulse01">
-          Choose A Category
-        </h2>
+        <h2 className="title09 pulse01">Choose A Category</h2>
       </section>
       <section className="section section01">
         <h2 id="title06" className="title03">
