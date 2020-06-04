@@ -5,8 +5,7 @@
   background-color: var(--card-background-color);
   border-radius: var(--main-border-radius);
   overflow: hidden;
-  margin: 0.8rem;
-  width: 250px;
+  margin: 0.8em 1.1rem;
   color: var(--textdark);
   box-shadow: var(--box-shadow01);
   border-radius: var(--main-border-radius);
@@ -15,6 +14,8 @@
     var(--elegant-blue) 39%,
     var(--background-color03) calc(39% + 2px)
   );
+  /* height is for slickCarousel adjustment*/
+  height: 360px;
 }
 
 .card02 img {

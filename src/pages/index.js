@@ -10,6 +10,7 @@ import Card02 from '../components/card02/Card02';
 import StickyBar from '../components/stickyBar/StickyBar';
 import AboutBox from '../components/aboutBox/AboutBox';
 import ContactForm from '../components/contactForm/ContactForm';
+import SlickCarousel from '../components/slickCarousel/SlickCarousel';
 //images
 import Bulb from '../images/idea.png';
 import Marketing from '../images/bullhorn-solid.svg';
@@ -18,6 +19,8 @@ import Design from '../images/feather-alt-solid.svg';
 import WebLogos from '../images/WebLogos.png';
 import MarketingLogos from '../images/MarketingLogos.png';
 import DesignLogos from '../images/DesignLogos.png';
+//data
+import testimonials from '../data/testimonials';
 
 const IndexPage = () => (
   <Layout>
@@ -99,25 +102,8 @@ const IndexPage = () => (
       <h2 id="title06" className="title03">
         Testimonials
       </h2>
-      <div className="cards01">
-        <Card02
-          title="Jimmy Neutro"
-          img="https://image.cnbcfm.com/api/v1/image/105595209-1543339207911gettyimages-1069148086.jpeg?v=1543339234"
-          subTitle="United States"
-          desc="Sam and Tacha are great Sam anha are great Sam and Tacha are great"
-        />
-        <Card02
-          title="Frank Heinzenmeier"
-          img="https://image.cnbcfm.com/api/v1/image/105595209-1543339207911gettyimages-1069148086.jpeg?v=1543339234"
-          subTitle="Switzerland"
-          desc="Sam and Tacha are great Sam and Tacha are great"
-        />
-        <Card02
-          title="Frank Heinzenmeier"
-          img="https://image.cnbcfm.com/api/v1/image/105595209-1543339207911gettyimages-1069148086.jpeg?v=1543339234"
-          subTitle="Switzerland"
-          desc="Sam and Tacha are great Sam and Tacha are great"
-        />
+      <div className="slick-wrapper">
+        <SlickCarousel data={testimonials} />
       </div>
     </section>
     <section className="section section04">

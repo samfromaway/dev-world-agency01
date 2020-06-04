@@ -19,7 +19,6 @@ import './src/styles/3-components/iconcontent01.css';
 import './src/styles/3-components/icons.css';
 import './src/styles/3-components/icons02.css';
 import './src/styles/3-components/imgglow01.css';
-import './src/styles/3-components/slick.css';
 import './src/styles/3-components/smallcards.css';
 import './src/styles/3-components/videos01.css';
 import './src/styles/3-components/wrapreverse01.css';
