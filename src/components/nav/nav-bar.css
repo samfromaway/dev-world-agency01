@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 8vh;
+  min-height: 55px;
+  height: 8vh;
   /* if min-height changed then also change single-page-section02 class & hero*/
   background-color: black;
   padding: 0 2em;

@@ -5,6 +5,7 @@
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-areas: 'swiss title button';
   height: 8vh;
+  top: 0;
   min-height: 60px;
   overflow: hidden;
   z-index: 100;
