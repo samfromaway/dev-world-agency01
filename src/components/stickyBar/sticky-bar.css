@@ -34,14 +34,26 @@
   grid-area: title;
 }
 
-/* button is styled in button.css */
+.cta-button {
+  grid-area: button;
+  border-radius: 20px;
+  border: solid 2px rgba(255, 255, 255, 0.287);
+  padding: 0.6em;
+  width: 130px;
+  justify-self: flex-end;
+  margin: 0;
+}
 
 @media screen and (max-width: 915px) {
   .sticky-bar {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'swiss  button';
+    grid-template-columns: 1fr;
+    grid-template-areas: ' button';
   }
   .sticky-bar h3 {
     display: none;
+  }
+
+  .sticky-bar .button {
+    justify-self: center;
   }
 }

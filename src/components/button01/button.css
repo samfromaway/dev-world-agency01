@@ -44,16 +44,6 @@
   padding: 1rem;
 }
 
-.cta-button {
-  grid-area: button;
-  border-radius: 20px;
-  border: solid 2px rgba(255, 255, 255, 0.287);
-  padding: 0.6em;
-  width: 130px;
-  justify-self: flex-end;
-  margin: 0;
-}
-
 .button-light {
   background-color: white;
   color: var(--elegant-blue);
