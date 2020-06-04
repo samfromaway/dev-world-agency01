@@ -23,8 +23,8 @@ import Design from '../images/feather-alt-solid.svg';
 import Solution from '../images/bigger-picture.png';
 
 const OurWork = () => {
-  const [chosenCategory, setchosenCategory] = useState(null);
-  const [card41Style, setCard41Style] = useState('');
+  const [chosenCategory, setchosenCategory] = useState('web');
+  const [card41Style, setCard41Style] = useState('card04-active');
   const [card42Style, setCard42Style] = useState('');
   const [card43Style, setCard43Style] = useState('');
 
@@ -76,7 +76,7 @@ const OurWork = () => {
         setCard43Style('card04-active');
         break;
       default:
-        setCard41Style('');
+        setCard41Style('card04-active');
         setCard42Style('');
         setCard43Style('');
     }
@@ -101,16 +101,18 @@ const OurWork = () => {
   return (
     <Layout>
       <SEO title="Our Work" />
-      <section className="section slim-section">
-        <h2 className="title03">Our Work</h2>
+      <section className="section section-elegant-blue slim-section">
+        <h2 className="title03 title-bright">Our Work</h2>
         <ImgContent01
           title="Complete Solution"
           img={Solution}
           desc={`We offer a complete solution for your "Web-Endeavours". We support you from building the website to getting happy clients.`}
-          classAdd=""
+          classAdd="text-bright "
         />
       </section>
-      <section className="section  slim-section ">
+      <section className="section slim-section section05 ">
+        <h2 className="title09 title-bright pulse01">Choose A Category</h2>
+        <section className="spacer-our-work"></section>
         <div className="cards01">
           <div
             role="button"
@@ -159,12 +161,7 @@ const OurWork = () => {
           </div>
         </div>
       </section>
-      <section
-        ref={anchorRef}
-        className={
-          chosenCategory === null ? 'project-section' : 'project-section-active'
-        }
-      >
+      <section ref={anchorRef} className="project-section">
         <h2 className="title10">Top 3 Projects</h2>
         <div className="cards01">
           {showCategory(chosenCategory).map(project => (
@@ -179,11 +176,7 @@ const OurWork = () => {
           ))}
         </div>
       </section>
-      <section
-        className={chosenCategory === null ? 'show-spacer' : 'hide-spacer'}
-      >
-        <h2 className="title09 pulse01">Choose A Category</h2>
-      </section>
+
       <section className="section section01">
         <h2 id="title06" className="title03">
           Testimonials

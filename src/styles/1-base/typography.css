@@ -242,7 +242,21 @@ textarea {
 /*----Title10----*/
 .title10 {
   font-size: 1.6rem;
-  color: var(--textdarkt);
+  color: var(--textdark);
   text-align: center;
   margin: auto;
+}
+
+/*-----------------------*/
+.title-bright {
+  color: var(--textbright);
+}
+
+.title-bright::before,
+.title-bright::after {
+  background-color: var(--textbright);
+}
+
+.text-bright {
+  color: var(--textbright);
 }

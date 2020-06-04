@@ -9,7 +9,7 @@
   align-items: center;
   background-color: var(--card-background-color);
   width: 150px;
-  box-shadow: var(--box-shadow01);
+  box-shadow: 3px 5px 14px #42424252;
   border-radius: var(--main-border-radius);
   margin: 0.8rem;
   overflow: hidden;
@@ -23,7 +23,7 @@
 }
 
 .card04-active {
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgb(192, 192, 192);
   outline: var(--elegant-blue) solid 4px;
 }
 
