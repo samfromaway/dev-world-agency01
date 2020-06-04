@@ -6,7 +6,6 @@ import SEO from '../components/seo';
 import Hero from '../components/hero01/Hero01';
 import ImgContent01 from '../components/imgContent01/ImgContent01';
 import Card01 from '../components/card01/Card01';
-import Card02 from '../components/card02/Card02';
 import StickyBar from '../components/stickyBar/StickyBar';
 import AboutBox from '../components/aboutBox/AboutBox';
 import ContactForm from '../components/contactForm/ContactForm';

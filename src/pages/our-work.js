@@ -6,7 +6,10 @@ import SEO from '../components/seo';
 import Card03 from '../components/card03/Card03';
 import Card04 from '../components/card04/Card04';
 import ImgContent01 from '../components/imgContent01/ImgContent01';
+import SlickCarousel from '../components/slickCarousel/SlickCarousel';
+
 //data
+import testimonials from '../data/testimonials';
 import {
   webProjects,
   designProjects,
@@ -107,7 +110,6 @@ const OurWork = () => {
         />
       </section>
       <section className="section  slim-section ">
-        <h4 className="title04 pulse01">See Our Projects</h4>
         <div className="cards01">
           <div
             role="button"
@@ -156,28 +158,43 @@ const OurWork = () => {
           </div>
         </div>
       </section>
-      <h2 ref={anchorRef} className="title09">
-        {chosenCategory === null ? 'Choose A Category' : 'Top 3 Projects'}
-      </h2>
+
       <section
         className={
           chosenCategory === null ? 'project-section' : 'project-section-active'
         }
       >
-        {showCategory(chosenCategory).map(project => (
-          <Card03
-            key={project.id}
-            title={project.title}
-            desc={project.desc}
-            img={project.img}
-            icons={project.icon}
-            link={project.link}
-          />
-        ))}
+        <h2 ref={anchorRef} className="title10">
+          Top 3 Projects
+        </h2>
+        <div className="cards01">
+          {showCategory(chosenCategory).map(project => (
+            <Card03
+              key={project.id}
+              title={project.title}
+              desc={project.desc}
+              img={project.img}
+              icons={project.icon}
+              link={project.link}
+            />
+          ))}
+        </div>
       </section>
       <section
         className={chosenCategory === null ? 'show-spacer' : 'hide-spacer'}
-      ></section>
+      >
+        <h2 ref={anchorRef} className="title09 pulse01">
+          Choose A Category
+        </h2>
+      </section>
+      <section className="section section01">
+        <h2 id="title06" className="title03">
+          Testimonials
+        </h2>
+        <div className="slick-wrapper">
+          <SlickCarousel data={testimonials} />
+        </div>
+      </section>
     </Layout>
   );
 };

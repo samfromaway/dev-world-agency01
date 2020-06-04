@@ -65,6 +65,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background-color: var(--background-color02);
   padding: 0.6rem 1.8rem 0.6rem 1.8rem;
 }

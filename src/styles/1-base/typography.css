@@ -234,10 +234,16 @@ textarea {
 
 /*----Title09----*/
 .title09 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 500px;
+  font-size: 1.3rem;
+  color: var(--textdarkt);
+  text-align: center;
+  margin: auto;
+}
+/*----Title10----*/
+.title10 {
   font-size: 1.6rem;
   color: var(--textdarkt);
   text-align: center;
+  margin: auto;
 }

@@ -12,7 +12,7 @@ class SimpleSlider extends React.Component {
       swipeToSlide: true,
       infinite: true,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 3500,
       dots: true,
 
       responsive: [
