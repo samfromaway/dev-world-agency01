@@ -1,7 +1,6 @@
-@use '../../styles/1-base/global-test.scss' as g;
+@import '../../styles/1-base/global-test.scss';
 
 .nav {
-  @include g.color1;
   display: flex;
   justify-content: space-between;
   align-items: center;
