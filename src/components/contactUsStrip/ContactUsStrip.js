@@ -1,5 +1,5 @@
 import React from 'react';
-import './contact-us-strip.css';
+import './contact-us-strip.scss';
 import ButtonInt from '../button01/ButtonInt';
 
 const ContactUsStrip = () => {

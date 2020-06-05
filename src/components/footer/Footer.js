@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css';
+import './footer.scss';
 import socialMedia from '../../data/socialMedia';
 import SwissFlag from '../../images/Swiss-Flag.svg';
 import USAFlag from '../../images/usa.png';

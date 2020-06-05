@@ -1,6 +1,6 @@
 import React from 'react';
 import ButtonInt from '../button01/ButtonInt';
-import './sticky-bar.css';
+import './sticky-bar.scss';
 
 const StickyBar = pros => {
   return (

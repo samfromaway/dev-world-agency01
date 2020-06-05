@@ -1,7 +1,7 @@
 import React from 'react';
 import ButtonExt from '../button01/ButtonExt';
 
-import './card03.css';
+import './card03.scss';
 
 const Card03 = props => {
   return (

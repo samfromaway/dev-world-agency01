@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import './card01.css';
+import './card01.scss';
 
 const Card01 = props => {
   return (

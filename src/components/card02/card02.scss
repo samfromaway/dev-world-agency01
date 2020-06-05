@@ -1,4 +1,6 @@
-.card02-big {
+@import '../variables.scss';
+
+.card02 {
   display: flex;
   /*flex-direction & box shadow evtl. delete when carousel*/
   flex-direction: column;
@@ -11,26 +13,41 @@
   border-radius: var(--main-border-radius);
   background-image: linear-gradient(
     178deg,
-    var(--elegant-blue) 47%,
-    var(--background-color03) calc(47% + 2px)
+    var(--elegant-blue) 37%,
+    var(--background-color03) calc(37% + 2px)
   );
-  width: 300px;
+  width: 250px;
 }
 
-.card02-big img {
-  width: 130px;
-  height: 130px;
+.card02 img {
+  width: 100px;
+  height: 100px;
   border-radius: 500px;
   object-fit: cover;
   position: relative;
   margin: 1em auto;
 }
 
-.card02-big h3 {
+.card02 h3 {
   text-align: center;
 }
 
-.card02-big p {
+.card02 p {
   padding: 1rem;
   text-align: left;
+}
+
+.card02 .button {
+  align-self: flex-end;
+}
+
+.card02-slick {
+  /* height is for slickCarousel adjustment*/
+  height: 360px !important;
+  width: auto !important;
+  margin: 0.8em 1.1em !important;
+}
+
+.card02-big {
+  width: 300px;
 }

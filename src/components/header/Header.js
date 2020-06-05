@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => {
   };
 
   return (
-    <header className="header">
+    <header>
       <section>
         <NavBar
           items={menuItems}

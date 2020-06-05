@@ -6,8 +6,11 @@
 
 // You can delete this file if you're not using it
 import './src/styles/1-base/global.css';
-import './src/styles/1-base/global-test.scss';
+import './src/styles/1-base/_global-test.scss';
 import './src/styles/1-base/typography.css';
+////
+////
+
 // 2-Layout
 import './src/styles/2-layout/anchor.css';
 import './src/styles/2-layout/footer.css';

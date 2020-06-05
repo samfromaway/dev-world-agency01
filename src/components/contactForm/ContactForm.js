@@ -1,5 +1,5 @@
 import React from 'react';
-import './contact-form.css';
+import './contact-form.scss';
 
 const ContactForm = props => {
   return (

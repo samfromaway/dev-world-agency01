@@ -1,4 +1,4 @@
-@import '../../styles/1-base/global-test.scss';
+@import '../variables.scss';
 
 .nav {
   display: flex;
@@ -7,7 +7,7 @@
   min-height: 55px;
   height: 8vh;
   /* if min-height changed then also change single-page-section02 class & hero*/
-  background-color: $color1;
+  background-color: black;
   padding: 0 2em;
 }
 

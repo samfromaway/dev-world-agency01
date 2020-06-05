@@ -1,5 +1,5 @@
 import React from 'react';
-import './img-content01.css';
+import './img-content01.scss';
 
 const ImgContent01 = props => {
   return (

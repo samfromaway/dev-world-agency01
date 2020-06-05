@@ -1,5 +1,5 @@
 import React from 'react';
-import './about-box.css';
+import './about-box.scss';
 import Sam from '../../images/Samuel.jpg';
 import Tacha from '../../images/tacha.jpg';
 
