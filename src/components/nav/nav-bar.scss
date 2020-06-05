@@ -2,13 +2,13 @@
 
 .nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   min-height: 55px;
   height: 8vh;
   /* if min-height changed then also change single-page-section02 class & hero*/
   background-color: black;
   padding: 0 2em;
-  margin-bottom: -8vh;
 }
 
 .logo {
@@ -32,7 +32,6 @@ header img {
   justify-content: flex-end;
   flex: 1;
   text-align: center;
-  z-index: 3;
 }
 
 .nav-links li {
@@ -94,12 +93,11 @@ header img {
   .nav {
     justify-content: space-between;
     padding: 0 30px 0 30px;
-    margin-bottom: 0;
   }
   .nav-links {
     position: absolute;
     right: 0px;
-    height: 220px;
+    height: 210px;
     top: 4vh;
     background-color: black;
     display: flex;
