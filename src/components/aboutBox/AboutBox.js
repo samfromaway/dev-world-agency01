@@ -5,8 +5,10 @@ import Tacha from '../../images/tacha.jpg';
 
 const AboutUsBox = props => {
   return (
-    <div className={`about-us-box ${props.stylesAdd}`}>
-      <h3 className="about-us-box-title">You'll Contact:</h3>
+    <div className={`about-us-box ${props.stylesAddText}`}>
+      <h3 className={`about-us-box-title ${props.stylesAddTitle}`}>
+        You'll Contact:
+      </h3>
       <div className="about-us-box-img-wrapper">
         <div className="person-box">
           <img className="about-us-box-img" alt="Logo" src={Sam} />

@@ -26,7 +26,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Hero />
     <StickyBar />
-    <section className="section section03">
+    <section className="section section01">
       <h2 className="title03">How We Work</h2>
       <ImgContent01
         title="Your Idea"
@@ -97,7 +97,7 @@ const IndexPage = () => (
         />
       </div>
     </section>
-    <section className="section section01">
+    <section className="section section03">
       <h2 id="title06" className="title03">
         Testimonials
       </h2>
@@ -106,9 +106,12 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="section section04">
-      <h2 className="title03">Contact Us</h2>
+      <h2 className="title03 title03-light">Contact Us</h2>
       <div className="contact-section-wrapper">
-        <AboutBox stylesAdd="about-box-text-light" />
+        <AboutBox
+          stylesAddText="about-box-text-light"
+          stylesAddTitle="about-box-title-light"
+        />
         <ContactForm formName="home_page1" />
       </div>
     </section>

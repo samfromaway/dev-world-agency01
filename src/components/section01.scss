@@ -12,28 +12,34 @@
 .section01 {
   background-image: linear-gradient(
     178deg,
-    $background-color02 35%,
-    $background-color03 calc(36% + 2px)
+    $background-color03 92%,
+    $background-color02 calc(93% + 2px)
   );
+  padding-bottom: 50px;
 }
 
 .section02 {
+  background-image: linear-gradient(
+    178deg,
+    $background-color02 90%,
+    $background-color03 calc(91% + 2px)
+  );
   padding-top: 0;
+  padding-bottom: 80px;
 }
 
 .section03 {
   background-image: linear-gradient(
-    178deg,
-    $background-color03 92%,
-    $background-color02 calc(93% + 2px)
+    178.5deg,
+    $background-color03 89%,
+    $elegant-blue-soft-light calc(89% + 2px)
   );
+  padding-top: 0;
+  padding-bottom: 80px;
 }
 .section04 {
-  background-image: linear-gradient(
-    178deg,
-    $background-color03 26%,
-    $elegant-blue-soft-light calc(26% + 2px)
-  );
+  padding-top: 0;
+  background-color: $elegant-blue-soft-light;
 }
 
 .section05 {
