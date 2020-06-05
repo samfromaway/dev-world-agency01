@@ -7,7 +7,7 @@
   flex-direction: column;
   background: url(../../images/Hero-Img01.jpg);
   background-color: rgb(37, 37, 37);
-  color: var(--textbright);
+  color: $textbright;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;

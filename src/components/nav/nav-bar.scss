@@ -69,7 +69,7 @@ header img {
 
 .nav-link:focus::before,
 .nav-link:hover::before {
-  background-color: var(--highlightcolor01);
+  background-color: $highlightcolor01;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -83,7 +83,7 @@ header img {
   bottom: 0;
   left: 0;
   visibility: hidden;
-  background-color: var(--highlightcolor01);
+  background-color: $highlightcolor01;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

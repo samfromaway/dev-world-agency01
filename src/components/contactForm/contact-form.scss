@@ -1,13 +1,13 @@
 @import '../variables.scss';
 
 .wrap-contact {
-  background-color: var(--elegant-blue);
+  background-color: $elegant-blue;
   flex: 1;
   max-width: 400px;
   min-width: 320px;
-  border-radius: var(--main-border-radius);
+  border-radius: $main-border-radius;
   margin: 1.5rem;
-  /*box-shadow: var(--box-shadow01);*/
+  /*box-shadow: $box-shadow01;*/
 }
 
 .contact-form-header {
@@ -15,11 +15,11 @@
 }
 
 .wrap-contact h2 {
-  color: var(--textbright);
+  color: $textbright;
 }
 
 .email-link {
-  color: var(--textbright);
+  color: $textbright;
   text-decoration: underline;
 }
 
@@ -30,7 +30,7 @@
 .contact-form {
   background-color: white;
   padding: 0.3em 1.2rem 1.2rem 1.2rem;
-  border-radius: 0 0 var(--main-border-radius) var(--main-border-radius);
+  border-radius: 0 0 $main-border-radius $main-border-radius;
 }
 
 /*------------------------------------------------------------------
@@ -50,10 +50,10 @@
   width: 100%;
   height: 100%;
   padding: 10px;
-  color: var(--textdark);
+  color: $textdark;
   border: none;
   background-color: rgba(192, 192, 192, 0.315);
-  border-radius: 0 var(--main-border-radius) 0 0;
+  border-radius: 0 $main-border-radius 0 0;
   outline: none;
   padding-left: 8px;
 }
@@ -65,7 +65,7 @@
   min-width: 100%;
   padding: 10px;
   margin-top: 5px;
-  border-radius: var(--main-border-radius);
+  border-radius: $main-border-radius;
 }
 
 .label {
@@ -84,7 +84,7 @@
   bottom: -1px;
   height: 100%;
   width: 100%;
-  border-bottom: 3px solid var(--elegant-blue);
+  border-bottom: 3px solid $elegant-blue;
   transform: translateX(-100%);
   transition: all 0.3s ease;
 }
@@ -132,7 +132,7 @@ select:-webkit-autofill:focus {
 }
 
 .input-textfield:focus {
-  border: 3px solid var(--elegant-blue);
+  border: 3px solid $elegant-blue;
   padding: 7px;
   transition: all 0.3s ease;
 }

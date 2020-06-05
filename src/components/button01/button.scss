@@ -5,7 +5,7 @@
   width: 180px;
   text-align: center;
   border-radius: 5px;
-  background-color: var(--elegant-blue);
+  background-color: $elegant-blue;
   color: white;
   font-size: 0.9rem;
   font-weight: 900;
@@ -19,7 +19,7 @@
 }
 
 .button:hover {
-  background-color: var(--main-blue-light);
+  background-color: $main-blue-light;
   color: black;
   cursor: pointer;
 }
@@ -48,5 +48,5 @@
 
 .button-light {
   background-color: white;
-  color: var(--elegant-blue);
+  color: $elegant-blue;
 }

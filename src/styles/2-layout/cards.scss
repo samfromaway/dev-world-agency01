@@ -1,9 +1,11 @@
+@import '../../components/variables.scss';
+
 .cards01 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0.8rem;
-  color: var(--textdark);
+  color: $textdark;
 }
 .cards04 {
   display: flex;
@@ -11,5 +13,5 @@
 
   flex-wrap: wrap;
   margin: 0.8rem;
-  color: var(--textdark);
+  color: $textdark;
 }

@@ -14,15 +14,15 @@
   padding: 0.5rem;
   width: 100%;
   cursor: pointer;
-  filter: var(--drop-shadow01);
+  filter: $drop-shadow01;
 }
 
 .card03-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--card-background-color);
-  border-radius: var(--main-border-radius);
+  background-color: $card-background-color;
+  border-radius: $main-border-radius;
   padding: 0.7em;
   height: 320px;
   overflow: hidden;

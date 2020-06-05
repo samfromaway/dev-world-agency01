@@ -6,7 +6,7 @@
 
 html {
   min-width: 360px;
-  background-color: var(--background-color02);
+  background-color: $background-color02;
 }
 
 :root {

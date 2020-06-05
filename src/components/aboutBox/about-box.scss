@@ -5,11 +5,11 @@
   min-width: 320px;
   max-width: 400px;
   flex: 1;
-  color: var(--textbright);
+  color: $textbright;
 }
 
 .about-us-box-title {
-  color: var(--textdark);
+  color: $textdark;
 }
 
 .about-us-box-img-wrapper {

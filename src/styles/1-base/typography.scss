@@ -1,3 +1,5 @@
+@import '../../components/variables.scss';
+
 body,
 label,
 input,
@@ -53,7 +55,7 @@ textarea {
 }
 
 .darktext {
-  color: var(--textdark);
+  color: $textdark;
 }
 
 .email-link {
@@ -69,7 +71,7 @@ textarea {
   font-size: 1rem;
   justify-content: center;
   align-items: center;
-  color: var(--textbright);
+  color: $textbright;
   text-align: center;
 }
 
@@ -109,7 +111,7 @@ textarea {
   justify-content: center;
   align-items: center;
   height: 100%;
-  color: var(--elegant-blue);
+  color: $elegant-blue;
   text-align: center;
   margin: 0.5em;
 }
@@ -117,19 +119,19 @@ textarea {
 .title03::before,
 .title03::after {
   content: '';
-  background-color: var(--textdark);
+  background-color: $textdark;
   width: 25px;
   height: 4px;
   margin: 0.7rem;
 }
 
 .title03-light {
-  color: var(--textbright);
+  color: $textbright;
 }
 
 .title03-light::before,
 .title03-light::after {
-  background-color: var(--textbright);
+  background-color: $textbright;
 }
 
 @media screen and (max-width: 768px) {
@@ -155,7 +157,7 @@ textarea {
 }
 
 .title04 {
-  color: var(--textdark);
+  color: $textdark;
 }
 
 /*----Title05----*/
@@ -242,21 +244,21 @@ textarea {
 /*----Title10----*/
 .title10 {
   font-size: 1.6rem;
-  color: var(--textdark);
+  color: $textdark;
   text-align: center;
   margin: auto;
 }
 
 /*-----------------------*/
 .title-bright {
-  color: var(--textbright);
+  color: $textbright;
 }
 
 .title-bright::before,
 .title-bright::after {
-  background-color: var(--textbright);
+  background-color: $textbright;
 }
 
 .text-bright {
-  color: var(--textbright);
+  color: $textbright;
 }
