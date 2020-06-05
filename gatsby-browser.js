@@ -5,10 +5,10 @@
  */
 
 // You can delete this file if you're not using it
-import './src/styles/1-base/typography.scss';
+import './src/components/typography.scss';
 // 2-Layout
+import './src/components/section01.scss';
 import './src/styles/2-layout/anchor.css';
-import './src/styles/2-layout/section01.scss';
 import './src/styles/2-layout/contact-section.css';
 import './src/styles/2-layout/cards.scss';
 // 3-Components
