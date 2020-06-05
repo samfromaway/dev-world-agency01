@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Card03 from '../components/card03/Card03';
 import Card04 from '../components/card04/Card04';
-import ImgContent01 from '../components/imgContent01/ImgContent01';
+import VideoContent01 from '../components/videoContent01/VideoContent01';
 import SlickCarousel from '../components/slickCarousel/SlickCarousel';
 import ContactUsStrip from '../components/contactUsStrip/ContactUsStrip';
 
@@ -121,10 +121,10 @@ const OurWork = () => {
       <SEO title="Our Work" />
       <section className="section section-elegant-blue slim-section">
         <h2 className="title03 title-bright">Our Work</h2>
-        <ImgContent01
-          title="Complete Solution"
-          img={Solution}
-          desc={`We offer a complete solution for your "Web-Endeavours". We support you from building the website to getting happy clients.`}
+        <VideoContent01
+          title="Our Approach"
+          videoSrc="https://www.youtube.com/embed/Bhyg42y1oZg"
+          desc={`We support you from building the website to getting happy clients.\n In the video Sam explains a popular approach we use for Landing Page Websites. This should give you an overview of one possible way how we approach a project.`}
           classAdd="text-bright "
         />
       </section>

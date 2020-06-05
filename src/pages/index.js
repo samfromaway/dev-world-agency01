@@ -60,7 +60,7 @@ const IndexPage = () => (
             'Websites',
             'HTML, CSS, JS',
             'Wordpress',
-            'Wix(Advanced)',
+            'Wix (Advanced)',
             'React',
           ]}
           buttonText="See Projects"
