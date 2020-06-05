@@ -124,3 +124,4 @@ export default IndexPage;
 // find replace dev Wolrd
 // terms and conditions
 // prop types
+// ie conform
