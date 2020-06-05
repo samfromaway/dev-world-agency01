@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import AboutHero from '../components/aboutHero/AboutHero';
+import PageHeader from '../components/pageHeader/PageHeader';
 import Card02 from '../components/card02/Card02';
 import Card02Big from '../components/card02Big/Card02Big';
 
@@ -14,8 +14,8 @@ import Tacha from '../images/tacha.jpg';
 
 const About = () => (
   <Layout>
-    <SEO title="About" />
-    <AboutHero />
+    <SEO title="About Us" />
+    <PageHeader title="ABOUT US" />
     <section className="section slim-section">
       <h2 className="title03">Founders</h2>
       <div className="cards01">
@@ -35,7 +35,7 @@ const About = () => (
         />
       </div>
     </section>
-    <section className="section ">
+    <section className="section section01">
       <h2 className="title03">Team</h2>
 
       <div className="cards01">

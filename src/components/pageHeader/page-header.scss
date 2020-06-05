@@ -1,0 +1,11 @@
+@import '../variables.scss';
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 110px;
+  background-color: $elegant-blue;
+  color: $textbright;
+}

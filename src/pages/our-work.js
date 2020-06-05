@@ -8,6 +8,7 @@ import Card04 from '../components/card04/Card04';
 import VideoContent01 from '../components/videoContent01/VideoContent01';
 import SlickCarousel from '../components/slickCarousel/SlickCarousel';
 import ContactUsStrip from '../components/contactUsStrip/ContactUsStrip';
+import PageHeader from '../components/pageHeader/PageHeader';
 
 //data
 import testimonials from '../data/testimonials';
@@ -119,8 +120,8 @@ const OurWork = () => {
   return (
     <Layout>
       <SEO title="Our Work" />
+      <PageHeader title="OUR WORK" />
       <section className="section section-elegant-blue slim-section">
-        <h2 className="title03 title-bright">Our Work</h2>
         <VideoContent01
           title="Our Approach"
           videoSrc="https://www.youtube.com/embed/Bhyg42y1oZg"
@@ -129,7 +130,7 @@ const OurWork = () => {
         />
       </section>
       <section className="section slim-section section05 ">
-        <h2 className="title09 title-bright pulse01">Choose A Category</h2>
+        <h2 className="title09 title-bright">Choose A Category</h2>
         <section className="spacer-our-work"></section>
         <div className="cards01">
           <div

@@ -1,5 +1,14 @@
 @import '../variables.scss';
 
+.contact-section-wrapper {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
 .wrap-contact {
   background-color: $elegant-blue;
   flex: 1;

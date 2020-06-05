@@ -107,8 +107,8 @@ const IndexPage = () => (
     </section>
     <section className="section section04">
       <h2 className="title03">Contact Us</h2>
-      <div className="contact-section">
-        <AboutBox />
+      <div className="contact-section-wrapper">
+        <AboutBox stylesAdd="about-box-text-light" />
         <ContactForm formName="home_page1" />
       </div>
     </section>

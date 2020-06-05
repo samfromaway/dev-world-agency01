@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => {
 
   const menuItems = [
     { name: 'OUR WORK', path: '/our-work' },
-    { name: 'ABOUT', path: '/about' },
+    { name: 'ABOUT US', path: '/about' },
     { name: 'CONTACT', path: '/contact' },
   ];
 

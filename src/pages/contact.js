@@ -3,15 +3,16 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import AboutBox from '../components/aboutBox/AboutBox';
 import ContactForm from '../components/contactForm/ContactForm';
+import PageHeader from '../components/pageHeader/PageHeader';
 
 const Contact = () => (
   <Layout>
     <SEO title="Contact" />
-    <section className="section section06">
-      <h2 className="title03">Contact Us</h2>
-      <div className="contact-section">
+    <PageHeader title="CONTACT" />
+    <section className="section section02">
+      <div className="contact-section-wrapper">
         <AboutBox />
-        <ContactForm formName="home_page1" />
+        <ContactForm formName="contact_page" />
       </div>
     </section>
   </Layout>
