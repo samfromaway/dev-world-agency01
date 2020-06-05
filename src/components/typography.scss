@@ -185,7 +185,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--textdarkt);
+  color: $textdark;
   text-align: center;
 }
 
@@ -216,7 +216,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--textdarkt);
+  color: $textdark;
   text-align: center;
 }
 
@@ -238,7 +238,7 @@ textarea {
 .title09 {
   max-width: 300px;
   font-size: 1.3rem;
-  color: var(--textdarkt);
+  color: $textdark;
   text-align: center;
 }
 /*----Title10----*/
