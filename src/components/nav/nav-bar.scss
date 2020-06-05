@@ -1,11 +1,14 @@
+@use '../../styles/1-base/global-test.scss' as g;
+
 .nav {
+  @include g.color1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 55px;
   height: 8vh;
   /* if min-height changed then also change single-page-section02 class & hero*/
-  background-color: black;
+  background-color: $color1;
   padding: 0 2em;
 }
 

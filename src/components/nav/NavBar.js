@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import MenuBurger from './MenuBurger';
-import './nav-bar.css';
+import './nav-bar.scss';
 import Logo from '../../images/logo.png';
 
 const NavBar = props => {

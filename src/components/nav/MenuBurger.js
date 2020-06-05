@@ -1,5 +1,5 @@
 import React from 'react';
-import './menu-burger.css';
+import './menu-burger.scss';
 
 const MenuBurger = props => {
   const toggleBurger = () => {
