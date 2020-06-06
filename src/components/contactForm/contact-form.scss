@@ -121,8 +121,7 @@ select:-webkit-autofill:focus {
 }
 
 .input:focus + .label .label-input,
-.input:valid + .label .label-input,
-.input:active + .label .label-input {
+.input:valid + .label .label-input {
   transform: translateY(-142%);
 }
 
