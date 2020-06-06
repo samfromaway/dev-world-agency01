@@ -127,6 +127,11 @@
   height: 20px;
 }
 
+.pure-text-section {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
 @media screen and (max-width: 768px) {
   .section {
     padding: 0.6rem;
