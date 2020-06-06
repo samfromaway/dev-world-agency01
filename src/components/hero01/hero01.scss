@@ -8,7 +8,7 @@
   background: linear-gradient(rgb(59, 0, 32), rgb(12, 0, 47));
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url('../../images/hero.jpg');
-  background-position: right top;
+  background-position: right center;
   color: $textbright;
   position: relative;
   background-repeat: no-repeat;
@@ -28,6 +28,11 @@
   width: 10vw;
 }
 
+@media screen and (max-width: 948px) {
+  .hero01 {
+    background-position: center bottom;
+  }
+}
 @media screen and (max-width: 677px) {
   .hero01 {
     height: 75vh;
