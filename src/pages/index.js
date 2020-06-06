@@ -47,7 +47,7 @@ const IndexPage = () => (
       <ImgContent01
         title="Launch Together"
         img={Launch}
-        desc="...Let's launch your idea in a way that your clients will love. Working with us makes the process of reaching that goal fun and productive."
+        desc="...Let's launch your new idea in a way that your clients will love. Working with us makes the process of reaching that goal fun and productive."
         classAdd=""
         animation=""
       />
@@ -71,7 +71,7 @@ const IndexPage = () => (
         />
         <Card01
           icon={Design}
-          title={'Graphic Design & Branding'}
+          title={'Design & Branding'}
           listItems={[
             'Photo Editing',
             'UI / UX',
