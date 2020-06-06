@@ -32,6 +32,12 @@
   .description1 {
     margin: 0.2rem 0.2rem 0.2rem 0.2rem;
   }
+  .imgcontentwrapper01 {
+    padding: 0 0 3.5rem 0;
+  }
+  .imgcontentwrapper01:last-child {
+    padding: 0 0 0 0;
+  }
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
