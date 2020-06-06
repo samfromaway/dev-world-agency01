@@ -1,62 +1,108 @@
 import HTMImg from '../images/our-work/howtomedellin01.png';
 import HTMIcon from '../images/our-work/Icons02-HTM.png';
 import HTEImg from '../images/our-work/how-to-expat01.png';
-import HTEIcon from '../images/our-work/Icons02-HTE.png';
+import HTEIcon1 from '../images/our-work/Icons02-HTE.png';
 import BibusIcon from '../images/our-work/Icons02-BIBUS.png';
 import BibusImg from '../images/our-work/bibus01.png';
-import PorfolioImg from '../images/our-work/fluidtechnik01.png';
-import ProtfolioIcon from '../images/our-work/Icons02-Portfolio.png';
+import KreativgaraschImg from '../images/our-work/kreativgarasch.png';
+import PortfolioIcon from '../images/our-work/Icons02-Portfolio.png';
+import SilverbackImg from '../images/our-work/traveling-silverback01.png';
+import SilverbackIcon from '../images/our-work/weeblyIcon.png';
+import HTEIcon2 from '../images/our-work/Icons02-HTE-S.png';
+import JakeLifeImg from '../images/our-work/jake-life.png';
+import JakeLifeIcons from '../images/our-work/jakeicons.png';
+import LogoIcons from '../images/our-work/logoIcons.png';
 
 const projects = [
   {
     id: 1,
     title: 'How To Medellin',
     desc:
-      'This is a project which includes a database fetched directory and a fully functional real estate listing site.',
+      'This is a site which includes a database fetched directory and a fully functional real estate site, completely built by us.',
     img: HTMImg,
     icon: HTMIcon,
     link: 'https://www.how-to-medellin.com/',
     category: 'web',
   },
   {
+    id: 2,
+    title: 'Kreativgarasch',
+    desc:
+      'Kreativgarasch is a photo/design website. The requirements we fullfiled were; Fast loading, secure, simplistic, to-the-point.',
+    img: KreativgaraschImg,
+    icon: PortfolioIcon,
+    link: 'https://kreativgarasch.com/',
+    category: 'web',
+  },
+  {
     id: 3,
     title: 'How To Expat',
     desc:
-      'This projects is for a business that needs a website which is quick to build and with fast loading times.',
+      'How To Expat is a service site with a professional blog to generate leads. We did everything from branding, setting up the CMS, and the web design.',
     img: HTEImg,
-    icon: HTEIcon,
+    icon: HTEIcon1,
     link: 'https://www.how-to-expat.com/',
     category: 'web',
   },
   {
-    id: 5,
-    title: 'BIBUS',
+    id: 4,
+    title: 'Tobi Logo',
     desc:
-      'Content writing and online marketing was a crucial part of this business marketing strategy to generate leads.',
+      'This is a logo for a photography company. What was special about the project is that we were able to deliver the logo in under 3 hours.',
+    img: HTEImg,
+    icon: LogoIcons,
+    link: 'https://www.how-to-expat.com/',
+    category: 'design',
+  },
+  {
+    id: 5,
+    title: 'Jake | Life Coach',
+    desc:
+      'We created an extended wire-frame incl. design for a 5 page website. Important was to keep the design elegant and professional.',
+    img: JakeLifeImg,
+    icon: JakeLifeIcons,
+    link:
+      'https://www.figma.com/file/ng8MsWUSHFlJtUdCVYu1Oi/Jake?node-id=0%3A1',
+    category: 'design',
+  },
+  {
+    id: 6,
+    title: '???',
+    desc:
+      'How To Expat is a service site with a professional blog to generate leads. We did everything from branding, setting up the CMS, and the web design.',
+    img: HTEImg,
+    icon: HTEIcon1,
+    link: 'https://www.how-to-expat.com/',
+    category: 'design',
+  },
+  {
+    id: 7,
+    title: 'BIBUS',
+    desc: `BIBUS is a company selling technical equipment world-wide. Sam wrote SEO compliant product descriptions and restructured the site.`,
     img: BibusImg,
     icon: BibusIcon,
     link: 'https://www.bibus.ch/',
     category: 'marketing',
   },
-  {
-    id: 7,
-    title: 'Product Portfolio',
-    desc:
-      'This website lists industrial products. It was important to have a clean and modern design to gain the trust of new clients.',
-    img: PorfolioImg,
-    icon: ProtfolioIcon,
-    link: 'blog01.html',
-    category: 'web',
-  },
+
   {
     id: 8,
-    title: '9',
+    title: 'How To Expat',
     desc:
-      'This website lists industrial products. It was important to have a clean and modern design to gain the trust of new clients.',
-    img: PorfolioImg,
-    icon: ProtfolioIcon,
-    link: 'blog01.html',
-    category: 'design',
+      'With How To Expat we were able to generate more than USD 30k in sales in the first year. We executed a complete marketing plan, mostly based on organic traffic.',
+    img: HTEImg,
+    icon: HTEIcon2,
+    link: 'https://www.how-to-expat.com/',
+    category: 'marketing',
+  },
+  {
+    id: 9,
+    title: 'Silverback',
+    desc: `This was the first ever website built in 2015. We got over 32k users in the first year through SEO. It's not active anymore but it holds a special place in our hearts.`,
+    img: SilverbackImg,
+    icon: SilverbackIcon,
+    link: 'https://travelingsilverback.weebly.com',
+    category: 'marketing',
   },
 ];
 
