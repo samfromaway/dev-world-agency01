@@ -14,6 +14,7 @@ import JakeLifeIcons from '../images/our-work/jakeIcons.png';
 import LogoIcons from '../images/our-work/logoIcons.png';
 import AccountingImg from '../images/our-work/accounting.png';
 import AccountingIcon from '../images/our-work/accountingIcon.png';
+import JokerLogo from '../images/our-work/JokerLogo.png';
 
 const projects = [
   {
@@ -46,18 +47,9 @@ const projects = [
     link: 'https://www.how-to-expat.com/',
     category: 'web',
   },
+
   {
     id: 4,
-    title: 'Tobi Logo',
-    desc:
-      'This is a logo for a photography company. What was special about the project is that we were able to deliver the logo in under 3 hours.',
-    img: HTEImg,
-    icon: LogoIcons,
-    link: 'https://www.how-to-expat.com/',
-    category: 'design',
-  },
-  {
-    id: 5,
     title: 'Jake | Life Coach',
     desc:
       'We created an extended wire-frame incl. design for a 5 page website. Important was to keep the design elegant and professional.',
@@ -65,6 +57,16 @@ const projects = [
     icon: JakeLifeIcons,
     link:
       'https://www.figma.com/file/ng8MsWUSHFlJtUdCVYu1Oi/Jake?node-id=0%3A1',
+    category: 'design',
+  },
+  {
+    id: 5,
+    title: 'Tobi Logo',
+    desc:
+      'This is a logo for a photography company. What was special about the project is that we were able to deliver the logo in under 3 hours.',
+    img: JokerLogo,
+    icon: LogoIcons,
+    link: '/public/JokerShotzLogo01.jpg',
     category: 'design',
   },
   {
