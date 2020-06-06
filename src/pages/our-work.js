@@ -12,16 +12,11 @@ import PageHeader from '../components/pageHeader/PageHeader';
 
 //data
 import testimonials from '../data/testimonials';
-import {
-  webProjects,
-  designProjects,
-  marketingProjects,
-} from '../data/projects';
+import projects from '../data/projects';
 //images
 import Marketing from '../images/bullhorn-solid.svg';
 import Web from '../images/desktop-solid.svg';
 import Design from '../images/feather-alt-solid.svg';
-import Solution from '../images/bigger-picture.png';
 
 const OurWork = () => {
   const [chosenCategory, setchosenCategory] = useState('web');
@@ -107,13 +102,17 @@ const OurWork = () => {
 
   const showCategory = category => {
     if (category === 'web') {
-      return webProjects;
+      return projects.filter(project => project.category === 'web').slice(0, 3);
     } else if (category === 'design') {
-      return designProjects;
+      return projects
+        .filter(project => project.category === 'design')
+        .slice(0, 3);
     } else if (category === 'marketing') {
-      return marketingProjects;
+      return projects
+        .filter(project => project.category === 'marketing')
+        .slice(0, 3);
     } else {
-      return webProjects;
+      return projects.filter(project => project.category === 'web').slice(0, 3);
     }
   };
 

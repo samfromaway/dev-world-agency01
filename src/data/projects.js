@@ -107,14 +107,4 @@ const projects = [
   },
 ];
 
-export const webProjects = projects
-  .filter(project => project.category === 'web')
-  .slice(0, 3);
-export const marketingProjects = projects
-  .filter(project => project.category === 'marketing')
-  .slice(0, 3);
-export const designProjects = projects
-  .filter(project => project.category === 'design')
-  .slice(0, 3);
-
 export default projects;
