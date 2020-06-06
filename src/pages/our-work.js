@@ -196,9 +196,7 @@ const OurWork = () => {
         </div>
       </section>
       <section className="section section-light-color section07">
-        <h2 id="title06" className="title03">
-          Testimonials
-        </h2>
+        <h2 className="title03">Testimonials</h2>
         <div className="slick-wrapper">
           <SlickCarousel data={testimonials} />
         </div>
