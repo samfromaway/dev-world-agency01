@@ -2,12 +2,10 @@
 
 .imgcontentwrapper01 {
   display: flex;
-  margin: auto;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap-reverse;
-  max-width: 850px;
   padding: 1rem;
 }
 
@@ -15,7 +13,7 @@
   max-width: 330px;
   text-align: left;
   font-size: 40px;
-  margin: 0.2rem;
+  margin: 0.2rem 2rem 0.2rem 2rem;
 }
 
 .description1 h3 {
@@ -23,15 +21,16 @@
 }
 
 .description1-img-wrapper {
-  display: flex;
-  justify-content: center;
   flex-direction: column;
-  width: 220px;
+  margin: 0.2rem 2rem 0.2rem 2rem;
 }
 
 .description1-img {
-  width: 100%;
-  margin: 0.3rem;
+  width: 330px;
+}
+
+.wrapreverse01 {
+  flex-direction: row-reverse;
 }
 
 @media screen and (max-width: 768px) {

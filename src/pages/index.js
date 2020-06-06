@@ -11,8 +11,9 @@ import AboutBox from '../components/aboutBox/AboutBox';
 import ContactForm from '../components/contactForm/ContactForm';
 import SlickCarousel from '../components/slickCarousel/SlickCarousel';
 //images
-import Bulb from '../images/idea.png';
+import Launch from '../images/launch.png';
 import BiggerPicture from '../images/bigger-picture.png';
+import Client from '../images/client.png';
 import Marketing from '../images/bullhorn-solid.svg';
 import Web from '../images/desktop-solid.svg';
 import Design from '../images/feather-alt-solid.svg';
@@ -31,24 +32,24 @@ const IndexPage = () => (
       <h2 className="title03">How We Work</h2>
       <ImgContent01
         title="Your Idea"
-        img={Bulb}
+        img={Client}
         desc="You are passionate about your new business idea. We support you with communicating your new idea, so your business grows faster."
         classAdd=""
-        //animation="appearanim01"
+        animation=""
       />
       <ImgContent01
         title="Your Goal - Our Focus"
         img={BiggerPicture}
-        desc="You are passionate about your new business idea. We support you with communicating your new idea, so your business grows faster."
+        desc="We have a sales background which makes our agency special. This allows us to focus on your goal, instead of loosing ourselves in technical details."
         classAdd="wrapreverse01"
-        //animation="appearanim01"
+        animation=""
       />
       <ImgContent01
-        title="Your Idea"
-        img={Bulb}
+        title="Launch Together"
+        img={Launch}
         desc="You are passionate about your new business idea. We support you with communicating your new idea, so your business grows faster."
         classAdd=""
-        //animation="appearanim01 reverse02 "
+        animation=""
       />
     </section>
     <section className="section section02">
@@ -129,3 +130,4 @@ export default IndexPage;
 // terms and conditions
 // prop types
 // ie conform
+// search for undefined in source code
