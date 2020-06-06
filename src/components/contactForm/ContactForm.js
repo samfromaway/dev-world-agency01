@@ -29,7 +29,7 @@ const ContactForm = props => {
         </div>
 
         <div className="wrap-input">
-          <input className="input" type="email" name="email" required />
+          <input className="input" type="text" name="email" required />
           <label htmlFor="email" className="label">
             <span className="label-input">Email*</span>
           </label>
