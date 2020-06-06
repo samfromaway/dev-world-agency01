@@ -61,12 +61,12 @@ const projects = [
   },
   {
     id: 5,
-    title: 'Tobi Logo',
+    title: 'Joker.Shotz Logo',
     desc:
       'This is a logo for a photography company. What was special about the project is that we were able to deliver the logo in under 3 hours.',
     img: JokerLogo,
     icon: LogoIcons,
-    link: '/public/JokerShotzLogo01.jpg',
+    link: 'https://dev-world.agency/JokerShotzLogo01.jpg',
     category: 'design',
   },
   {
