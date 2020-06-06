@@ -12,6 +12,8 @@ import HTEIcon2 from '../images/our-work/Icons02-HTE-S.png';
 import JakeLifeImg from '../images/our-work/jake-life.png';
 import JakeLifeIcons from '../images/our-work/jakeicons.png';
 import LogoIcons from '../images/our-work/logoIcons.png';
+import AccountingImg from '../images/our-work/accounting.png';
+import AccountingIcon from '../images/our-work/accountingIcon.png';
 
 const projects = [
   {
@@ -67,12 +69,11 @@ const projects = [
   },
   {
     id: 6,
-    title: '???',
-    desc:
-      'How To Expat is a service site with a professional blog to generate leads. We did everything from branding, setting up the CMS, and the web design.',
-    img: HTEImg,
-    icon: HTEIcon1,
-    link: 'https://www.how-to-expat.com/',
+    title: 'Accounting Design',
+    desc: `This is a UX/UI Design for an accounting web app. The focus was on modularity and simplicity. The example is not functional it's only the design.`,
+    img: AccountingImg,
+    icon: AccountingIcon,
+    link: 'https://accounting-mstrar.netlify.app/',
     category: 'design',
   },
   {
