@@ -5,8 +5,10 @@
   width: 100%;
   height: 84vh;
   flex-direction: column;
-  background: url('../../images/Hero-Img01.jpg');
-  background-position: right center;
+  background: url('../../images/hero.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../../images/hero.jpg');
+  background-position: right top;
   background-color: rgb(37, 37, 37);
   color: $textbright;
   position: relative;
@@ -16,23 +18,6 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-}
-
-.hero01 > * {
-  z-index: 1;
-  position: relative;
-}
-
-.hero01::after {
-  content: '';
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-  z-index: 0;
 }
 
 .content-section1 {

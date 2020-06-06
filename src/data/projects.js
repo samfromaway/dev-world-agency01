@@ -10,7 +10,7 @@ import SilverbackImg from '../images/our-work/traveling-silverback01.png';
 import SilverbackIcon from '../images/our-work/weeblyIcon.png';
 import HTEIcon2 from '../images/our-work/Icons02-HTE-S.png';
 import JakeLifeImg from '../images/our-work/jake-life.png';
-import JakeLifeIcons from '../images/our-work/jakeicons.png';
+import JakeLifeIcons from '../images/our-work/jakeIcons.png';
 import LogoIcons from '../images/our-work/logoIcons.png';
 import AccountingImg from '../images/our-work/accounting.png';
 import AccountingIcon from '../images/our-work/accountingIcon.png';
