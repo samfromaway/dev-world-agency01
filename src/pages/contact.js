@@ -9,7 +9,7 @@ const Contact = () => (
   <Layout>
     <SEO title="Contact" />
     <PageHeader title="CONTACT" />
-    <section className="section section02">
+    <section className="section">
       <div className="contact-section-wrapper">
         <AboutBox />
         <ContactForm formName="contact_page" />

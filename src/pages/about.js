@@ -16,7 +16,7 @@ const About = () => (
   <Layout>
     <SEO title="About Us" />
     <PageHeader title="ABOUT US" />
-    <section className="section slim-section">
+    <section className="section section08">
       <h2 className="title03">Founders</h2>
       <div className="cards01">
         <Card02Big
@@ -35,7 +35,7 @@ const About = () => (
         />
       </div>
     </section>
-    <section className="section section01">
+    <section className="section section07">
       <h2 className="title03">Team</h2>
 
       <div className="cards01">

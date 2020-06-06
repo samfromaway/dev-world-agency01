@@ -7,6 +7,7 @@
   overflow-x: hidden;
   position: relative;
   color: $textdark;
+  background-color: $background-color02;
 }
 
 .section01 {
@@ -15,14 +16,14 @@
     $background-color03 92%,
     $background-color02 calc(93% + 2px)
   );
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 .section02 {
   background-image: linear-gradient(
     178deg,
-    $background-color02 90%,
-    $background-color03 calc(91% + 2px)
+    $background-color02 88%,
+    $background-color03 calc(89% + 2px)
   );
   padding-top: 0;
   padding-bottom: 80px;
@@ -44,7 +45,7 @@
 
 .section05 {
   background-image: linear-gradient(
-    178deg,
+    178.5deg,
     $elegant-blue 27%,
     $background-color02 calc(27% + 2px)
   );
@@ -56,6 +57,24 @@
     $background-color02 26%,
     $elegant-blue-soft-light calc(26% + 2px)
   );
+}
+
+.section07 {
+  padding-top: 0;
+  padding-bottom: 2em;
+}
+
+.section08 {
+  background-image: linear-gradient(
+    178deg,
+    $background-color03 85%,
+    $background-color02 calc(86% + 2px)
+  );
+  padding-bottom: 80px;
+}
+
+.section-light-color {
+  background-color: $background-color03;
 }
 
 .single-page-section {
@@ -84,7 +103,12 @@
   flex-direction: column;
   position: relative;
   background-color: $background-color02;
-  padding: 0.6rem 1.8rem 0.6rem 1.8rem;
+  padding: 0.6rem 1.8rem 70px 1.8rem;
+  background-image: linear-gradient(
+    178deg,
+    $background-color02 88%,
+    $background-color03 calc(89% + 2px)
+  );
 }
 
 .hide-spacer {
