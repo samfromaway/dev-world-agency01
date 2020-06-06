@@ -12,12 +12,7 @@
 .description1 {
   max-width: 330px;
   text-align: left;
-  font-size: 40px;
   margin: 0.2rem 2rem 0.2rem 2rem;
-}
-
-.description1 h3 {
-  font-size: 23px;
 }
 
 .description1-img-wrapper {
@@ -33,12 +28,9 @@
   flex-direction: row-reverse;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 677px) {
   .description1 {
-    width: 300px;
-  }
-  .description1 h3 {
-    text-align: center;
+    margin: 0.2rem 0.2rem 0.2rem 0.2rem;
   }
 }
 

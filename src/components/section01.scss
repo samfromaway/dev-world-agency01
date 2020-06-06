@@ -132,25 +132,12 @@
   max-width: 800px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 677px) {
   .section {
-    padding: 0.6rem;
+    padding: 1.8rem 0.5rem;
   }
-}
 
-@media screen and (max-width: 595px) {
-  .section01 {
-    background-image: linear-gradient(
-      178deg,
-      $background-color02 15%,
-      rgb(241, 241, 241) calc(16% + 2px)
-    );
-  }
-  .section03 {
-    background-image: linear-gradient(
-      178deg,
-      rgb(241, 241, 241) 96%,
-      $background-color02 calc(97% + 2px)
-    );
+  .slim-section {
+    padding: 0.5rem;
   }
 }

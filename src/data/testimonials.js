@@ -1,35 +1,37 @@
+import JakeImg from '../images/testimonials/jake.jpg';
+import WalterImg from '../images/testimonials/walter.jpg';
+
 const testimonials = [
   {
     id: 1,
-    title: 'Jimmy Neutro',
-    img:
-      'https://image.cnbcfm.com/api/v1/image/105595209-1543339207911gettyimages-1069148086.jpeg?v=1543339234',
+    title: 'Jake Johnson',
+    img: JakeImg,
     subTitle: 'United States',
-    desc: 'Sam and Tacha are great Sam anha are great Sam and Tacha are great',
-  },
-  {
-    id: 2,
-    title: 'Jimmy ff dNeutro',
-    img:
-      'https://image.cnbcfm.com/api/v1/image/105595209-1543339207911gettyimages-1069148086.jpeg?v=1543339234',
-    subTitle: 'United Sts',
-    desc: 'Sam and Tacha are great Sam anha are great Sam and Tacha are great',
+    desc:
+      'It is great working with Sam, he is very thorough. I really like his attention to detail. I highly recommend working with him for your website.',
   },
   {
     id: 3,
-    title: 'Jimmywedew Neutro',
-    img:
-      'https://image.cnbcfm.com/api/v1/image/105595209-1543339207911gettyimages-1069148086.jpeg?v=1543339234',
-    subTitle: 'Unates',
-    desc: 'Sam and Tacha are great Sam anha are great Sam and Tacha are great',
+    title: 'Walter Rollin',
+    img: WalterImg,
+    subTitle: 'Switzerland',
+    desc: 'I am very happy about the work Sam and Tacha did. Of course ',
   },
   {
     id: 4,
-    title: 'Jiy Neutro',
-    img:
-      'https://image.cnbcfm.com/api/v1/image/105595209-1543339207911gettyimages-1069148086.jpeg?v=1543339234',
+    title: 'Jake Johnson',
+    img: JakeImg,
     subTitle: 'United States',
-    desc: 'Sam and Tacha are e great Sam and Tacha are great',
+    desc:
+      'It is great working with Sam, he is very thorough. (...) I really like his attention to detail. I highly recommend working with him for your website.',
+  },
+  {
+    id: 5,
+    title: 'Jake Johnson',
+    img: JakeImg,
+    subTitle: 'United States',
+    desc:
+      'It is great working with Sam, he is very thorough. (...) I really like his attention to detail. I highly recommend working with him for your website.',
   },
 ];
 

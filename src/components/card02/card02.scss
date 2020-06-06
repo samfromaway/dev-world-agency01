@@ -12,8 +12,8 @@
   border-radius: $main-border-radius;
   background-image: linear-gradient(
     178deg,
-    $elegant-blue 37%,
-    $background-color03 calc(37% + 2px)
+    $elegant-blue 134px,
+    $background-color03 calc(134px + 2px)
   );
   width: 250px;
 }
@@ -32,7 +32,7 @@
 }
 
 .card02 p {
-  padding: 1rem;
+  padding: 0 0.4rem;
   text-align: left;
 }
 

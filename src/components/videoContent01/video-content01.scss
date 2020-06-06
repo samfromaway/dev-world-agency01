@@ -3,7 +3,6 @@
 .videocontentwrapper01 {
   display: flex;
   margin: auto;
-  width: 100%;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap-reverse;
@@ -15,10 +14,6 @@
   text-align: left;
   font-size: 40px;
   margin: 1rem;
-}
-
-.description1 h3 {
-  font-size: 23px;
 }
 
 .description1-video-wrapper {
@@ -39,8 +34,11 @@
 }
 
 @media screen and (max-width: 570px) {
+  .videocontentwrapper01 {
+    padding: 0rem;
+  }
   .video-content01-video {
-    width: 320px;
+    width: 300px;
     height: 179px;
   }
 }

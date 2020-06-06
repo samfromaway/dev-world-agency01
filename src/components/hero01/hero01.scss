@@ -30,8 +30,10 @@
   width: 10vw;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 677px) {
   .hero01 {
     height: 85vh;
+    background-position: center bottom;
+    padding: 0.8em;
   }
 }
