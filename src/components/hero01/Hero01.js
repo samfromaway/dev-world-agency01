@@ -8,7 +8,7 @@ const Hero01 = () => {
         <h3 className="title08">WE BUILD</h3>
         <h1 className="title02">A WEB PRESENCE</h1>
         <h1 className="title02">TO BE PROUD OF</h1>
-        <h3 className="title07">Passionate | Efficient | Resourceful</h3>
+        <h3 className="title07">Passionate | Efficient | Productive</h3>
       </div>
     </section>
   );

@@ -31,23 +31,23 @@ const IndexPage = () => (
     <section className="section section01">
       <h2 className="title03">How We Work</h2>
       <ImgContent01
-        title="Your Idea"
+        title="Why So Technical?"
         img={Client}
-        desc="You are passionate about your new business idea. We support you with communicating your new idea, so your business grows faster."
+        desc="You are passionate about your new business idea. Communicating this idea to your online clients seems very technical and overwhelming though. This is where we come in..."
         classAdd=""
         animation=""
       />
       <ImgContent01
         title="Your Goal - Our Focus"
         img={BiggerPicture}
-        desc="We have a sales background which makes our agency special. This allows us to focus on your goal, instead of loosing ourselves in technical details."
+        desc="...we have a sales background which makes our agency special. This allows us to focus on your goal, instead of loosing ourselves in technical details..."
         classAdd="wrapreverse01"
         animation=""
       />
       <ImgContent01
         title="Launch Together"
         img={Launch}
-        desc="You are passionate about your new business idea. We support you with communicating your new idea, so your business grows faster."
+        desc="...Let's launch your idea in a way that your clients will love. Working with us makes the process of reaching that goal fun and productive."
         classAdd=""
         animation=""
       />
