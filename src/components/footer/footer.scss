@@ -6,7 +6,7 @@
   min-height: 200px;
   color: $textbright;
   background-color: black;
-  padding: 1em;
+  padding: 1em 1em 3em 1em;
   position: relative;
 }
 
@@ -74,10 +74,10 @@
   text-align: right;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 776px) {
   .footer {
     flex-direction: column;
-    padding: 0;
+    padding: 0 0 3em 0;
   }
 
   .footer-column01 {

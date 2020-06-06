@@ -12,6 +12,7 @@ import ContactForm from '../components/contactForm/ContactForm';
 import SlickCarousel from '../components/slickCarousel/SlickCarousel';
 //images
 import Bulb from '../images/idea.png';
+import BiggerPicture from '../images/bigger-picture.png';
 import Marketing from '../images/bullhorn-solid.svg';
 import Web from '../images/desktop-solid.svg';
 import Design from '../images/feather-alt-solid.svg';
@@ -36,8 +37,8 @@ const IndexPage = () => (
         //animation="appearanim01"
       />
       <ImgContent01
-        title="Your Idea"
-        img={Bulb}
+        title="Your Goal - Our Focus"
+        img={BiggerPicture}
         desc="You are passionate about your new business idea. We support you with communicating your new idea, so your business grows faster."
         classAdd="wrapreverse01"
         //animation="appearanim01"

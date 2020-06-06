@@ -7,7 +7,7 @@ const Card03 = props => {
   return (
     <div className="card03">
       <div className="card03-img-wrapper hoveranim01p">
-        <a href={props.link} target="blank">
+        <a href={props.link} target="_blank">
           <img
             src={props.img}
             alt={props.title}
