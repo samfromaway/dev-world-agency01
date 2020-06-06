@@ -114,7 +114,7 @@ const IndexPage = () => (
           stylesAddText="about-box-text-light"
           stylesAddTitle="about-box-title-light"
         />
-        <ContactForm formName="home_page1" />
+        <ContactForm formName="home_page2" />
       </div>
     </section>
   </Layout>

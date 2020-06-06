@@ -12,7 +12,7 @@ const Contact = () => (
     <section className="section">
       <div className="contact-section-wrapper">
         <AboutBox />
-        <ContactForm formName="contact_page" />
+        <ContactForm formName="contact_page1" />
       </div>
     </section>
   </Layout>
