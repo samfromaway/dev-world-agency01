@@ -95,10 +95,10 @@ const Terms = () => (
       <p>
         The terms and conditions are of Roellin Services under the label of Dev
         World and Dev World Digital Agency as a sole proprietorship from
-        Switzerland. Sonnhaldenstrasse, 6331 Huenenberg which provides the
+        Switzerland. Sonnhaldenstrasse, CH-6331 Huenenberg which provides the
         platform. The website is therefore copyrighted by Roellin Services. ​
-        How To Medellin is a joint venture between Vero International S.A.S,
-        Expat Solutions and Roellin Services.
+        Dev World and Dev World Digital Agency are a joint venture between Vero
+        International S.A.S and Roellin Services.
       </p>
       <h3></h3>
       <p></p>

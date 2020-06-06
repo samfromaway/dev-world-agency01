@@ -25,10 +25,19 @@
   align-items: center;
 }
 
+.country-info-wrapper-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.country-info-wrapper {
+}
+
 .country-info {
   display: flex;
   align-items: center;
-  margin: 0.4em;
+  margin: 0.6em 0.4em;
 }
 
 .country-flag {

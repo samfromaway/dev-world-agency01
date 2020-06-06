@@ -28,30 +28,46 @@ const Footer = () => {
         <div className="footer-column02">
           <h3 className="footer-title">Languages</h3>
           <h4 className="footer-sub-title">We Speak</h4>
-          <div className="country-info-wrapper">
-            <div className="country-info">
-              <img src={USAFlag} alt="Swiss-Flag" className="country-flag" />
-              <h5 className="country-title">English</h5>
+          <div className="country-info-wrapper-wrapper">
+            <div className="country-info-wrapper">
+              <div className="country-info">
+                <img src={USAFlag} alt="Swiss-Flag" className="country-flag" />
+                <h5 className="country-title">English</h5>
+              </div>
+              <div className="country-info">
+                <img
+                  src={GermanyFlag}
+                  alt="Swiss-Flag"
+                  className="country-flag"
+                />
+                <h5 className="country-title">German</h5>
+              </div>
+              <div className="country-info">
+                <img
+                  src={FranceFlag}
+                  alt="Swiss-Flag"
+                  className="country-flag"
+                />
+                <h5 className="country-title">French</h5>
+              </div>
             </div>
-            <div className="country-info">
-              <img
-                src={GermanyFlag}
-                alt="Swiss-Flag"
-                className="country-flag"
-              />
-              <h5 className="country-title">German</h5>
-            </div>
-            <div className="country-info">
-              <img src={SwissFlag} alt="Swiss-Flag" className="country-flag" />
-              <h5 className="country-title">Swiss German</h5>
-            </div>
-            <div className="country-info">
-              <img src={SpainFlag} alt="Swiss-Flag" className="country-flag" />
-              <h5 className="country-title">Spanish</h5>
-            </div>
-            <div className="country-info">
-              <img src={FranceFlag} alt="Swiss-Flag" className="country-flag" />
-              <h5 className="country-title">French</h5>
+            <div className="country-info-wrapper">
+              <div className="country-info">
+                <img
+                  src={SwissFlag}
+                  alt="Swiss-Flag"
+                  className="country-flag"
+                />
+                <h5 className="country-title">Swiss German</h5>
+              </div>
+              <div className="country-info">
+                <img
+                  src={SpainFlag}
+                  alt="Swiss-Flag"
+                  className="country-flag"
+                />
+                <h5 className="country-title">Spanish</h5>
+              </div>
             </div>
           </div>
         </div>
@@ -62,7 +78,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-privacy">
-          <a className="footer-privacy-text" href="" target="_blank">
+          <a className="footer-privacy-text" href="/terms" target="_blank">
             <h4>Terms and Conditions</h4>
           </a>
           <h4 className="footer-privacy-text">
