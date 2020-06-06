@@ -29,7 +29,7 @@ const IndexPage = () => (
     <Hero />
     <StickyBar />
     <section className="section section01">
-      <h2 className="title03">How We Work</h2>
+      <h2 className="title03">Web Presence</h2>
       <ImgContent01
         title="Why So Technical?"
         img={Client}
