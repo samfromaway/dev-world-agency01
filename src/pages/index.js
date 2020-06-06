@@ -120,6 +120,7 @@ const IndexPage = () => (
 
 export default IndexPage;
 
-// hero background color match photo
+// background mobile adjust
+//testimonial height adust mobile
 // prop types
 // ie conform

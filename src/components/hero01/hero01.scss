@@ -5,11 +5,10 @@
   width: 100%;
   height: 84vh;
   flex-direction: column;
-  background: url('../../images/hero.jpg');
+  background: linear-gradient(rgb(59, 0, 32), rgb(12, 0, 47));
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url('../../images/hero.jpg');
   background-position: right top;
-  background-color: rgb(37, 37, 37);
   color: $textbright;
   position: relative;
   background-repeat: no-repeat;
@@ -17,7 +16,6 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 .content-section1 {
