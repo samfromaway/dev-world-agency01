@@ -121,11 +121,5 @@ const IndexPage = () => (
 export default IndexPage;
 
 // hero background color match photo
-// search replace id
-//smoot scroll contact page
-// contact form netlify
-// find replace dev Wolrd
-// terms and conditions
 // prop types
 // ie conform
-// search for undefined in source code

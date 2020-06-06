@@ -46,6 +46,7 @@ const About = () => (
             desc={member.desc}
             img={member.img}
             key={member.id}
+            classAdd=""
           />
         ))}
       </div>

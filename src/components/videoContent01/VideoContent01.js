@@ -12,7 +12,7 @@ const VideoConent01 = props => {
         <h3 className="title05">{props.title}</h3>
         <div>{textWithLineBreak}</div>
       </div>
-      <div className={`description1-video-wrapper ${props.animation}`}>
+      <div className="description1-video-wrapper">
         <iframe
           className="video-content01-video"
           src={props.videoSrc}

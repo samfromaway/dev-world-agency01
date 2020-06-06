@@ -11,7 +11,7 @@ const Contact = () => (
     <PageHeader title="CONTACT" />
     <section className="section">
       <div className="contact-section-wrapper">
-        <AboutBox />
+        <AboutBox stylesAddText="" stylesAddTitle="" />
         <ContactForm formName="contact_page1" />
       </div>
     </section>
