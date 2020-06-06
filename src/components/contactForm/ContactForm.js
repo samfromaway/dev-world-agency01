@@ -18,7 +18,7 @@ const ContactForm = props => {
         data-netlify="true"
       >
         <input type="hidden" name="bot-field" />
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value={props.formName} />
 
         <div className="wrap-input">
           <input className="input" type="text" name="name" required />
