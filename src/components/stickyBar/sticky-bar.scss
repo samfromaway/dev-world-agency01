@@ -19,13 +19,14 @@
 .cta-button {
   position: absolute;
   right: 30px;
-
+  top: 50%;
+  margin-top: -18px;
   border-radius: 20px;
   background-color: rgb(149, 1, 38);
   padding: 0.6em;
   width: 130px;
+  height: 35px;
   justify-self: flex-end;
-  margin: 0;
 }
 
 .cta-button:hover {
