@@ -123,7 +123,6 @@ export default IndexPage;
 // background mobile adjust
 //testimonial height adust mobile
 // prop types
-// ie conform
 // find replace null?
 
 //preload img https://stackoverflow.com/questions/857618/javascript-how-to-extract-filename-from-a-file-input-control

@@ -133,7 +133,7 @@ const OurWork = () => {
       <section className="section slim-section section05 ">
         <h2 className="title09 title-bright">Choose A Category</h2>
         <section className="spacer-our-work"></section>
-        <div className="cards01">
+        <div className="cards04">
           <div
             role="button"
             tabIndex={0}
