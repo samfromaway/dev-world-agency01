@@ -1,6 +1,7 @@
 @import '../variables.scss';
 
 .sticky-bar {
+  position: relative;
   position: sticky;
   display: flex;
   align-items: center;
