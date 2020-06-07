@@ -20,14 +20,14 @@ const About = () => (
       <div className="cards01">
         <Card02Big
           title="Natacha Suter"
-          subTitle="Founder"
+          subTitle="Co-Founder"
           img={Tacha}
           desc="Natacha loves to work with colors and forms to create beautiful and functional designs. She has a happy and outgoing personality and likes to work with honest and straight-forward people."
           classAdd="card02-big"
         />
         <Card02Big
           title="Sam Rollin"
-          subTitle="Founder"
+          subTitle="Co-Founder"
           img={Sam}
           desc="Sam takes care of everything regarding development. He loves to organize things which helps him create websites. Sam appreciates working with people that are passionate about what they do."
           classAdd="card02-big"
