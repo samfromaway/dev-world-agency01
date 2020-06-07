@@ -19,11 +19,12 @@ const team = [
   },
   {
     id: 3,
-    title: 'Jimmy ff dNeutro',
+    title: 'Coco',
     img:
       'https://image.cnbcfm.com/api/v1/image/105595209-1543339207911gettyimages-1069148086.jpeg?v=1543339234',
-    subTitle: 'United Sts',
-    desc: 'Sam and Tacha are great Sam anha are great Sam and Tacha are great',
+    subTitle: 'Office Dog',
+    desc:
+      'Coco is our office dog who reminds us to value the little things. He is the most important team member and our unique selling point.',
   },
 ];
 
