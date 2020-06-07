@@ -100,8 +100,6 @@ const Terms = () => (
         Dev World and Dev World Digital Agency are a joint venture between Vero
         International S.A.S and Roellin Services.
       </p>
-      <h3></h3>
-      <p></p>
     </div>
   </Layout>
 );
