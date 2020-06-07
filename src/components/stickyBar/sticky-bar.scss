@@ -2,10 +2,9 @@
 
 .sticky-bar {
   position: sticky;
-  display: grid;
+  display: flex;
   align-items: center;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-areas: 'swiss title button';
+  justify-content: center;
   height: 8vh;
   top: 0;
   min-height: 60px;
@@ -16,29 +15,9 @@
   width: 100%;
 }
 
-.swiss-info {
-  display: flex;
-  height: 30px;
-  align-items: center;
-  grid-area: swiss;
-}
-
-.swiss-flag {
-  height: 100%;
-  border-radius: 500px;
-  margin-right: 0.8em;
-}
-
-.swiss-title {
-  color: $textbright;
-}
-
-.sticky-bar h3 {
-  grid-area: title;
-}
-
 .cta-button {
-  grid-area: button;
+  position: absolute;
+  right: 30px;
   border-radius: 20px;
   background-color: rgb(149, 1, 38);
 
@@ -53,17 +32,9 @@
   color: black;
 }
 
-@media screen and (max-width: 915px) {
-  .sticky-bar {
-    grid-template-columns: 1fr;
-    grid-template-areas: ' button';
-  }
+@media screen and (max-width: 700px) {
   .sticky-bar h3 {
     display: none;
-  }
-
-  .sticky-bar .button {
-    justify-self: center;
   }
 }
 
@@ -72,5 +43,9 @@
     position: fixed;
     top: auto;
     bottom: 0px;
+  }
+
+  .cta-button {
+    position: relative;
   }
 }
