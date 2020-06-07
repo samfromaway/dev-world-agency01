@@ -1,5 +1,5 @@
 import React from 'react';
-import TransitionLink from 'gatsby-plugin-transition-link';
+import { Link } from 'gatsby';
 
 import MenuBurger from './MenuBurger';
 import './nav-bar.scss';
@@ -17,21 +17,21 @@ const NavBar = props => {
   return (
     <nav className="nav">
       <div>
-        <TransitionLink className="logo" to="/">
+        <Link className="logo" to="/">
           <img alt="Logo" src={Logo} />
           <p className="logo-desc">Dev World</p>
-        </TransitionLink>
+        </Link>
       </div>
       <ul className={toggleMobileNav()}>
         {props.items.map(item => (
           <li key={item.name}>
-            <TransitionLink
+            <Link
               to={item.path}
               className="nav-link"
               activeClassName="nav-active-link"
             >
               {item.name}
-            </TransitionLink>
+            </Link>
           </li>
         ))}
       </ul>

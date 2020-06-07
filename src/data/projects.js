@@ -31,7 +31,7 @@ const projects = [
     id: 2,
     title: 'Kreativgarasch',
     desc:
-      'Kreativgarasch is a photo/design website. The requirements we fullfiled were; Fast loading, secure, simplistic, to-the-point.',
+      'Kreativgarasch is a photo/design website. The requirements we fulfilled were; Fast loading, secure, simplistic, to-the-point.',
     img: KreativgaraschImg,
     icon: PortfolioIcon,
     link: 'https://kreativgarasch.com/',

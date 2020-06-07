@@ -23,7 +23,7 @@ const Contact = () => (
       <ImgContent01
         title="International"
         img={Globe}
-        desc="We (Tacha and Sam) are from Switzerland and moved to Colombia in 2017. We have a network of people working from all over the world. Dev-World is a joint venture between a Swiss and Colombian company. "
+        desc="We (Tacha and Sam) are from Switzerland and moved to Colombia in 2017. We have a network of people working from all over the world. Dev-World is a joint venture between a Swiss and a Colombian company."
         classAdd=""
         animation=""
       />

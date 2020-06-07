@@ -14,6 +14,7 @@ const VideoConent01 = props => {
       </div>
       <div className="description1-video-wrapper">
         <iframe
+          title="video-landing-page01"
           className="video-content01-video"
           src={props.videoSrc}
           frameBorder="0"

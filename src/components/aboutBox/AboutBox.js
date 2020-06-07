@@ -7,7 +7,7 @@ const AboutUsBox = props => {
   return (
     <div className={`about-us-box ${props.stylesAddText}`}>
       <h3 className={`about-us-box-title ${props.stylesAddTitle}`}>
-        You'll Contact:
+        Contact Us:
       </h3>
       <div className="about-us-box-img-wrapper">
         <div className="person-box">
