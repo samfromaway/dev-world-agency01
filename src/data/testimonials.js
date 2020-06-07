@@ -17,7 +17,7 @@ const testimonials = [
     img: WalterImg,
     subTitle: 'Switzerland',
     desc:
-      'I am very happy about the work Sam and Tacha did. They work consistently and are extremely punctual.',
+      'I am very happy about the work Sam and Tacha consistently do for me. You can feel, they really enjoy their work.',
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const testimonials = [
     img: WalterImg,
     subTitle: 'Switzerland',
     desc:
-      'I am very happy about the work Sam and Tacha did. They work consistently and are extremely punctual.',
+      'I am very happy about the work Sam and Tacha consistently do for me. You can feel, they really enjoy their work.',
   },
   {
     id: 6,
