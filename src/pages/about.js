@@ -5,10 +5,7 @@ import SEO from '../components/seo';
 import PageHeader from '../components/pageHeader/PageHeader';
 import Card02 from '../components/card02/Card02';
 import Card02Big from '../components/card02Big/Card02Big';
-import ImgContent01 from '../components/imgContent01/ImgContent01';
 import ContactUsStrip from '../components/contactUsStrip/ContactUsStrip';
-
-import Globe from '../images/globe.png';
 
 import team from '../data/team';
 import Sam from '../images/Samuel.jpg';
@@ -53,16 +50,7 @@ const About = () => (
         ))}
       </div>
     </section>
-    <section className="section">
-      <h2 className="title03">Location</h2>
-      <ImgContent01
-        title="International"
-        img={Globe}
-        desc="We (Tacha and Sam) are from Switzerland and moved to Colombia in 2017. We have a network of people working from all over the world. Dev-World is a joint venture between a Swiss and Colombian company. "
-        classAdd=""
-        animation=""
-      />
-    </section>
+
     <section className="contact-us-strip-wrapper">
       <ContactUsStrip />
     </section>

@@ -12,7 +12,7 @@ const testimonials = [
   },
   {
     id: 2,
-    title: 'Kreativgarach',
+    title: 'Kreativgarasch',
     img: WalterImg,
     subTitle: 'Switzerland',
     desc:
@@ -28,7 +28,7 @@ const testimonials = [
   },
   {
     id: 4,
-    title: 'Kreativgarach',
+    title: 'Kreativgarasch',
     img: WalterImg,
     subTitle: 'Switzerland',
     desc:

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import TransitionLink from 'gatsby-plugin-transition-link';
+
 import MenuBurger from './MenuBurger';
 import './nav-bar.scss';
 import Logo from '../../images/logo.png';
@@ -15,22 +16,22 @@ const NavBar = props => {
 
   return (
     <nav className="nav">
-      <div className="logo">
-        <Link to="/">
+      <div>
+        <TransitionLink className="logo" to="/">
           <img alt="Logo" src={Logo} />
-        </Link>
-        <p className="logo-desc">Dev World</p>
+          <p className="logo-desc">Dev World</p>
+        </TransitionLink>
       </div>
       <ul className={toggleMobileNav()}>
         {props.items.map(item => (
           <li key={item.name}>
-            <Link
+            <TransitionLink
               to={item.path}
               className="nav-link"
               activeClassName="nav-active-link"
             >
               {item.name}
-            </Link>
+            </TransitionLink>
           </li>
         ))}
       </ul>

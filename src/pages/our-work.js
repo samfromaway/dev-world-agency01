@@ -126,7 +126,7 @@ const OurWork = () => {
         <VideoContent01
           title="Our Approach"
           videoSrc="https://www.youtube.com/embed/Bhyg42y1oZg"
-          desc={`We support you from building the website to getting happy clients.\n In the video Sam explains a popular approach we use for Landing Page Websites. This should give you an overview of one possible way how we approach a project.`}
+          desc={`We support you from building the website to getting happy clients.\n In the video Sam explains a popular approach we use for landing-page websites. This should give you an overview of one possible way, of how we approach a project.`}
           classAdd="text-bright "
         />
       </section>

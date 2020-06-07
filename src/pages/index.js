@@ -47,7 +47,7 @@ const IndexPage = () => (
       <ImgContent01
         title="Launch Together"
         img={Launch}
-        desc="...Let's launch your new idea in a way that your clients will love. Working with us makes the process of reaching that goal fun and productive."
+        desc="...let's launch your new idea in a way that your clients will love. Working with us makes the process of reaching that goal fun and productive."
         classAdd=""
         animation=""
       />
@@ -125,6 +125,7 @@ export default IndexPage;
 // gatsby browser clean
 // prop types
 // find replace null in source code?
+// testimonial with project button
 
 //preload img https://stackoverflow.com/questions/857618/javascript-how-to-extract-filename-from-a-file-input-control
 // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js

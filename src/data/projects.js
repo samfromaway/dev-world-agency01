@@ -21,7 +21,7 @@ const projects = [
     id: 1,
     title: 'How To Medellin',
     desc:
-      'This is a site which includes a database fetched directory and a fully functional real estate site, completely built by us.',
+      'This is a website which includes a database fetched directory and a fully functional real estate site, completely built by us.',
     img: HTMImg,
     icon: HTMIcon,
     link: 'https://www.how-to-medellin.com/',
