@@ -29,7 +29,7 @@ const About = () => (
           title="Sam Rollin"
           subTitle="Founder"
           img={Sam}
-          desc="Sam takes care of everything regarding development. He loves to organize things which helps him create websites. Sam appriciates working with people that are passionate about what they do."
+          desc="Sam takes care of everything regarding development. He loves to organize things which helps him create websites. Sam appreciates working with people that are passionate about what they do."
           classAdd="card02-big"
         />
       </div>
