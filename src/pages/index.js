@@ -124,6 +124,7 @@ export default IndexPage;
 //testimonial height adust mobile
 // prop types
 // ie conform
+// find replace null?
 
 //preload img https://stackoverflow.com/questions/857618/javascript-how-to-extract-filename-from-a-file-input-control
 // https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
