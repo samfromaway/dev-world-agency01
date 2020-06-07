@@ -22,9 +22,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: rgb(189, 91, 0);
-  background: linear-gradient(0deg, rgb(156, 36, 0) 0%, rgb(72, 46, 223) 100%);
-
-  /*background: linear-gradient(0deg, #d83d00ab 0%, #997500ca 100%);*/
+  background: linear-gradient(0deg, #d8001dab 0%, #b37a00ca 100%);
 
   outline: 1px solid $elegant-blue-soft-light;
   border-radius: 5px;
