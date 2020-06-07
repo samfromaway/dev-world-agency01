@@ -15,7 +15,12 @@ const Footer = () => {
           <h3 className="footer-title">Social Media</h3>
           <div className="footer-social">
             {socialMedia.map(element => (
-              <a href={element.link} key={element.name}>
+              <a
+                href={element.link}
+                key={element.name}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   className="footer-social-media-icon"
                   src={element.icon}
