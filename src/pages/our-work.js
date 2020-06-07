@@ -86,16 +86,16 @@ const OurWork = () => {
   const categoryTitle = () => {
     switch (chosenCategory) {
       case 'web':
-        return 'Web Projects';
+        return 'Web Development';
 
       case 'design':
-        return 'Design Projects';
+        return 'Design & Branding';
 
       case 'marketing':
-        return 'Marketing Projects';
+        return 'Online Marketing';
 
       default:
-        return 'Web Prodjects';
+        return '';
     }
   };
   useEffect(() => {
@@ -158,7 +158,7 @@ const OurWork = () => {
           >
             <Card04
               icon={Design}
-              title={'Graphic Design'}
+              title={'Design & Branding'}
               desc="Photo Editing"
               buttonText="See Projects"
               activeStyle={card42Style}
