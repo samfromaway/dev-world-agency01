@@ -40,7 +40,7 @@ const IndexPage = () => (
       <ImgContent01
         title="Your Goal - Our Focus"
         img={BiggerPicture}
-        desc="...we have a sales background which makes our agency special. This allows us to focus on your goal, instead of loosing ourselves in technical details..."
+        desc="...we worked many years in sales which makes us see the web differently. This allows us to focus on your goal, instead of loosing ourselves in technical details..."
         classAdd="wrapreverse01"
         animation=""
       />
