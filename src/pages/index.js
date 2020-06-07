@@ -33,21 +33,21 @@ const IndexPage = () => (
       <ImgContent01
         title="Why So Technical?"
         img={Client}
-        desc="You are passionate about your new business idea. Communicating this idea to your online clients seems very technical and overwhelming though. This is where we come in..."
+        desc="You are passionate about your new business idea. Communicating this idea to your online clients seems very technical and overwhelming though. This is where we come in …"
         classAdd=""
         animation=""
       />
       <ImgContent01
-        title="Your Goal - Our Focus"
+        title="Your Goal – Our Focus"
         img={BiggerPicture}
-        desc="...we worked many years in sales which makes us see the web differently. This allows us to focus on your goal, instead of loosing ourselves in technical details..."
+        desc="… we worked many years in sales which makes us see the web differently. This allows us to focus on your goal, instead of loosing ourselves in technical details …"
         classAdd="wrapreverse01"
         animation=""
       />
       <ImgContent01
         title="Launch Together"
         img={Launch}
-        desc="...let's launch your new idea in a way that your clients will love. Working with us makes the process of reaching that goal fun and productive."
+        desc="… let's launch your new idea in a way that your clients will love. Working with us makes the process of reaching that goal fun and productive."
         classAdd=""
         animation=""
       />
