@@ -13,7 +13,9 @@
 
 .logo {
   display: flex;
+  position: relative;
   align-items: center;
+  z-index: 3;
 }
 
 header img {
@@ -24,6 +26,10 @@ header img {
   font-weight: 800;
   color: white;
   padding-left: 0.3em;
+}
+
+.logo:active {
+  text-decoration: none;
 }
 
 .nav-links {
@@ -47,8 +53,6 @@ header img {
   color: rgb(206, 206, 206);
   position: relative;
   overflow: hidden;
-  will-change: color;
-  transition: color 0.3s ease-in;
   padding-bottom: 4px;
 }
 
