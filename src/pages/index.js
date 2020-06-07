@@ -124,3 +124,13 @@ export default IndexPage;
 //testimonial height adust mobile
 // prop types
 // ie conform
+
+//preload img https://stackoverflow.com/questions/857618/javascript-how-to-extract-filename-from-a-file-input-control
+// https://stackoverflow.com/questions/42615556/how-to-preload-images-in-react-js
+// https://www.reddit.com/r/reactjs/comments/4o6hev/how_does_image_preloading_in_react_work/
+/*    
+imagesArray.forEach(picture => {
+  let img = new Image();
+  img = picture;
+});  
+*/
