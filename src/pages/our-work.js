@@ -100,8 +100,10 @@ const OurWork = () => {
   };
   useEffect(() => {
     setCategoryFromURL(window.location.href);
+
     imagesArray.forEach(picture => {
-      new Image().src = picture.fileName;
+      let img = new Image();
+      img = picture;
     });
   }, []);
 
