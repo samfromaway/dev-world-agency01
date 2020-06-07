@@ -33,11 +33,15 @@
     background-position: center bottom;
   }
 }
-@media screen and (max-width: 677px) {
+@media screen and (max-width: 648px) {
   .hero01 {
     height: 77vh;
-    background-position: center bottom;
     padding: 0.8em;
+    background: linear-gradient(rgb(59, 0, 32), rgb(12, 0, 47));
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url('../../images/hero-mobile.jpg');
+    background-position: center bottom;
+    background-size: cover;
   }
 
   .content-section1 {
