@@ -26,6 +26,8 @@ const OurWork = () => {
 
   const anchorRef = useRef(null);
 
+  const imagesArray = projects.map(e => e.img);
+
   const handleSmallCardClick = category => {
     setchosenCategory(category);
     activeStyle(category);
@@ -98,6 +100,10 @@ const OurWork = () => {
   };
   useEffect(() => {
     setCategoryFromURL(window.location.href);
+    imagesArray.forEach(picture => {
+      const img = new Image();
+      img.src = picture.fileName;
+    });
   }, []);
 
   const showCategory = category => {

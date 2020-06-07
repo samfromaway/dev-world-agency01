@@ -8,14 +8,15 @@ const testimonials = [
     img: JakeImg,
     subTitle: 'United States',
     desc:
-      'It is great working with Sam, he is very thorough. I really like his attention to detail. I highly recommend working with him for your website.',
+      'It is great working with Sam, he is very thorough. I really like his attention to detail. I highly recommend working with him.',
   },
   {
     id: 3,
-    title: 'Walter Rollin',
+    title: 'Kreativgarach',
     img: WalterImg,
     subTitle: 'Switzerland',
-    desc: 'I am very happy about the work Sam and Tacha did. Of course ',
+    desc:
+      'I am very happy about the work Sam and Tacha did. They work consistently and are extremely punctual.',
   },
   {
     id: 4,
