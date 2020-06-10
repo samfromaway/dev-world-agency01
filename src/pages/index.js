@@ -100,7 +100,7 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="section section03">
-      <h2 className="title03">Testimonials</h2>
+      <h2 className="title03">Testimonialss</h2>
       <div className="slick-wrapper">
         <SlickCarousel data={testimonials} />
       </div>
