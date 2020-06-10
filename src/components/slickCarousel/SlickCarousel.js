@@ -11,8 +11,8 @@ class SimpleSlider extends React.Component {
       slidesToScroll: 1,
       swipeToSlide: true,
       infinite: true,
-      // autoplay: true,
-      //autoplaySpeed: 3500,
+      autoplay: true,
+      autoplaySpeed: 3500,
       dots: true,
 
       responsive: [
@@ -20,16 +20,13 @@ class SimpleSlider extends React.Component {
           breakpoint: 1000,
           settings: {
             slidesToShow: 2,
-            slidesToScroll: 1,
-            swipeToSlide: true,
           },
         },
         {
           breakpoint: 675,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1,
-            swipeToSlide: true,
+            autoplay: false,
           },
         },
       ],
