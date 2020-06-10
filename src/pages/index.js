@@ -1,4 +1,6 @@
 import React from 'react';
+//data
+import testimonials from '../data/testimonials';
 import Layout from '../components/layout';
 //import Image from "../components/image"
 //components
@@ -20,8 +22,6 @@ import Design from '../images/feather-alt-solid.svg';
 import WebLogos from '../images/WebLogos.png';
 import MarketingLogos from '../images/MarketingLogos.png';
 import DesignLogos from '../images/DesignLogos.png';
-//data
-import testimonials from '../data/testimonials';
 
 const IndexPage = () => (
   <Layout>
