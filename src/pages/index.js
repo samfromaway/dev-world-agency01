@@ -6,9 +6,9 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Hero from '../components/hero/Hero';
 import ImgContent01 from '../components/imgContent01/ImgContent01';
-import ServicesCard from '../components/ServicesCard/ServicesCard';
+import ServicesCard from '../components/servicesCard/ServicesCard';
 import StickyBar from '../components/stickyBar/StickyBar';
-import ContactUsMessageBox from '../components/ContactUsMessageBox/ContactUsMessageBox';
+import ContactUsMessageBox from '../components/contactUsMessageBox/ContactUsMessageBox';
 import ContactForm from '../components/contactForm/ContactForm';
 import SlickCarousel from '../components/slickCarousel/SlickCarousel';
 //images
