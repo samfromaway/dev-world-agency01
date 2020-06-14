@@ -33,7 +33,7 @@ const testimonials = [
     title: 'Fabian Hofstetter',
     img: FabianImg,
     subTitle: 'Switzerland',
-    desc: 'Great work on my logo. Extremely fast and competent.',
+    desc: 'Great work on our logo. Extremely fast and competent.',
   },
 ];
 
