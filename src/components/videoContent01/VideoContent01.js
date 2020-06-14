@@ -7,15 +7,15 @@ const VideoConent01 = props => {
     .map((item, i) => <p key={i}>{item}</p>);
 
   return (
-    <div className={`videocontentwrapper01 ${props.classAdd}`}>
-      <div className="video-description1">
+    <div className={`video-content ${props.classAdd}`}>
+      <div className="video-content__text">
         <h3 className="title05">{props.title}</h3>
         <div>{textWithLineBreak}</div>
       </div>
-      <div className="description1-video-wrapper">
+      <div className="video-content__video-wrapper">
         <iframe
           title="video-landing-page01"
-          className="video-content01-video"
+          className="video-content__video"
           src={props.videoSrc}
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

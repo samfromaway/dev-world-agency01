@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Card03 from '../components/card03/Card03';
 import Card04 from '../components/card04/Card04';
-import VideoContent01 from '../components/videoContent01/VideoContent01';
+import VideoContent01 from '../components/VideoContent01/VideoContent01';
 import SlickCarousel from '../components/slickCarousel/SlickCarousel';
 import ContactUsStrip from '../components/contactUsStrip/ContactUsStrip';
 import PageHeader from '../components/pageHeader/PageHeader';
