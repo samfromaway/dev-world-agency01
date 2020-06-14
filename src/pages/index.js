@@ -6,9 +6,9 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Hero from '../components/hero/Hero';
 import ImgContent01 from '../components/imgContent01/ImgContent01';
-import ServicesCard from '../components/servicesCard/ServicesCard';
+import ServicesCards from '../components/servicesCards/ServicesCards';
 import StickyBar from '../components/stickyBar/StickyBar';
-import ContactMessageBox from '../components/contactMessageBox/ContactUsMessageBox';
+import ContactMessageBox from '../components/contactMessageBox/ContactMessageBox';
 import ContactForm from '../components/contactForm/ContactForm';
 import SlickCarousel from '../components/slickCarousel/SlickCarousel';
 //images
@@ -54,7 +54,7 @@ const IndexPage = () => (
     <section className="section section02">
       <h2 className="title03">Services</h2>
       <div className="cards01">
-        <ServicesCard
+        <ServicesCards
           icon={Web}
           title="Web Development"
           listItems={[
@@ -68,7 +68,7 @@ const IndexPage = () => (
           buttonPath="/our-work/#web"
           logos={WebLogos}
         />
-        <ServicesCard
+        <ServicesCards
           icon={Design}
           title={'Design & Branding'}
           listItems={[
@@ -82,7 +82,7 @@ const IndexPage = () => (
           buttonPath="/our-work/#design"
           logos={DesignLogos}
         />
-        <ServicesCard
+        <ServicesCards
           icon={Marketing}
           title="Online Marketing"
           listItems={[
