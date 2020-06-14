@@ -1,9 +1,9 @@
 import React from 'react';
-import './contact-us-message-box.scss';
+import './contact-message-box.scss';
 import Sam from '../../images/Samuel.jpg';
 import Tacha from '../../images/tacha.jpg';
 
-const ContactUsMessageBox = props => {
+const ContactMessageBox = props => {
   return (
     <div className={`about-us-box ${props.stylesAddText}`}>
       <h3 className={`about-us-box__title ${props.stylesAddTitle}`}>
@@ -32,4 +32,4 @@ const ContactUsMessageBox = props => {
   );
 };
 
-export default ContactUsMessageBox;
+export default ContactMessageBox;
