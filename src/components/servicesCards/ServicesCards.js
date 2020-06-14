@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 import './services-cards.scss';
 
-const ServicesCard = props => {
+const ServicesCards = props => {
   return (
     <div className="services-card">
       <img src={props.icon} alt={props.title} className="services-card__icon" />
@@ -27,4 +27,4 @@ const ServicesCard = props => {
   );
 };
 
-export default ServicesCard;
+export default ServicesCards;
