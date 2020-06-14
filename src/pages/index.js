@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 //components
 import SEO from '../components/seo';
 import Hero from '../components/Hero/Hero';
-import ImgContent01 from '../components/ImgContent01/ImgContent01';
+import ImgContent01 from '../components/imgContent01/ImgContent01';
 import ServicesCard from '../components/ServicesCard/ServicesCard';
 import StickyBar from '../components/StickyBar/StickyBar';
 import ContactUsMessageBox from '../components/ContactUsMessageBox/ContactUsMessageBox';
