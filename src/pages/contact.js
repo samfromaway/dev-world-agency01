@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import AboutBox from '../components/aboutBox/AboutBox';
+import ContactUsMessageBox from '../components/ContactUsMessageBox/ContactUsMessageBox';
 import ContactForm from '../components/contactForm/ContactForm';
 import PageHeader from '../components/pageHeader/PageHeader';
 import ImgContent01 from '../components/ImgContent01/ImgContent01';
@@ -14,7 +14,7 @@ const Contact = () => (
     <PageHeader title="CONTACT" />
     <section className="section section02">
       <div className="contact-section-wrapper">
-        <AboutBox stylesAddText="" stylesAddTitle="" />
+        <ContactUsMessageBox stylesAddText="" stylesAddTitle="" />
         <ContactForm formName="contact_page1" />
       </div>
     </section>

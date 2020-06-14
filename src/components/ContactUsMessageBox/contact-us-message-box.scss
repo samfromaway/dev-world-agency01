@@ -4,52 +4,49 @@
   margin: 1rem;
   min-width: 320px;
   max-width: 400px;
-  flex: 1;
   color: $textdark;
 }
 
-.about-us-box-title {
+.about-us-box__title {
   color: $textdark;
+  margin-top: 1em;
 }
 
-.about-us-box-img-wrapper {
+.person-box-wrapper {
   display: flex;
   justify-content: center;
   flex-direction: row;
   margin: 1.5rem;
 }
 
-.about-us-box-title {
-  margin-top: 1em;
-}
-
-.about-us-box-img {
+.person-box__img {
   border-radius: 500px;
   width: 130px;
   margin: 1em 1em 0 1em;
 }
 
-.person-box-name {
+.person-box__name {
   font-weight: 700;
 }
 
-.person-box-position {
+.person-box__position {
   font-style: italic;
 }
 
-.about-us-box-text {
+.about-us-box__text {
   text-align: left;
 }
 
-.about-box-text-light {
+.about-box__title-light {
   color: $textbright;
 }
-.about-box-title-light {
+
+.about-box__text-light {
   color: $textbright;
 }
 
 @media screen and (max-width: 677px) {
-  .about-us-box-title {
-    margin: 0;
+  .about-us-box__title {
+    display: none;
   }
 }

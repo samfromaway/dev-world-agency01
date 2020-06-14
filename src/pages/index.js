@@ -8,7 +8,7 @@ import Hero from '../components/Hero/Hero';
 import ImgContent01 from '../components/ImgContent01/ImgContent01';
 import ServicesCard from '../components/ServicesCard/ServicesCard';
 import StickyBar from '../components/StickyBar/StickyBar';
-import AboutBox from '../components/aboutBox/AboutBox';
+import ContactUsMessageBox from '../components/ContactUsMessageBox/ContactUsMessageBox';
 import ContactForm from '../components/contactForm/ContactForm';
 import SlickCarousel from '../components/slickCarousel/SlickCarousel';
 //images
@@ -107,9 +107,9 @@ const IndexPage = () => (
     <section className="section section04">
       <h2 className="title03 title03-light">Contact Us</h2>
       <div className="contact-section-wrapper">
-        <AboutBox
-          stylesAddText="about-box-text-light"
-          stylesAddTitle="about-box-title-light"
+        <ContactUsMessageBox
+          stylesAddText="about-box__text-light"
+          stylesAddTitle="about-box__title-light"
         />
         <ContactForm formName="home_page2" />
       </div>
