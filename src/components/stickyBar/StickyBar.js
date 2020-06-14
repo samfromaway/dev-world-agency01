@@ -2,16 +2,16 @@ import React from 'react';
 import ButtonInt from '../button01/ButtonInt';
 import './sticky-bar.scss';
 
-const StickyBar = pros => {
+const StickyBar = () => {
   return (
-    <section className="sticky-bar">
+    <div className="sticky-bar">
       <h3 className="title01">DEV WORLD DIGITAL AGENCY</h3>
       <ButtonInt
         text="CONTACT"
         path="/contact"
-        addClasses="pulse01 cta-button"
+        addClasses="sticky-bar__button pulse01"
       />
-    </section>
+    </div>
   );
 };
 

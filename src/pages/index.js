@@ -7,7 +7,7 @@ import SEO from '../components/seo';
 import Hero from '../components/Hero/Hero';
 import ImgContent01 from '../components/ImgContent01/ImgContent01';
 import ServicesCard from '../components/ServicesCard/ServicesCard';
-import StickyBar from '../components/stickyBar/StickyBar';
+import StickyBar from '../components/StickyBar/StickyBar';
 import AboutBox from '../components/aboutBox/AboutBox';
 import ContactForm from '../components/contactForm/ContactForm';
 import SlickCarousel from '../components/slickCarousel/SlickCarousel';
