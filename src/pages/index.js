@@ -6,8 +6,8 @@ import Layout from '../components/layout';
 //components
 import SEO from '../components/seo';
 import Hero from '../components/hero01/Hero01';
-import ImgContent01 from '../components/imgContent01/ImgContent01';
-import Card01 from '../components/card01/Card01';
+import ImgContent01 from '../components/ImgContent01/ImgContent01';
+import ServicesCard from '../components/ServicesCard/ServicesCard';
 import StickyBar from '../components/stickyBar/StickyBar';
 import AboutBox from '../components/aboutBox/AboutBox';
 import ContactForm from '../components/contactForm/ContactForm';
@@ -55,7 +55,7 @@ const IndexPage = () => (
     <section className="section section02">
       <h2 className="title03">Services</h2>
       <div className="cards01">
-        <Card01
+        <ServicesCard
           icon={Web}
           title="Web Development"
           listItems={[
@@ -69,7 +69,7 @@ const IndexPage = () => (
           buttonPath="/our-work/#web"
           logos={WebLogos}
         />
-        <Card01
+        <ServicesCard
           icon={Design}
           title={'Design & Branding'}
           listItems={[
@@ -83,7 +83,7 @@ const IndexPage = () => (
           buttonPath="/our-work/#design"
           logos={DesignLogos}
         />
-        <Card01
+        <ServicesCard
           icon={Marketing}
           title="Online Marketing"
           listItems={[

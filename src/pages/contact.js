@@ -4,7 +4,7 @@ import SEO from '../components/seo';
 import AboutBox from '../components/aboutBox/AboutBox';
 import ContactForm from '../components/contactForm/ContactForm';
 import PageHeader from '../components/pageHeader/PageHeader';
-import ImgContent01 from '../components/imgContent01/ImgContent01';
+import ImgContent01 from '../components/ImgContent01/ImgContent01';
 
 import Globe from '../images/globe.png';
 

@@ -1,0 +1,43 @@
+@import '../variables.scss';
+
+.services-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $card-background-color;
+  width: 250px;
+  box-shadow: $box-shadow01;
+  border-radius: $main-border-radius;
+  margin: 0.8rem;
+  overflow: hidden;
+}
+
+.services-card__icon {
+  height: 45px;
+  margin: 1.2em 0.5em;
+}
+
+.services-card__logos-wrapper {
+  width: 100%;
+  background-color: $elegant-blue;
+}
+
+.services-card__logos {
+  width: 220px;
+}
+
+.services-card ul {
+  margin-top: 0.5em;
+  margin-bottom: auto;
+}
+
+.services-card ul li {
+  color: $textdark;
+  padding: 0.25em;
+  text-align: left;
+}
+
+.services-card .button {
+  margin: 1rem 1rem 1.3rem 1rem;
+}
