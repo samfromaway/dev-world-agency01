@@ -4,7 +4,7 @@ import testimonials from '../data/testimonials';
 import Layout from '../components/layout';
 //components
 import SEO from '../components/seo';
-import Hero from '../components/hero/Hero';
+import Hero from '../components/heroMain/Hero';
 import ImgContent01 from '../components/imgContent01/ImgContent01';
 import ServicesCard from '../components/ServicesCard/ServicesCard';
 import StickyBar from '../components/stickyBar/StickyBar';
