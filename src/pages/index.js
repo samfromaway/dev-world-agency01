@@ -2,10 +2,9 @@ import React from 'react';
 //data
 import testimonials from '../data/testimonials';
 import Layout from '../components/layout';
-//import Image from "../components/image"
 //components
 import SEO from '../components/seo';
-import Hero from '../components/hero01/Hero01';
+import Hero from '../components/Hero/Hero';
 import ImgContent01 from '../components/ImgContent01/ImgContent01';
 import ServicesCard from '../components/ServicesCard/ServicesCard';
 import StickyBar from '../components/stickyBar/StickyBar';
