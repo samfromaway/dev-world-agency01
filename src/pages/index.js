@@ -41,7 +41,7 @@ const IndexPage = () => (
         title="Your Goal – Our Focus"
         img={BiggerPicture}
         desc="… we worked many years in sales which makes us see the web differently. This allows us to focus on your goal, instead of loosing ourselves in technical details …"
-        classAdd="wrapreverse01"
+        classAdd="img-content-img-wrapreverse"
         animation=""
       />
       <ImgContent01
