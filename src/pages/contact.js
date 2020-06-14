@@ -12,7 +12,7 @@ const Contact = () => (
   <Layout>
     <SEO title="Contact" />
     <PageHeader title="CONTACT" />
-    <section className="section section02">
+    <section className="section section09">
       <div className="contact-section-wrapper">
         <ContactUsMessageBox stylesAddText="" stylesAddTitle="" />
         <ContactForm formName="contact_page1" />

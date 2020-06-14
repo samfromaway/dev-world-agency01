@@ -73,6 +73,16 @@
   padding-bottom: 80px;
 }
 
+.section09 {
+  background-image: linear-gradient(
+    178deg,
+    $background-color02 88%,
+    $background-color03 calc(89% + 2px)
+  );
+  padding-top: 0;
+  padding-bottom: 80px;
+}
+
 .section-light-color {
   background-color: $background-color03;
 }
@@ -147,6 +157,10 @@
       $background-color03 92%,
       $elegant-blue-soft-light calc(92% + 2px)
     );
+  }
+
+  .section09 {
+    padding: 0;
   }
 
   .project-section {

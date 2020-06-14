@@ -46,6 +46,10 @@
 }
 
 @media screen and (max-width: 677px) {
+  .person-box-wrapper {
+    margin: 0;
+  }
+
   .about-us-box__title {
     display: none;
   }
