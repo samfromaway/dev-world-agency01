@@ -1,12 +1,12 @@
-import UserMale from '../images/user.jpg';
-import UserFemale from '../images/user2.jpg';
+import Orlando from '../images/orlando.jpeg';
+import Ana from '../images/ana.jpeg';
 import Coco from '../images/coco.jpg';
 
 const team = [
   {
     id: 1,
     title: 'Ana Caceres',
-    img: UserFemale,
+    img: Ana,
     subTitle: 'Quality Control',
     desc:
       'Ana is responsible for Quality Control. Her eye for detail finds even the tiniest flaws, so we are able to provide you with a polished product.',
@@ -14,7 +14,7 @@ const team = [
   {
     id: 2,
     title: 'Orlando Gonzalez',
-    img: UserMale,
+    img: Orlando,
     subTitle: 'Translation',
     desc:
       'Orlando is our main translator for English to Spanish. His command of both languages allows us to reach the Latin American market.',
