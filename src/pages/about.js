@@ -6,10 +6,13 @@ import PageHeader from '../components/pageHeader/PageHeader';
 import Card02 from '../components/card02/Card02';
 import Card02Big from '../components/card02Big/Card02Big';
 import ContactUsStrip from '../components/contactUsStrip/ContactUsStrip';
+import ImgContent02 from '../components/imgContent02/ImgContent02';
 
 import team from '../data/team';
 import Sam from '../images/Samuel.jpg';
 import Tacha from '../images/tacha.jpg';
+import Client from '../images/client.png';
+import WhyUs from '../images/why-us.png';
 
 const About = () => (
   <Layout>
@@ -50,7 +53,14 @@ const About = () => (
         ))}
       </div>
     </section>
-
+    <section className="section section07">
+      <h2 className="title03">Why Us</h2>
+      <ImgContent02
+        title="Combining The Best Of Many Worlds"
+        img={WhyUs}
+        classAdd=""
+      />
+    </section>
     <section className="contact-us-strip-wrapper">
       <ContactUsStrip />
     </section>

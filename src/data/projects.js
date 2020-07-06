@@ -52,11 +52,10 @@ const projects = [
     id: 4,
     title: 'Jake | Life Coach',
     desc:
-      'We created an extended wire-frame incl. design for a 5 page website. Important was to keep the design elegant and professional.',
+      'We created a personal coach website with a logo, branding and a blog. Important was to keep the design elegant and professional.',
     img: JakeLifeImg,
     icon: JakeLifeIcons,
-    link:
-      'https://www.figma.com/file/ng8MsWUSHFlJtUdCVYu1Oi/Jake?node-id=0%3A1',
+    link: 'https://lifebyjake.com/',
     category: 'design',
   },
   {
