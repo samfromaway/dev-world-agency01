@@ -15,19 +15,19 @@ const ImgContent02 = props => {
           We are Natacha and Sam and we moved from Switzerland to Colombia in
           2017. <br /> <br />
           We created Dev World Agency with the over-arching mission to combine
-          the best of many worlds.Firstly we want to combine the best of
+          the best of many worlds.Firstly we want to combine the best traits of
           Switzerland, which are precision, attention to detail and efficiency,
           with the creativity and the flair of Latin America to create amazing
           things. <br /> <br />
           Furthermore we want to connect our combined 15 years of sales
           experience in Switzerland and Colombia, with our technical knowledge
-          in regards to web development, online marketing and design.This is
-          what we strongly believe makes our agency special. <br /> <br />
-          We focus on sales first, because we know this is the purpose why
-          clients work with us, they want to sell more. Thats why we are able to
-          stay grounded and not loose ourselves in technical details. We work
-          with passion and with your goal in mind, so our projects are fun and
-          generate real results.
+          in regards to web development, online marketing and design. <br />
+          <br />
+          We focus on sales first, because we know this is why clients work with
+          us, they want to sell more. That's why we are able to stay grounded
+          and not lose ourselves in technical details. We work with passion and
+          with your goal in mind, so our projects are fun and generate real
+          results.
         </p>
       </div>
     </div>
