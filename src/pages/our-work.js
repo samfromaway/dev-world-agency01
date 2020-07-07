@@ -24,9 +24,9 @@ const OurWork = () => {
   const [card42Style, setCard42Style] = useState('');
   const [card43Style, setCard43Style] = useState('');
 
-  const anchorRef = useRef(null);
+  console.log(chosenCategory);
 
-  const imagesArray = projects.map(e => e.img);
+  const anchorRef = useRef(null);
 
   const handleSmallCardClick = category => {
     setchosenCategory(category);
@@ -102,22 +102,6 @@ const OurWork = () => {
     setCategoryFromURL(window.location.href);
   }, []);
 
-  const showCategory = category => {
-    if (category === 'web') {
-      return projects.filter(project => project.category === 'web').slice(0, 3);
-    } else if (category === 'design') {
-      return projects
-        .filter(project => project.category === 'design')
-        .slice(0, 3);
-    } else if (category === 'marketing') {
-      return projects
-        .filter(project => project.category === 'marketing')
-        .slice(0, 3);
-    } else {
-      return projects.filter(project => project.category === 'web').slice(0, 3);
-    }
-  };
-
   return (
     <Layout>
       <SEO title="Our Work" />
@@ -185,7 +169,7 @@ const OurWork = () => {
         <div ref={anchorRef} className="anchor"></div>
         <h2 className="title10">{categoryTitle()}</h2>
         <div className="cards01">
-          {showCategory(chosenCategory).map(project => (
+          {projects.map(project => (
             <Card03
               key={project.id}
               title={project.title}
@@ -193,6 +177,9 @@ const OurWork = () => {
               img={project.img}
               icons={project.icon}
               link={project.link}
+              active={
+                project.category === chosenCategory ? 'card03-active' : ''
+              }
             />
           ))}
         </div>

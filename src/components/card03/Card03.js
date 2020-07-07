@@ -5,7 +5,7 @@ import './card03.scss';
 
 const Card03 = props => {
   return (
-    <div className="card03">
+    <div className={`card03 ${props.active}`}>
       <div className="card03-img-wrapper hoveranim01p">
         <a href={props.link} target="_blank" rel="noreferrer">
           <img

@@ -1,13 +1,17 @@
 @import '../variables.scss';
 
 .card03 {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 270px;
   margin: 0.8rem;
   overflow: hidden;
+}
+
+.card03-active {
+  display: flex;
 }
 
 .card03-img {
