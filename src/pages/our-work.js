@@ -24,8 +24,6 @@ const OurWork = () => {
   const [card42Style, setCard42Style] = useState('');
   const [card43Style, setCard43Style] = useState('');
 
-  console.log(chosenCategory);
-
   const anchorRef = useRef(null);
 
   const handleSmallCardClick = category => {
