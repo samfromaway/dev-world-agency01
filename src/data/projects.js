@@ -48,28 +48,8 @@ const projects = [
     link: 'https://www.how-to-medellin.com/',
     category: 'web',
   },
-
   {
     id: 4,
-    title: 'Jake | Life Coach',
-    desc:
-      'We were able to created a personal coach website with a logo, branding and a blog. Important was to keep the design elegant and professional.',
-    img: JakeLifeImg,
-    icon: JakeLifeIcons,
-    link: 'https://lifebyjake.com/',
-    category: 'design',
-  },
-  {
-    id: 5,
-    title: 'Joker.Shotz Logo',
-    desc: `This is a logo for a car photography business. What's special about the project is that we were able to deliver the logo in under 3 hours.`,
-    img: JokerLogo,
-    icon: LogoIcons,
-    link: 'https://dev-world.agency/JokerShotzLogo01.jpg',
-    category: 'design',
-  },
-  {
-    id: 6,
     title: 'Social Spanish',
     desc:
       'Social Spanish is a website of an online entrepreneur. The goal of the website was to generate more leads, which we achieved with a special quiz.',
@@ -79,6 +59,26 @@ const projects = [
     category: 'design',
   },
 
+  {
+    id: 5,
+    title: 'Joker.Shotz Logo',
+    desc: `This is a logo for a car photography business. What's special about the project is that we were able to deliver the logo in under 3 hours.`,
+    img: JokerLogo,
+    icon: LogoIcons,
+    link: 'https://dev-world.agency/JokerShotzLogo01.jpg',
+    category: 'design',
+  },
+
+  {
+    id: 6,
+    title: 'Jake | Life Coach',
+    desc:
+      'We were able to created a personal coach website with a logo, branding and a blog. Important was to keep the design elegant and professional.',
+    img: JakeLifeImg,
+    icon: JakeLifeIcons,
+    link: 'https://lifebyjake.com/',
+    category: 'design',
+  },
   {
     id: 7,
     title: 'BIBUS',
