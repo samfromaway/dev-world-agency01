@@ -1,8 +1,8 @@
 import React, { useState, Fragment } from 'react';
 import './quiz.scss';
 import '../contactForm/contact-form.scss';
-import QuizStep01 from './quizStep01';
-import QuizStep02 from './quizStep02';
+import QuizStep01 from './QuizStep01';
+import QuizStep02 from './QuizStep02';
 import QuizStep03 from './QuizStep03';
 
 const QuizMain = ({ step, setStep }) => {
