@@ -14,7 +14,7 @@ const QuizStep03 = ({ answers }) => {
       >
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="home_page2" />
-        <input type="hidden" name="form-name" value={answers()} />
+        <input type="hidden" name="answers" value={answers()} />
 
         <div className="wrap-input">
           <input className="input" type="text" name="name" required />
