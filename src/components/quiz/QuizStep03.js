@@ -1,17 +1,16 @@
 import React from 'react';
 
 const QuizStep03 = ({ answers }) => {
-  console.log(answers());
   return (
     <div>
       <form
+        style={{ maxWidth: 500, margin: 'auto' }}
         name="quizForm01"
         className="contact-form"
         method="post"
         netlify-honeypot="bot-field"
         data-netlify="true"
-        action="/thanks"
-        style={{ maxWidth: 500, margin: 'auto' }}
+        action="/thanks/"
       >
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="quizForm01" />
