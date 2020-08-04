@@ -4,7 +4,7 @@ const QuizStep03 = ({ answers }) => {
   return (
     <div>
       <form
-        //style={{ maxWidth: 500, margin: 'auto' }}
+        style={{ maxWidth: 500, margin: 'auto' }}
         name="home_page2"
         className="contact-form"
         method="post"
