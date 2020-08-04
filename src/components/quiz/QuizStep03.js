@@ -10,7 +10,7 @@ const QuizStep03 = ({ answers }) => {
         method="post"
         netlify-honeypot="bot-field"
         data-netlify="true"
-        action="/thanks/"
+        // action="/thanks/"
       >
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="quizForm01" />

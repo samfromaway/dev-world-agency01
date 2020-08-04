@@ -1,7 +1,6 @@
 import HTMImg from '../images/our-work/howtomedellin01.png';
 import HTMIcon from '../images/our-work/Icons02-HTM.png';
 import HTEImg from '../images/our-work/how-to-expat01.png';
-import HTEIcon1 from '../images/our-work/Icons02-HTE.png';
 import BibusIcon from '../images/our-work/Icons02-BIBUS.png';
 import BibusImg from '../images/our-work/bibus01.png';
 import MSM from '../images/our-work/msmnet.png';

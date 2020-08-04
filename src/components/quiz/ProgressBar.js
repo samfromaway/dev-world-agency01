@@ -10,6 +10,8 @@ const ProgressBar = props => {
         return 50;
       case 3:
         return 94;
+      default:
+        10;
     }
   };
 

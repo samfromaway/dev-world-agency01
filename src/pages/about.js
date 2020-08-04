@@ -11,7 +11,6 @@ import ImgContent02 from '../components/imgContent02/ImgContent02';
 import team from '../data/team';
 import Sam from '../images/Samuel.jpg';
 import Tacha from '../images/tacha.jpg';
-import Client from '../images/client.png';
 import WhyUs from '../images/why-us.png';
 
 const About = () => (
