@@ -6,8 +6,8 @@ const ContactUsStrip = () => {
   return (
     <div className="contact-us-strip">
       <ButtonInt
-        path="/contact"
-        text="CONTACT US NOW"
+        path="/quiz"
+        text="FREE QUIZ"
         addClasses="button-light pulse01"
       />
     </div>

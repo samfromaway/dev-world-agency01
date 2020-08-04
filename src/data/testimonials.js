@@ -1,6 +1,7 @@
 import JakeImg from '../images/testimonials/jake.jpg';
 import WalterImg from '../images/testimonials/walter.jpg';
-import You from '../images/testimonials/you.jpg';
+import Violeta from '../images/testimonials/violeta.jpg';
+import Msmnet from '../images/testimonials/msmnet.jpg';
 import FabianImg from '../images/testimonials/fabian.jpg';
 
 const testimonials = [
@@ -22,11 +23,11 @@ const testimonials = [
   },
   {
     id: 3,
-    title: 'You?',
-    img: You,
-    subTitle: 'International',
+    title: 'Mark Marsh',
+    img: Msmnet,
+    subTitle: 'United States',
     desc:
-      'We would love to have you as our next happy client. Send us a message with your project and we get going.',
+      'Dev World was both responsive and innovative in its approach to developing our new website. We can’t wait for our next project.',
   },
   {
     id: 4,
@@ -34,6 +35,14 @@ const testimonials = [
     img: FabianImg,
     subTitle: 'Switzerland',
     desc: 'Great work on our logo. Extremely fast and competent.',
+  },
+  {
+    id: 5,
+    title: 'Violeta Bernal',
+    img: Violeta,
+    subTitle: 'Colombia',
+    desc:
+      'If you want professionalism you need Dev World because their work is impeccable!',
   },
 ];
 

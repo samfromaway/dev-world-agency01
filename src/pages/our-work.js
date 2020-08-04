@@ -126,8 +126,6 @@ const OurWork = () => {
             <Card04
               icon={Web}
               title="Web Development"
-              desc="We help you create a stunning website that generates leads and helps existing customers navigate your offer."
-              buttonText="See Examples"
               activeStyle={card41Style}
             />
           </div>
@@ -141,8 +139,6 @@ const OurWork = () => {
             <Card04
               icon={Design}
               title={'Design & Branding'}
-              desc="Photo Editing"
-              buttonText="See Projects"
               activeStyle={card42Style}
             />
           </div>
@@ -156,8 +152,6 @@ const OurWork = () => {
             <Card04
               icon={Marketing}
               title="Online Marketing"
-              desc="SEO Strategy"
-              buttonText="See Projects"
               activeStyle={card43Style}
             />
           </div>

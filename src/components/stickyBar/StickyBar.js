@@ -7,8 +7,8 @@ const StickyBar = () => {
     <div className="sticky-bar">
       <h3 className="title01">DEV WORLD DIGITAL AGENCY</h3>
       <ButtonInt
-        text="CONTACT"
-        path="/contact"
+        text="FREE QUIZ"
+        path="/quiz"
         addClasses="sticky-bar__button pulse01"
       />
     </div>
