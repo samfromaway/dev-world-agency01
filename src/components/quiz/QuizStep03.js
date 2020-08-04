@@ -1,32 +1,19 @@
 import React from 'react';
 
 const QuizStep03 = ({ answers }) => {
-  const encode = data => {
-    return Object.keys(data)
-      .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-      .join('&');
-  };
-  const handleSubmit = e => {
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({ 'form-name': 'quizForm01', answers }),
-    })
-      .then(() => alert('Success!'))
-      .catch(error => alert(error));
-
-    e.preventDefault();
-  };
   return (
     <div>
       <form
         style={{ maxWidth: 500, margin: 'auto' }}
+        name="quizForm01"
         className="contact-form"
-        onSubmit={handleSubmit}
+        method="post"
+        netlify-honeypot="bot-field"
+        data-netlify="true"
+        action="/thanks"
       >
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="quizForm01" />
-        <input type="hidden" name="answers" value={answers()} />
 
         <div className="wrap-input">
           <input className="input" type="text" name="name" required />
