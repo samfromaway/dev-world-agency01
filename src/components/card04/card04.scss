@@ -18,11 +18,12 @@
   overflow: hidden;
   cursor: pointer;
   text-decoration: none;
+  transition: transform 0.2s ease;
+  text-align: center;
 }
 
 .card04:hover {
   transform: scale(1.04);
-  transition: transform 0.2s ease;
 }
 
 .card04-active {

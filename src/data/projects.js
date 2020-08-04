@@ -21,7 +21,7 @@ const projects = [
   {
     id: 1,
     title: 'Accounting App',
-    desc: `This is an accounting app for income, expenses and capital. It's built with react.js, Firebase and Material design. Login is test@test.com - 123456`,
+    desc: `This is an accounting app for income, expenses and capital. It's built with React.js, Firebase and Material Design. Login is test@test.com - 123456`,
     img: AccountingImg,
     icon: AccountingIcon,
     link: 'https://accounting3-test-env-dev.netlify.app/',

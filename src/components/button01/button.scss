@@ -12,7 +12,7 @@
   padding: 0.8em;
   box-shadow: none;
   border: none;
-  transition-duration: 0.4s;
+  transition: all ease-in 0.2s;
   outline: none;
   margin: 1rem;
   text-decoration: none;
@@ -49,4 +49,13 @@
 .button-light {
   background-color: white;
   color: $elegant-blue;
+}
+
+.quiz-button {
+}
+
+.button-ghost {
+  background-color: transparent;
+  color: $elegant-blue;
+  border: 2px solid $elegant-blue;
 }
