@@ -55,68 +55,60 @@ const QuizMain = ({ step, setStep }) => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-  switch (step) {
-    case 1:
-      return (
-        <Fragment>
-          <h2>Dev-World Quiz</h2>
-          <QuizStep01
-            chosenCategory={chosenCategory}
-            setchosenCategory={setchosenCategory}
-            currentWebsite={currentWebsite}
-            setCurrentWebsite={setCurrentWebsite}
-          />
-          <div className="quizButtonBox">
-            <button className=" button  btn-small" onClick={nextStep}>
-              Next
-            </button>
-          </div>
-        </Fragment>
-      );
-    case 2:
-      return (
-        <Fragment>
-          <h2>Step 2</h2>
-          <QuizStep02
-            brands={brands}
-            setBrands={setBrands}
-            color={color}
-            setColor={setColor}
-            goal={goal}
-            setGoal={setGoal}
-            employees={employees}
-            setEmployees={setEmployees}
-          />
-          <div className="quizButtonBox">
-            <button
-              className=" button button-ghost btn-small"
-              onClick={prevStep}
-            >
-              Back
-            </button>
-            <button className=" button  btn-small" onClick={nextStep}>
-              Next
-            </button>
-          </div>
-        </Fragment>
-      );
-    case 3:
-      return (
-        <Fragment>
-          <h2>Almost Done 😉</h2>
-          <QuizStep03 answers={answers} />
-          <div style={{ marginBottom: 30 }} />
-          <div className="quizButtonBox">
-            <button
-              className=" button button-ghost btn-small"
-              onClick={prevStep}
-            >
-              Back
-            </button>
-          </div>
-        </Fragment>
-      );
-  }
+
+  // Make sure the contact form is exists as the static
+  // site generation needs it to connect the backend to netlify
+  // that means don't put a switch statement that returns the components per step
+  // but return all the components and hide the ones not used
+  return (
+    <Fragment>
+      <div style={step === 1 ? { display: 'block' } : { display: 'none' }}>
+        <h2>Dev-World Quiz</h2>
+        <QuizStep01
+          chosenCategory={chosenCategory}
+          setchosenCategory={setchosenCategory}
+          currentWebsite={currentWebsite}
+          setCurrentWebsite={setCurrentWebsite}
+        />
+        <div className="quizButtonBox">
+          <button className=" button  btn-small" onClick={nextStep}>
+            Next
+          </button>
+        </div>
+      </div>
+      <div style={step === 2 ? { display: 'block' } : { display: 'none' }}>
+        <h2>Step 2</h2>
+        <QuizStep02
+          brands={brands}
+          setBrands={setBrands}
+          color={color}
+          setColor={setColor}
+          goal={goal}
+          setGoal={setGoal}
+          employees={employees}
+          setEmployees={setEmployees}
+        />
+        <div className="quizButtonBox">
+          <button className=" button button-ghost btn-small" onClick={prevStep}>
+            Back
+          </button>
+          <button className=" button  btn-small" onClick={nextStep}>
+            Next
+          </button>
+        </div>
+      </div>
+      <div style={step === 3 ? { display: 'block' } : { display: 'none' }}>
+        <h2>Almost Done 😉</h2>
+        <QuizStep03 answers={answers} />
+        <div style={{ marginBottom: 30 }} />
+        <div className="quizButtonBox">
+          <button className=" button button-ghost btn-small" onClick={prevStep}>
+            Back
+          </button>
+        </div>
+      </div>
+    </Fragment>
+  );
 };
 
 export default QuizMain;
