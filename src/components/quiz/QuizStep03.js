@@ -5,7 +5,7 @@ const QuizStep03 = ({ answers }) => {
     <div>
       <form
         style={{ maxWidth: 500, margin: 'auto' }}
-        name="home_page2"
+        name="quiz1"
         className="contact-form"
         method="post"
         netlify-honeypot="bot-field"
@@ -13,7 +13,7 @@ const QuizStep03 = ({ answers }) => {
         action="/thanks"
       >
         <input type="hidden" name="bot-field" />
-        <input type="hidden" name="form-name" value="home_page2" />
+        <input type="hidden" name="form-name" value="quiz1" />
         <input type="hidden" name="answers" value={answers()} />
 
         <div className="wrap-input">
