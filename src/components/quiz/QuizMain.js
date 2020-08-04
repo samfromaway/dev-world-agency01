@@ -8,6 +8,20 @@ import QuizStep03 from './QuizStep03';
 const QuizMain = ({ step, setStep }) => {
   const [chosenCategory, setchosenCategory] = useState('');
   const [currentWebsite, setCurrentWebsite] = useState('');
+  const [employees, setEmployees] = useState('');
+  const [color, setColor] = useState('');
+  const [brands, setBrands] = useState({
+    windows: false,
+    apple: false,
+    amazon: false,
+    samsung: false,
+  });
+  const [goal, setGoal] = useState({
+    moreClients: false,
+    passiveIncome: false,
+    sellProducts: false,
+    other: false,
+  });
 
   const nextStep = () => {
     setStep(prev => prev + 1);
@@ -45,7 +59,16 @@ const QuizMain = ({ step, setStep }) => {
       return (
         <Fragment>
           <h2>Step 2</h2>
-          <QuizStep02 />
+          <QuizStep02
+            brands={brands}
+            setBrands={setBrands}
+            color={color}
+            setColor={setColor}
+            goal={goal}
+            setGoal={setGoal}
+            employees={employees}
+            setEmployees={setEmployees}
+          />
           <div className="quizButtonBox">
             <button
               className=" button button-ghost btn-small"

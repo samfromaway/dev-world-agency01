@@ -37,7 +37,7 @@ const QuizStep03 = () => {
           ></textarea>
           <label htmlFor="message" className="label-textfield">
             <span className="label-textfield-input">
-              Your Goal With The Project*
+              What's Your Project About?*
             </span>
           </label>
         </div>

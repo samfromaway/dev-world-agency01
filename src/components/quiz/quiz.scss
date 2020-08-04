@@ -1,8 +1,5 @@
 @import '../variables.scss';
 
-.quiz__Bgnd {
-}
-
 .quiz__TopWrapper {
   display: flex;
   flex-direction: column;
@@ -16,7 +13,6 @@
 .quizButtonBox {
   display: flex;
   justify-content: center;
-  background-color: rgb(163, 163, 163);
 }
 
 .quiz__01 {
@@ -46,4 +42,75 @@
   letter-spacing: 0;
   margin-top: -10px;
   text-align: left;
+}
+
+.quiz__divider {
+  width: 80%;
+  border-top: 1px solid rgb(179, 179, 179);
+  margin: 20px auto;
+}
+
+/* Quiz Questions*/
+
+.quizSectionTitle {
+}
+.quiz__question {
+  margin-bottom: 1rem;
+}
+
+.quiz-elements {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.quiz-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.quiz-span {
+  padding-bottom: 1rem;
+  position: relative;
+  font-size: 0.98rem;
+  width: 130px;
+  text-align: center;
+}
+
+.quiz-image {
+  height: 100px;
+  width: 100px;
+  margin: 0.2rem;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.quiz-image:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+.checkbox {
+  display: none;
+}
+
+.quiz-span::after {
+  content: url(../../images/square-regular.svg);
+  position: absolute;
+  text-align: center;
+  height: 25px;
+  width: 25px;
+  top: 34px;
+  right: 54px;
+  cursor: pointer;
+}
+
+.checkbox:checked ~ .quiz-span::after {
+  content: url(../../images/check-square-regular.svg);
 }
