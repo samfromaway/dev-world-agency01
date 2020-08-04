@@ -10,7 +10,7 @@ const Thanks = () => (
     <SEO title="Thanks" />
     <div className="section">
       <img src={Email} alt="Thanks" style={{ width: '250px' }} />
-      <h2>Thanks We Received Your Email</h2>
+      <h2>Thanks We Received Your Message</h2>
       <h3>We Will Reply ASAP</h3>
       <ButtonInt text="Back To Home" path="/" addClasses="" />
     </div>

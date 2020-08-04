@@ -6,6 +6,7 @@ const Header = ({ siteTitle }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const menuItems = [
+    { name: 'FREE QUIZ', path: '/quiz' },
     { name: 'OUR WORK', path: '/our-work' },
     { name: 'ABOUT US', path: '/about' },
     { name: 'CONTACT', path: '/contact' },
