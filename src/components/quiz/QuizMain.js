@@ -23,6 +23,25 @@ const QuizMain = ({ step, setStep }) => {
     other: false,
   });
 
+  const answers = () => {
+    return `
+    CATEGORY: ${chosenCategory}, 
+    WEBSITE: ${currentWebsite},
+    BRANDS:
+        Windows: ${brands.windows},
+        Apple:${brands.apple},
+        Amazon:${brands.amazon},
+        Samsung:${brands.samsung},
+    COLOR: ${color},
+    SPECS: 
+        More Clients: ${goal.moreClients},
+        Passive Income: ${goal.passiveIncome},
+        Sell Products: ${goal.sellProducts},
+        Other: ${goal.other},
+    EMPLOYEES: ${employees}
+      `;
+  };
+
   const nextStep = () => {
     setStep(prev => prev + 1);
     scrollToTop();
@@ -41,7 +60,6 @@ const QuizMain = ({ step, setStep }) => {
       return (
         <Fragment>
           <h2>Dev-World Quiz</h2>
-          <h3 style={{ textAlign: 'center' }}>I'm planning to...</h3>
           <QuizStep01
             chosenCategory={chosenCategory}
             setchosenCategory={setchosenCategory}
@@ -86,7 +104,8 @@ const QuizMain = ({ step, setStep }) => {
       return (
         <Fragment>
           <h2>Almost Done 😉</h2>
-          <QuizStep03 />
+          <QuizStep03 answers={answers} />
+          <div style={{ marginBottom: 30 }} />
           <div className="quizButtonBox">
             <button
               className=" button button-ghost btn-small"

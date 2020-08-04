@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import New from '../../images/device.svg';
 import Edit from '../../images/edit-regular.svg';
 import App from '../../images/sitemap.svg';
-import Card04 from './../card04/Card04';
 
 const QuizStep01 = ({
   chosenCategory,
@@ -22,24 +21,24 @@ const QuizStep01 = ({
   const activeStyle = category => {
     switch (category) {
       case 'newSite':
-        setCard41Style('card04-active');
-        setCard42Style('');
-        setCard43Style('');
+        setCard41Style('quizCardQ1 quizCardQ1-active');
+        setCard42Style('quizCardQ1');
+        setCard43Style('quizCardQ1');
         break;
       case 'updateSite':
-        setCard41Style('');
-        setCard42Style('card04-active');
-        setCard43Style('');
+        setCard41Style('quizCardQ1');
+        setCard42Style('quizCardQ1 quizCardQ1-active');
+        setCard43Style('quizCardQ1');
         break;
       case 'app':
-        setCard41Style('');
-        setCard42Style('');
-        setCard43Style('card04-active');
+        setCard41Style('quizCardQ1');
+        setCard42Style('quizCardQ1');
+        setCard43Style('quizCardQ1 quizCardQ1-active');
         break;
       default:
-        setCard41Style('');
-        setCard42Style('');
-        setCard43Style('');
+        setCard41Style('quizCardQ1');
+        setCard42Style('quizCardQ1');
+        setCard43Style('quizCardQ1');
     }
   };
   React.useEffect(() => {
@@ -48,6 +47,11 @@ const QuizStep01 = ({
 
   return (
     <div>
+      <p className="quizDescQ1">
+        Send us your project idea and we send you a FREE DESIGN of how we would
+        approach your project.
+      </p>
+      <h3 className="quizTitleQ1">I'm planning to...</h3>
       <div className="cards04">
         <div
           role="button"
@@ -56,11 +60,11 @@ const QuizStep01 = ({
           onKeyDown={() => handleSmallCardClick('newSite')}
           className="card04-wrapper"
         >
-          <Card04
-            icon={New}
-            title="Create A New Website"
-            activeStyle={card41Style}
-          />
+          <div className={card41Style}>
+            <img className="quizCardQ1-icon" src={New} alt="new" />
+            <h3>Create A New Website</h3>
+            <button className="button">Choose</button>
+          </div>
         </div>
         <div
           role="button"
@@ -69,11 +73,11 @@ const QuizStep01 = ({
           onKeyDown={() => handleSmallCardClick('updateSite')}
           className="card04-wrapper"
         >
-          <Card04
-            icon={Edit}
-            title="Edit A Current Website"
-            activeStyle={card42Style}
-          />
+          <div className={card42Style}>
+            <img className="quizCardQ1-icon" src={Edit} alt="new" />
+            <h3>Redesign A Website</h3>
+            <button className="button">Choose</button>
+          </div>
         </div>
         <div
           role="button"
@@ -82,24 +86,25 @@ const QuizStep01 = ({
           onKeyDown={() => handleSmallCardClick('app')}
           className="card04-wrapper"
         >
-          <Card04
-            icon={App}
-            title="Create A Web App"
-            activeStyle={card43Style}
-          />
+          <div className={card43Style}>
+            <img className="quizCardQ1-icon" src={App} alt="app" />
+            <h3>Create A Web App</h3>
+            <button className="button">Choose</button>
+          </div>
         </div>
       </div>
+      <div className="quizSpacer01" />
       <div className="quizInput">
         <div className="wrap-input">
           <input
             className="input"
             type="text"
-            name="name"
+            name="website"
             value={currentWebsite}
             onChange={e => setCurrentWebsite(e.target.value)}
             required
           />
-          <label htmlFor="name" className="label">
+          <label htmlFor="website" className="label">
             <span className="label-input">Current Website</span>
           </label>
         </div>

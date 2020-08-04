@@ -3,6 +3,10 @@ import amazon from '../../images/quiz/amazon.png';
 import apple from '../../images/quiz/apple.png';
 import samsung from '../../images/quiz/samsung.png';
 import windows from '../../images/quiz/windows.png';
+import income from '../../images/quiz/income.png';
+import other from '../../images/quiz/other.png';
+import product from '../../images/quiz/product.png';
+import users from '../../images/quiz/user.png';
 
 const QuizStep02 = ({
   brands,
@@ -40,25 +44,25 @@ const QuizStep02 = ({
     {
       label: 'More Clients',
       value: 'moreClients',
-      img: apple,
+      img: users,
       checked: goal.moreClients,
     },
     {
       label: 'Passive Income',
       value: 'passiveIncome',
-      img: windows,
+      img: income,
       checked: goal.passiveIncome,
     },
     {
       label: 'Sell Products',
       value: 'sellProducts',
-      img: amazon,
+      img: product,
       checked: goal.sellProducts,
     },
     {
       label: 'Other',
       value: 'other',
-      img: samsung,
+      img: other,
       checked: goal.other,
     },
   ];
@@ -112,12 +116,12 @@ const QuizStep02 = ({
           <input
             className="input"
             type="text"
-            name="name"
+            name="color"
             value={color}
             onChange={e => setColor(e.target.value)}
             required
           />
-          <label htmlFor="name" className="label">
+          <label htmlFor="color" className="label">
             <span className="label-input">Main Color Of The Project</span>
           </label>
         </div>
@@ -150,17 +154,18 @@ const QuizStep02 = ({
           <input
             className="input"
             type="text"
-            name="name"
-            //value={currentWebsite}
-            // onChange={e => setCurrentWebsite(e.target.value)}
+            name="employees"
+            value={employees}
+            onChange={e => setEmployees(e.target.value)}
             required
           />
-          <label htmlFor="name" className="label">
-            <span className="label-input">
-              How Many Employees Has Your Business?
-            </span>
+          <label htmlFor="employees" className="label">
+            <span className="label-input">Employees?</span>
           </label>
         </div>
+        <p className="quizInput__desc">
+          How many employees does your business have?
+        </p>
       </div>
     </div>
   );

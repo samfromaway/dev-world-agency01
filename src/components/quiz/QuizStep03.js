@@ -1,6 +1,7 @@
 import React from 'react';
 
-const QuizStep03 = () => {
+const QuizStep03 = ({ answers }) => {
+  console.log(answers());
   return (
     <div>
       <form
@@ -14,6 +15,7 @@ const QuizStep03 = () => {
       >
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="quizForm01" />
+        <input type="hidden" name="answers" value={answers()} />
 
         <div className="wrap-input">
           <input className="input" type="text" name="name" required />
