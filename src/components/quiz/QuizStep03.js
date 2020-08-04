@@ -14,7 +14,6 @@ const QuizStep03 = ({ answers }) => {
       >
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="quiz1" />
-        <input type="hidden" name="answers" value={answers()} />
 
         <div className="wrap-input">
           <input className="input" type="text" name="name" required />
@@ -37,9 +36,7 @@ const QuizStep03 = ({ answers }) => {
             required
           ></textarea>
           <label htmlFor="message" className="label-textfield">
-            <span className="label-textfield-input">
-              What's Your Project About?*
-            </span>
+            <span className="label-textfield-input">Message*</span>
           </label>
         </div>
 
