@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import New from '../../images/device.svg';
 import Edit from '../../images/edit-regular.svg';
 import App from '../../images/sitemap.svg';
+import Card04 from '../card04/Card04';
 
 const QuizStep01 = ({
   chosenCategory,
@@ -21,27 +22,28 @@ const QuizStep01 = ({
   const activeStyle = category => {
     switch (category) {
       case 'newSite':
-        setCard41Style('quizCardQ1 quizCardQ1-active');
-        setCard42Style('quizCardQ1');
-        setCard43Style('quizCardQ1');
+        setCard41Style('card04-active');
+        setCard42Style('');
+        setCard43Style('');
         break;
       case 'updateSite':
-        setCard41Style('quizCardQ1');
-        setCard42Style('quizCardQ1 quizCardQ1-active');
-        setCard43Style('quizCardQ1');
+        setCard41Style('');
+        setCard42Style('card04-active');
+        setCard43Style('');
         break;
       case 'app':
-        setCard41Style('quizCardQ1');
-        setCard42Style('quizCardQ1');
-        setCard43Style('quizCardQ1 quizCardQ1-active');
+        setCard41Style('');
+        setCard42Style('');
+        setCard43Style('card04-active');
         break;
       default:
-        setCard41Style('quizCardQ1');
-        setCard42Style('quizCardQ1');
-        setCard43Style('quizCardQ1');
+        setCard41Style('');
+        setCard42Style('');
+        setCard43Style('');
     }
   };
-  React.useEffect(() => {
+
+  useEffect(() => {
     activeStyle(chosenCategory);
   }, []);
 
@@ -53,45 +55,27 @@ const QuizStep01 = ({
       </p>
       <h3 className="quizTitleQ1">I'm planning to...</h3>
       <div className="cards04">
-        <div
-          role="button"
-          tabIndex={0}
-          onClick={() => handleSmallCardClick('newSite')}
-          onKeyDown={() => handleSmallCardClick('newSite')}
-          className="card04-wrapper"
-        >
-          <div className={card41Style}>
-            <img className="quizCardQ1-icon" src={New} alt="new" />
-            <h3>Create A New Website</h3>
-            <button className="button">Choose</button>
-          </div>
-        </div>
-        <div
-          role="button"
-          tabIndex={0}
-          onClick={() => handleSmallCardClick('updateSite')}
-          onKeyDown={() => handleSmallCardClick('updateSite')}
-          className="card04-wrapper"
-        >
-          <div className={card42Style}>
-            <img className="quizCardQ1-icon" src={Edit} alt="new" />
-            <h3>Redesign A Website</h3>
-            <button className="button">Choose</button>
-          </div>
-        </div>
-        <div
-          role="button"
-          tabIndex={0}
-          onClick={() => handleSmallCardClick('app')}
-          onKeyDown={() => handleSmallCardClick('app')}
-          className="card04-wrapper"
-        >
-          <div className={card43Style}>
-            <img className="quizCardQ1-icon" src={App} alt="app" />
-            <h3>Create A Web App</h3>
-            <button className="button">Choose</button>
-          </div>
-        </div>
+        <Card04
+          icon={New}
+          title="Create A New Website"
+          activeStyle={card41Style}
+          handleSmallCardClick={handleSmallCardClick}
+          value="newSite"
+        />
+        <Card04
+          icon={Edit}
+          title="Redesign A Website"
+          activeStyle={card42Style}
+          handleSmallCardClick={handleSmallCardClick}
+          value="updateSite"
+        />
+        <Card04
+          icon={App}
+          title="Create A Web App"
+          activeStyle={card43Style}
+          handleSmallCardClick={handleSmallCardClick}
+          value="app"
+        />
       </div>
       <div className="quizSpacer01" />
       <div className="quizInput">
