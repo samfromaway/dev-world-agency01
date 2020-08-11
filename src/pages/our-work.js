@@ -116,45 +116,29 @@ const OurWork = () => {
         <h2 className="title09 title-bright">Choose A Category</h2>
         <section className="spacer-our-work"></section>
         <div className="cards04">
-          <div
-            role="button"
-            tabIndex={0}
-            onClick={() => handleSmallCardClick('web')}
-            onKeyDown={() => handleSmallCardClick('web')}
-            className="card04-wrapper"
-          >
-            <Card04
-              icon={Web}
-              title="Web Development"
-              activeStyle={card41Style}
-            />
-          </div>
-          <div
-            role="button"
-            tabIndex={0}
-            onClick={() => handleSmallCardClick('design')}
-            onKeyDown={() => handleSmallCardClick('design')}
-            className="card04-wrapper"
-          >
-            <Card04
-              icon={Design}
-              title={'Design & Branding'}
-              activeStyle={card42Style}
-            />
-          </div>
-          <div
-            role="button"
-            tabIndex={0}
-            onClick={() => handleSmallCardClick('marketing')}
-            onKeyDown={() => handleSmallCardClick('marketing')}
-            className="card04-wrapper"
-          >
-            <Card04
-              icon={Marketing}
-              title="Online Marketing"
-              activeStyle={card43Style}
-            />
-          </div>
+          <Card04
+            icon={Web}
+            title="Web Development"
+            activeStyle={card41Style}
+            handleSmallCardClick={handleSmallCardClick}
+            value="web"
+          />
+
+          <Card04
+            icon={Design}
+            title={'Design & Branding'}
+            activeStyle={card42Style}
+            handleSmallCardClick={handleSmallCardClick}
+            value="design"
+          />
+
+          <Card04
+            icon={Marketing}
+            title="Online Marketing"
+            activeStyle={card43Style}
+            value={'marketing'}
+            handleSmallCardClick={handleSmallCardClick}
+          />
         </div>
       </section>
       <section className="project-section">

@@ -1,6 +1,6 @@
 @import '../variables.scss';
 
-.card04-wrapper:focus {
+.card04:focus {
   outline: none;
 }
 
@@ -14,6 +14,7 @@
   height: 155px;
   box-shadow: $box-shadow02;
   border-radius: $main-border-radius;
+  border: solid 4px transparent;
   margin: 0.8rem;
   overflow: hidden;
   cursor: pointer;
@@ -28,7 +29,7 @@
 
 .card04-active {
   background-color: rgb(192, 192, 192);
-  outline: $elegant-blue solid 4px;
+  border: solid 4px $elegant-blue;
 }
 
 .card04-icon {
@@ -58,12 +59,13 @@
     margin: 0.3rem;
   }
   .card04 h3 {
-    font-size: 0.78rem;
+    font-size: 0.73rem;
+    letter-spacing: 0px;
     padding: 0.2em;
     margin: 1em 0 0 0;
   }
   .card04 .button {
-    width: 90px;
+    width: 85px;
     margin: auto 0.2rem 0.4rem 0.2rem;
     padding: 0.4em;
   }

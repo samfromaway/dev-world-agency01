@@ -1,9 +1,7 @@
 {
-  "name": "",
+  "name": "dev-wolrd-agency-01",
   "private": true,
-  "description": "",
   "version": "0.1.0",
-  "author": "",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "gatsby": "^2.21.37",
