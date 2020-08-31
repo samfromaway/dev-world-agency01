@@ -15,7 +15,7 @@ const ImgContent02 = props => {
           We are Natacha and Sam and we moved from Switzerland to Colombia in
           2017. <br /> <br />
           We created Dev World Agency with the over-arching mission to combine
-          the best of many worlds.Firstly we want to combine the best traits of
+          the best of many worlds. Firstly we want to combine the best traits of
           Switzerland, which are precision, attention to detail and efficiency,
           with the creativity and the flair of Latin America to create amazing
           things. <br /> <br />
