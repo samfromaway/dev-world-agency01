@@ -75,7 +75,7 @@ const projects = [
       'We were able to created a personal coach website with a logo, branding and a blog. Important was to keep the design elegant and professional.',
     img: JakeLifeImg,
     icon: JakeLifeIcons,
-    link: 'https://lifebyjake.com/',
+    link: 'https://lifebyjake.site/',
     category: 'design',
   },
   {
