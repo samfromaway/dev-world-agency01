@@ -5,6 +5,12 @@ module.exports = {
     author: `Dev World`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-8666067644329299`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
