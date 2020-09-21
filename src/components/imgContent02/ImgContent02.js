@@ -25,7 +25,7 @@ const ImgContent02 = props => {
           <br />
           We focus on sales first, because we know this is why clients work with
           us, they want to sell more. That's why we are able to stay grounded
-          and not loose ourselves in technical details. We work with passion and
+          and not lose ourselves in technical details. We work with passion and
           with your goal in mind, so our projects are fun and generate real
           results.
         </p>
