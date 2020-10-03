@@ -39,12 +39,12 @@ const projects = [
 
   {
     id: 3,
-    title: 'How To Medellin',
+    title: 'Medellin Real Estate',
     desc:
       'This is a website which includes a database fetched directory and a fully functional real estate site, completely built by us.',
     img: HTMImg,
     icon: HTMIcon,
-    link: 'https://www.how-to-medellin.com/',
+    link: 'https://medellin-real-estate.com/',
     category: 'web',
   },
   {
