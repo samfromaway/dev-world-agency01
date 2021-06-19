@@ -32,21 +32,21 @@ const IndexPage = () => (
       <ImgContent01
         title="Why So Technical?"
         img={Client}
-        desc="You are passionate about your new business idea. Communicating this idea to your online clients seems very technical and overwhelming though. This is where we come in …"
+        desc="You are passionate about your business. We support you in communicating this passion online, so you focus on your business and we on the technical aspects..."
         classAdd=""
         animation=""
       />
       <ImgContent01
         title="Your Goal – Our Focus"
         img={BiggerPicture}
-        desc="… we worked many years in sales which makes us see the web differently. This allows us to focus on your goal, instead of loosing ourselves in technical details …"
+        desc="...we worked many years in sales which makes us see the web differently. This allows us to focus on your goal, instead of loosing ourselves in technical details..."
         classAdd="img-content-img-wrapreverse"
         animation=""
       />
       <ImgContent01
         title="Launch Together"
         img={Launch}
-        desc="… let's launch your new idea in a way that your clients will love. Working with us makes the process of reaching that goal fun and productive."
+        desc="...let's launch your new idea in a way that your clients will love. Working with us makes this process fun and productive."
         classAdd=""
         animation=""
       />
@@ -59,10 +59,10 @@ const IndexPage = () => (
           title="Web Development"
           listItems={[
             'Websites',
-            'HTML, CSS, JS',
+            'Web-Apps',
+            'React (Next.js)',
             'Wordpress',
             'Wix (Advanced)',
-            'React',
           ]}
           buttonText="See Projects"
           buttonPath="/our-work/#web"
@@ -84,12 +84,12 @@ const IndexPage = () => (
         />
         <ServicesCards
           icon={Marketing}
-          title="Online Marketing"
+          title="Content Management"
           listItems={[
-            'SEO Strategy',
-            'Facebook Ads',
-            'Google Ads',
-            'Content Writing',
+            'Youtube',
+            'Facebook',
+            'Blog',
+            'SEO',
             'Marketing Strategy',
           ]}
           buttonText="See Projects"

@@ -90,7 +90,7 @@ const OurWork = () => {
         return 'Design & Branding';
 
       case 'marketing':
-        return 'Online Marketing';
+        return 'Content Management';
 
       default:
         return '';
@@ -134,9 +134,9 @@ const OurWork = () => {
 
           <Card04
             icon={Marketing}
-            title="Online Marketing"
+            title="Content Management"
             activeStyle={card43Style}
-            value={'marketing'}
+            value="marketing"
             handleSmallCardClick={handleSmallCardClick}
           />
         </div>
