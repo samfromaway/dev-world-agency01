@@ -27,6 +27,23 @@
   margin: 1em auto;
 }
 
+.card02 .review {
+  display: flex;
+  justify-content: center;
+}
+.card02 .star-review-wrapper {
+  display: flex;
+}
+
+.card02 .review-star {
+  height: 20px;
+  width: 20px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+
 .card02 h3 {
   text-align: center;
 }
@@ -42,7 +59,7 @@
 
 .card02-slick {
   /* height is for slickCarousel adjustment*/
-  height: 360px !important;
+  height: 385px !important;
   width: auto !important;
   margin: 0.8em 1.1em !important;
 }

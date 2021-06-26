@@ -45,6 +45,7 @@ const SlickCarousel = props => {
           {props.data.map(element => (
             <Card02
               key={element.id}
+              hasStars={true}
               title={element.title}
               img={element.img}
               subTitle={element.subTitle}
